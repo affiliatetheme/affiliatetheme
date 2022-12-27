@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: Affiliate Theme\n"
+"Language: en_US\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 09:41+0000\n"
+"PO-Revision-Date: 2020-05-11 09:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.3.3; wp-5.4.1"
+
+#. Text in function
+#: searchform.php:3 parts/header/nav-searchform.php:16
+msgid "Suche nach"
+msgstr "Search for"
+
+#. Text in function
+#: search.php:38
+#, php-format
+msgid ""
+"Deine Suche im Bereich <span class=\"highlight\">%s</span> nach <span "
+"class=\"highlight\">%s</span> ergab <span class=\"highlight\">%s</span> "
+"Treffer"
+msgstr ""
+"Your search in category  <span class=\"highlight\">%s</span> for <span "
+"class=\"highlight\">%s</span> got <span class=\"highlight\">%s</span> hits "
+
+#. Text in function
+#: search.php:40
+#, php-format
+msgid ""
+"Deine Suche nach <span class=\"highlight\">%s</span> ergab <span "
+"class=\"highlight\">%s</span> Treffer"
+msgstr ""
+"Your search for <span class=\"highlight\">%s</span> resulted in <span "
+"class=\"highlight\">%s</span> hits total.\n"
+"\n"
+"\n"
+
+#. Text in echo
+#: search.php:46
+msgid ""
+"Über die Schaltflächen für die einzelnen Bereiche kannst Du die "
+"Ergebnisliste verfeinern."
+msgstr "By using this button, u can sort the results."
+
+#. Text in function
+#: search.php:58
+msgid "Alle"
+msgstr "All"
+
+#. Text in function
+#: archive.php:21
+#, php-format
+msgid "Tagesarchiv: %s"
+msgstr "Daily Archives: %s"
+
+#: archive.php:23
+#, php-format
+msgid "Monatsarchiv: %s"
+msgstr "Monthly archive: %s"
+
+#: archive.php:23
+msgctxt "monatliches datum format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:25
+#, php-format
+msgid "Jahresarchiv: %s"
+msgstr "Yearly archive: %s"
+
+#: archive.php:25
+msgctxt "jaehrliches datum format"
+msgid "Y"
+msgstr "Y"
+
+#. Text in echo
+#: archive.php:27
+msgid "Archiv"
+msgstr "Archive"
+
+#. Text in function
+#: author.php:20
+#, php-format
+msgid "Alle Beiträge von <span>%s</span>"
+msgstr "Show all Posts from <span>%s</span>"
+
+#. Text in function
+#: author.php:38 comments.php:48 comments.php:121
+msgid "Webseite"
+msgstr "Website"
+
+#. Text in echo
+#: 404.php:8
+msgid "Seite nicht gefunden"
+msgstr "Page not found"
+
+#. Text in echo
+#: 404.php:9
+msgid ""
+"Es scheint so, als würde die Seite nicht existieren. Vielleicht hilft die "
+"Suche?"
+msgstr "Seems this site doesnt exist. Maybe our search can help ?"
+
+#. Text in echo
+#: 404.php:14
+msgid "Hinweis für Administrator"
+msgstr "Administrator Note"
+
+#. Text in echo
+#: 404.php:15
+msgid ""
+"Solltest du vermehrt 404-Fehler bekommen, hilft es die Permalinks unter "
+"<strong>Einstellungen</strong> - <strong>Permalinks</strong> neu zu "
+"speichern."
+msgstr ""
+"If u get more 404-Errors, it helps to renew the Permalinks in <strong>"
+"Settings</strong> - <strong>Permalinks</strong> and save them again. "
+
+#. Text in function
+#: comments.php:38 comments.php:108
+msgid "Senden"
+msgstr "Send"
+
+#: comments.php:39
+msgid "Du hast eine Frage oder eine Meinung zum Produkt? Teile sie mit uns!"
+msgstr "Got a question or an opionen about this product? Share it with us!"
+
+#. Text in function
+#: comments.php:40 comments.php:110
+msgid ""
+"Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind "
+"markiert *"
+msgstr "Your email address will not be published. Required fields are marked *"
+
+#. Text in function
+#: comments.php:43 comments.php:116
+msgid "Name"
+msgstr "Name"
+
+#. Text in function
+#: comments.php:45 comments.php:118
+msgid "E-Mail Adresse"
+msgstr "email address"
+
+#: comments.php:53 library/product/comments.php:102
+msgid "Bewertung *"
+msgstr "Rating *"
+
+#. Text in function
+#: comments.php:70 comments.php:111 library/product/comments.php:122
+msgid "Kommentar"
+msgstr "Comment"
+
+#. Text in function
+#: comments.php:109
+msgid "Du hast eine Frage oder eine Meinung zum Artikel? Teile sie mit uns!"
+msgstr "Got a question or an opinion for this article? Share it with us!"
+
+#. Name of the template
+msgid "Filter"
+msgstr "Filter"
+
+#: single-filter.php:28 templates/filter.php:116
+#, php-format
+msgid "Deine Suche ergab <span class=\"highlight\">%s</span> Treffer"
+msgstr "Your search results in <span class=\"highlight\">%s</span> hits"
+
+#. Text in echo
+#: single-filter.php:64 templates/filter.php:138 library/filter/helper.php:280
+msgid "Es wurden keine Produkte gefunden."
+msgstr "No Products found."
+
+#: templates/compare.php:6
+msgid "Produktvergleich"
+msgstr "Product compare"
+
+#. Text in echo
+#: templates/compare.php:79 templates/compare.php:89 templates/compare.php:100
+#: templates/compare.php:112 templates/compare.php:124
+#: parts/product/code-product-compare.php:19
+#: parts/product/code-product-compare.php:30
+msgid "Produkt auswählen"
+msgstr "Select a Product"
+
+#. Text in echo
+#: templates/compare.php:134 parts/product/code-product-compare.php:39
+msgid "Vergleichen"
+msgstr "Compare"
+
+#: templates/compare.php:164
+msgid "Keine Treffer"
+msgstr "No results"
+
+#: templates/sidebar-right.php:5
+msgid "Sidebar (Rechts)"
+msgstr "Sidebar (Right)"
+
+#. Name of the template
+msgid "Page Builder"
+msgstr "Page Builder"
+
+#: templates/sidebar-left.php:6
+msgid "Sidebar (Links)"
+msgstr "Sidebar (Left)"
+
+#: library/shop/helper.php:23
+msgid "Shops"
+msgstr "Shops"
+
+#. Text in echo
+#: library/widgets/product-advice.php:133
+#: library/widgets/product-select.php:121
+msgid "<strong>Fehler:</strong> Es wurden keine Produkte gefunden."
+msgstr "<strong>Error:</strong> No Products found."
+
+#: library/helper/scripts.php:57
+msgid "Bitte hinterlasse deinen Namen"
+msgstr "Please leave your name"
+
+#: library/helper/scripts.php:58
+msgid "Bitte hinterlasse deine E-Mail Adresse."
+msgstr "Please leave your e-mail address."
+
+#: library/helper/scripts.php:59
+msgid "Bitte begründe deine Bewertung."
+msgstr "Please justify your assessment."
+
+#: library/helper/scripts.php:60
+msgid "Bitte bewerte dieses Produkt."
+msgstr "Please rate this product."
+
+#: library/helper/scripts.php:77
+msgid "Vorheriges Bild (Linke Pfeiltaste)"
+msgstr "Previous image (left arrow key)"
+
+#: library/helper/scripts.php:78
+msgid "Nächstes Bild (Rechte Pfeiltase)"
+msgstr "Next image (right arrow key)"
+
+#: library/helper/scripts.php:79
+msgid "%curr% von %total%"
+msgstr "%curr% from %total%"
+
+#. Text in function
+#: library/helper/pagination.php:36
+msgid "Seite 1 - Neueste Artikel"
+msgstr "Page 1 - Newest Posts"
+
+#. Text in function
+#: library/helper/pagination.php:40
+msgid "- Neuere Artikel"
+msgstr "- Newer Posts"
+
+#. Text in function
+#: library/helper/pagination.php:53
+msgid "Seite"
+msgstr "Page"
+
+#. Text in function
+#: library/helper/pagination.php:60
+msgid "- Ältere Artikel"
+msgstr "- Older Posts"
+
+#. Text in function
+#: library/helper/pagination.php:64
+msgid "- Älteste Artikel"
+msgstr "- Oldest Post"
+
+#. Text in function
+#: library/helper/filter.php:72
+msgid "PDFs"
+msgstr "PDFs"
+
+#. Text in function
+#: library/helper/filter.php:73
+msgid "PDFs Verwalten"
+msgstr "Managing PDFs"
+
+#. Text in function
+#: library/helper/comments.php:27
+#, php-format
+msgid "<small class=\"pull-right\">%1$s um %2$s</small>"
+msgstr "<small class=\"pull-right\">%1$s at %2$s</small> "
+
+#. Text in echo
+#: library/helper/comments.php:31 library/product/comments.php:31
+msgid "Dein Kommentar wartet auf Freischaltung."
+msgstr "Your comment is awaiting moderation"
+
+#: library/helper/ad.php:42 library/helper/ad.php:77
+msgid "Plugin installieren"
+msgstr "Install plugin"
+
+#: library/helper/ad.php:47 library/helper/ad.php:82
+msgid "Plugin aktivieren"
+msgstr "Activate plugin"
+
+#: library/product/helper.php:27
+msgid "Produkte"
+msgstr "Products"
+
+#: library/product/helper.php:100
+msgid "Weitere Details"
+msgstr "More details"
+
+#: library/product/helper.php:103
+msgid "Details"
+msgstr "Details"
+
+#: library/product/helper.php:110
+msgid "Jetzt kaufen"
+msgstr "Buy now"
+
+#: library/product/helper.php:111
+msgid "Kaufen"
+msgstr "Buy"
+
+#: library/product/helper.php:233
+msgid "Zuletzt aktualisiert am: "
+msgstr "Last updated:"
+
+#: library/product/helper.php:310 library/product/helper.php:403
+#, php-format
+msgid "%s / %s bei %s Stimmen"
+msgstr "%s out of %s stars from %s Reviews"
+
+#: library/product/helper.php:401
+#, php-format
+msgid "%s / %s bei %s Stimme"
+msgstr "%s out of %s stars by %s ratings"
+
+#: library/product/helper.php:721
+msgid "ab"
+msgstr "from"
+
+#: library/product/helper.php:1436 library/product/helper.php:1438
+msgid "Sterne"
+msgstr "Stars"
+
+#: library/product/helper.php:1486
+#, php-format
+msgid ""
+"<strong>Hinweis:</strong> Dies ist ein Fake Produkt. Nicht eingeloggte "
+"Besucher werden auf folgende URL weitergeleitet: <mark>%s</mark>"
+msgstr ""
+"<strong>Note:</strong> This is a fake product. User who're not logged in "
+"will redirected to: <mark>%s</mark>."
+
+#: library/product/comments.php:148
+msgid "Bitte bewerte dieses Produkt<br>"
+msgstr "Please rate this product"
+
+#. Text in function
+#: parts/search/loop-search_list.php:22
+msgid "Gefunden in"
+msgstr "Found in"
+
+#. Text in echo
+#: parts/stuff/code-related.php:40
+msgid "Ähnliche Beiträge"
+msgstr "Related Posts"
+
+#: parts/stuff/code-author.php:3
+msgid "Über den Autor"
+msgstr "About the Author"
+
+#: parts/stuff/code-author.php:7
+msgid "Weitere Artikel von"
+msgstr "More Posts from"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:16
+msgid "zum Vorherigen Artikel"
+msgstr "previous article"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:17
+msgid "Vorheriger Artikel"
+msgstr "Previous Post"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:25
+msgid "zum Nächsten Artikel"
+msgstr "Go to Next Post"
+
+#. Text in echo
+#: parts/stuff/code-postnav.php:26
+msgid "Nächster Artikel"
+msgstr "Next Post"
+
+#: parts/stuff/code-social.php:23
+msgid "Signal"
+msgid_plural "Signale"
+msgstr[0] "Signal"
+msgstr[1] "Signals"
+
+#. Text in echo
+#: parts/stuff/code-social.php:31
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: parts/stuff/code-social.php:40
+msgid "Like"
+msgid_plural "Likes"
+msgstr[0] "Like"
+msgstr[1] "Likes"
+
+#. Text in echo
+#: parts/stuff/code-social.php:42
+msgid "liken"
+msgstr "like"
+
+#: parts/stuff/code-social.php:52 parts/stuff/code-social.php:76
+#: parts/stuff/code-social.php:88 parts/stuff/code-social.php:100
+#: parts/stuff/code-social.php:112
+msgid "Share"
+msgid_plural "Shares"
+msgstr[0] "Share"
+msgstr[1] "Shares"
+
+#. Text in echo
+#: parts/stuff/code-social.php:54
+msgid "teilen"
+msgstr "share"
+
+#: parts/stuff/code-social.php:64
+msgid "Tweet"
+msgid_plural "Tweets"
+msgstr[0] "Tweet"
+msgstr[1] "Tweets"
+
+#. Text in echo
+#: parts/stuff/code-social.php:66
+msgid "tweeten"
+msgstr "tweet"
+
+#. Text in echo
+#: parts/stuff/code-social.php:78
+msgid "plussen"
+msgstr "plus"
+
+#. Text in echo
+#: parts/stuff/code-social.php:90 parts/stuff/code-social.php:102
+#: parts/stuff/code-social.php:114
+msgid "sharen"
+msgstr "share"
+
+#. Text in echo
+#: parts/stuff/code-social.php:120
+msgid "Meine Empfehlung f&uuml;r dich"
+msgstr "My recommendation for u"
+
+#. Text in echo
+#: parts/stuff/code-social.php:122
+msgid "mailen"
+msgstr "mail"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:4
+msgid "Veröffentlicht von"
+msgstr "Published by"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:14
+#, php-format
+msgid "Kategorie(n): %s"
+msgstr "Categorie(s): %s"
+
+#. Text in function
+#: parts/stuff/code-postmeta.php:19
+msgid "Schlagwörter: "
+msgstr "Tags: "
+
+#: parts/stuff/code-postmeta.php:25
+msgid "Keine Kommentare"
+msgstr "No Comments"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "1 Kommentar"
+msgstr "1 Comment"
+
+#: parts/stuff/code-postmeta.php:25
+msgid "% Kommentare"
+msgstr "% Comments"
+
+#. Text in function
+#: parts/stuff/code-comments.php:5
+msgid "Keine Kommentare vorhanden"
+msgstr "No Comments found"
+
+#. Text in function
+#: parts/stuff/code-comments.php:5 parts/product/code-comments.php:2
+msgid "Kommentare"
+msgstr "Comments"
+
+#. Text in function
+#: parts/product/code-buybox.php:14
+msgid "zum Preisvergleich"
+msgstr "to comparison"
+
+#. Text in echo
+#: parts/product/code-filter.php:37
+msgid "Ansicht:"
+msgstr "Views:"
+
+#: parts/product/code-filter.php:39
+msgid "Gridansicht"
+msgstr "Grid layout"
+
+#: parts/product/code-filter.php:44
+msgid "Listenansicht"
+msgstr "List layout"
+
+#. Text in echo
+#: parts/product/code-filter.php:53
+msgid "Neuheiten"
+msgstr "New Releases"
+
+#. Text in echo
+#: parts/product/code-filter.php:54
+msgid "Beliebtheit"
+msgstr "Popularity"
+
+#. Text in echo
+#: parts/product/code-filter.php:55
+msgid "Preis (aufsteigend)"
+msgstr "Price (ascending)"
+
+#. Text in echo
+#: parts/product/code-filter.php:56
+msgid "Preis (absteigend)"
+msgstr "Price (descending)"
+
+#. Text in echo
+#: parts/product/code-filter.php:57
+msgid "Name (aufsteigend)"
+msgstr "Name (ascending)"
+
+#. Text in echo
+#: parts/product/code-filter.php:58
+msgid "Name (absteigend)"
+msgstr "Name (descending)"
+
+#. Text in echo
+#: parts/product/page-cloak.php:19
+msgid "Weiterleitung"
+msgstr "Redirect"
+
+#. Text in function
+#: parts/product/page-cloak.php:27
+#, php-format
+msgid ""
+"Du wirst sofort weitergeleitet. Falls nicht, klicke <a href=\"%s\" "
+"rel=\"nofollow\">hier."
+msgstr ""
+"You are being redirected. If not, please click <a href=\"%s\" "
+"rel=\"nofollow\"> here."
+
+#: parts/product/code-price_trend.php:7
+#: parts/product/code-price_trend-modal.php:6 parts/product/code-tabs.php:17
+#: parts/product/code-tabs.php:72 library/product/price_trend/helper.php:372
+#: library/product/price_trend/helper.php:378
+#: library/product/price_trend/helper.php:380
+#: library/product/price_trend/helper.php:385
+msgid "Preisverlauf"
+msgstr "Price trend"
+
+#. Text in function
+#: parts/product/loop-table-x.php:71 parts/product/loop-table-y.php:60
+msgid "Modell"
+msgstr "Model"
+
+#. Text in function
+#: parts/product/loop-table-x.php:85 parts/product/loop-table-x.php:165
+#: parts/product/loop-table-y.php:74 parts/product/code-compare-amp.php:19
+#: parts/product/code-compare.php:19
+#: library/filter/classes/AT_Filter_Field.php:57
+msgid "Preis"
+msgstr "Price"
+
+#: parts/product/loop-table-x.php:111 parts/product/loop-table-y.php:63
+msgid "Testergebnis"
+msgstr "Review"
+
+#. Text in function
+#: parts/product/loop-table-x.php:129
+#: library/filter/classes/AT_Filter_Field.php:84
+msgid "Bewertung"
+msgstr "Rating"
+
+#: parts/product/loop-table-x.php:163
+msgid "Erhältlich bei"
+msgstr "Available at"
+
+#: parts/product/code-related.php:83
+msgid "Es wurden keine ähnlichen Produkte gefunden."
+msgstr "No Related Products found."
+
+#. Text in echo
+#: parts/product/code-tabs.php:10 parts/product/code-tabs.php:67
+#: library/plugins/amp/templates/single-product.php:48
+msgid "Beschreibung"
+msgstr "Description"
+
+#. Text in echo
+#: parts/product/code-tabs.php:27
+msgid "Erfahrungsberichte"
+msgstr "User Reviews"
+
+#. Text in echo
+#: parts/product/code-tabs.php:37 parts/product/code-tabs.php:93
+msgid "Ähnliche Produkte"
+msgstr "Related Products"
+
+#. Text in echo
+#: parts/product/code-tabs.php:47 parts/product/code-tabs.php:99
+msgid "Zubehör"
+msgstr "Accessories"
+
+#: parts/product/code-tabs.php:62
+msgid "Menu"
+msgstr "Menu"
+
+#. Text in function
+#: parts/product/code-tabs.php:83
+#, php-format
+msgid "Erfahrungsberichte <span class=\"badge\">%d</span>"
+msgstr "User Reviews  <span class=\"badge\">%d</span> "
+
+#. Text in echo
+#: parts/product/code-compare-box-amp.php:14
+#: parts/product/code-compare-box.php:14
+msgid "Zum Preisvergleich"
+msgstr "To comparison"
+
+#. Text in function
+#: parts/product/code-compare-box-amp.php:15
+#: parts/product/code-compare-box.php:15
+#, php-format
+msgid "Alle (%s) anzeigen"
+msgstr "Show all (%s)"
+
+#. Text in echo
+#: parts/product/code-compare-box-amp.php:19
+#: parts/product/code-compare-box.php:19 parts/product/code-compare-amp.php:13
+#: parts/product/code-compare.php:13
+msgid "Preisvergleich"
+msgstr "Price Comparison"
+
+#: parts/product/code-product-compare.php:17
+msgid "Vergleiche ..."
+msgstr "Compare ..."
+
+#: parts/product/code-product-compare.php:28
+msgid "mit"
+msgstr "with"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:50
+msgid "Hinweis:"
+msgstr "Note:"
+
+#. Text in echo
+#: parts/product/code-product-compare.php:51
+msgid ""
+"Bitte lege eine Seite mit dem Template \"Produktvergleich\" fest, damit der "
+"Produktvergleich korrekt funktionieren kann."
+msgstr ""
+"Please create a site using the Template \"comparison\" to make the "
+"comparison work correctly"
+
+#. Text in echo
+#: parts/product/code-compare-amp.php:18 parts/product/code-compare.php:18
+msgid "Shop"
+msgstr "Shop"
+
+#. Text in function
+#: parts/product/code-comments.php:2
+msgid "Keine Erfahrungsberichte vorhanden"
+msgstr "No reviews yet"
+
+#. Text in echo
+#: parts/product/code-reviews.php:30
+msgid "Gesamtbewertung"
+msgstr "Overall Rating"
+
+#: parts/product/code-accessories.php:26
+msgid "Es wurde kein Zubehör gefunden."
+msgstr "No Accessories found."
+
+#. Text in echo
+#: parts/header/col-5-2-5.php:49 parts/header/col-12.php:64
+#: parts/header/col-4-8.php:33
+msgid "<strong>Hinweis:</strong> Navigation nicht gesetzt!"
+msgstr "<strong>Note:</strong> Navigation not defined!"
+
+#. Text in echo
+#: library/filter/classes/AT_Filter.php:106
+msgid "Filtern"
+msgstr "Filter"
+
+#. Text in echo
+#: library/filter/classes/AT_Filter.php:113
+msgid "Filter zurücksetzen"
+msgstr "reset filter"
+
+#: library/filter/classes/AT_Filter_Field.php:98
+msgid " Sterne"
+msgstr " Stars"
+
+#: library/filter/classes/AT_Filter_Field.php:120
+#, php-format
+msgid "%s wählen"
+msgstr "Select %s"

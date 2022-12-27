@@ -1,0 +1,354 @@
+<style type="text/css">
+#TB_ajaxContent { padding: 0 0 30px 0; width: 100%!important; overflow: hidden;max-width:none;max-height: none!important ; }
+.endcore-shortcodes-form { display: block; overflow: hidden; height: 100%; position: relative; font-family: Helvetica, Arial; color: #333; font-size: 12px; text-align: left; background: #FFF; }
+.endcore-shortcodes-form a { text-decoration: none; }
+.endcore-shortcodes-form .endcore-shortcodes-form-top { overflow: auto; height: 100%; position: relative; padding: 0 0 0 120px; margin: 0 0 0 0; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types { position: absolute; top: 0px; left: 0px; width: 120px; height: 100%; min-height: 100%; background: #f9f9f9; border-right: 1px solid #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types .endcore-shortcodes-form-title { display: block; padding: 14px 20px 14px 40px; position: relative; font-size: 12px; line-height: 14px; color: #333; border-bottom: 1px solid #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types .endcore-shortcodes-form-title img { position: absolute; top: 13px; left: 12px; } 
+.endcore-shortcodes-form .endcore-shortcodes-form-types ul { list-style: none; margin: 0px; padding: 0px; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types ul li { display: block; border-bottom: 1px solid #EEE; margin: 0px; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types ul li.active { width: 121px; font-weight: bold; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types ul li a { display: block; padding: 14px 20px; font-size: 12px; color: #333; }
+.endcore-shortcodes-form .endcore-shortcodes-form-types ul li.active a,  .endcore-shortcodes-form .endcore-shortcodes-form-types ul li a:hover { background: #FFF; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs { background: #FFF; padding: 15px 20px 70px 20px; overflow: hidden; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tab { display: none; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs h2 { display: block; padding: 0 10px 10px 10px; line-height: normal; font-size: 18px; margin: 0 0 10px 0; border-bottom: 1px solid #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-form-fields { overflow: auto; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table { width: 100%; border: none; font-size: 12px; text-align: left; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table th,  .endcore-shortcodes-form .endcore-shortcodes-form-tabs table td { padding: 14px 10px 14px 0; border-bottom: 1px solid #EEE; vertical-align: top; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table th { font-weight: normal; text-align: left; width: 120px; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table th label { padding: 5px 0 0 10px; display: block; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td input, .endcore-shortcodes-form .endcore-shortcodes-form-tabs table td textarea {border: 1px solid #DDD; box-shadow: inset 1px 1px 4px #f9f9f9; padding: 6px 8px; font-family: Helvetica; font-size: 12px; color: #888; width: 100%; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td .wp-picker-container input[type="text"] { width: 80px!important; margin: 0 5px 0 0; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td .wp-picker-container input.button { width: auto!important; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td select{width:100%;}
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td textarea { height: 100px;}
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td textarea:disabled { background: #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td input:focus, .endcore-shortcodes-form .endcore-shortcodes-form-tabs table td textarea:focus { color: #333; border-color: #BBB; background: #FFF; outline: none; }
+.endcore-shortcodes-form .endcore-shortcodes-form-tabs table td span.tip { display: block; padding: 5px 0; color: #999; }
+.endcore-shortcodes-form .endcore-shortcodes-submit { clear: both; height: 70px; position: absolute; bottom: 0px; left: 0px; width: 100%; background: #EEE; border-top: 1px solid #DDD; }
+.endcore-shortcodes-form .endcore-shortcodes-submit .button-primary { position: absolute; right: 20px; top: 20px; }
+.endcore-shortcodes-form .current-icon, .endcore-shortcodes-form .current-social-icon { margin: 0 0 0 10px; font-size: 14px; width: 24px; text-align:center; height: 24px; line-height: 24px; }
+.endcore-shortcodes-toggle-social-list { margin: 0 0 20px 0; }
+.endcore-shortcodes-form .social-icon, .endcore-shortcodes-form .current-social-icon { margin: 0 0 0 10px; display: block; float: left; }
+.endcore-shortcodes-form .current-social-icon { display: none; }
+.endcore-shortcodes-form .social-icon img { width: 21px; height: 21px; margin: 1px 0 0 0; }
+.endcore-shortcodes-form .endcore-shortcodes-social-link-field { float: left; width: 220px!important; margin: 0 0 0 10px; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list-holder { clear: both; overflow: hidden; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list { padding: 10px 0 0 0; display: block; list-style: none; margin: 0px; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li { display: block; float: left; width: 40px; height: 40px; margin: 0 10px 10px 0; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li a { display: block; float: left; width: 40px; height: 40px; text-align: center; line-height: 40px; background: #f9f9f9; border: 1px solid #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li a:hover { border: 1px solid #CCC; box-shadow: 1px 1px 2px #EEE; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li a i { font-size: 14px; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li a img { width: 20px; height: 20px; margin-top: 10px; }
+.endcore-shortcodes-form .endcore-shortcodes-icon-list li a span { display: none; }
+.endcore-shortcodes-form .column-structures { display: block; padding: 0 0 0 10px; }
+.endcore-shortcodes-form .column-structures a { display: block; width: 100px; height: 40px; float: left; margin: 0 10px 20px 0; }
+.endcore-shortcodes-form .column-structures a span { float:left; position: relative; display: block; height: 40px; overflow: hidden; }
+.endcore-shortcodes-form .column-structures a i { background: #EEE; position: absolute; left: -2px; top: 0px; display: block; height: 40px; line-height: 40px; font-size: 14px; text-align: center; width: 100%; }
+.endcore-shortcodes-form .column-structures a:hover i, .endcore-shortcodes-form .column-structures a.active i { background: #999; color: #FFF; }
+.endcore-shortcodes-form .column-structures label { margin: 0 0 14px 0; display: block; font-size: 14px; }
+.endcore-shortcodes-form .clearfix { clear: both; }
+#endcore-shortcodes-form-tab_tabs td label,
+#endcore-shortcodes-form-tab_accordion td label { display: block; padding: 5px 0 10px 0; color: #999; }
+#endcore-shortcodes-form-tab_tabs input,
+#endcore-shortcodes-form-tab_accordion input,
+#endcore-shortcodes-form-tab_accordion .endcore-shortcodes-toggle-icon-list { margin: 0 0 10px 0; }
+</style>
+<div id="endcore-shortcodes-form"><div class="endcore-shortcodes-form">
+    <div class="endcore-shortcodes-form-top">
+        <div class="endcore-shortcodes-form-types">
+            <ul>
+                <li class="endcore-shortcodes-form-type-grid active" type="grid"><a href="#">Grid</a></li>
+                <li class="endcore-shortcodes-form-type-alert" type="alert"><a href="#">Alerts</a></li>
+                <li class="endcore-shortcodes-form-type-media" type="media"><a href="#">Media</a></li>
+                <li class="endcore-shortcodes-form-type-tabs" type="tabs"><a href="#">Tabs</a></li>
+                <li class="endcore-shortcodes-form-type-accordion" type="accordion"><a href="#">Accordion</a></li>
+            </ul>
+        </div><!-- end types -->
+        <div class="endcore-shortcodes-form-tabs">
+            <!-- COLUMNS -->
+            <div class="endcore-shortcodes-form-tab active" id="endcore-shortcodes-form-tab_grid" style="display:block">
+                <h2>Grid</h2>
+                <div class="endcore-shortcodes-form-fields">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td colspan="2">
+                                <div class="column-structures">
+                                    <label>Wähle das gewünschte Layout aus</label>
+                                    <a href="#" class="active" split="50|50"><span style="width:50%"><i>&frac12;</i></span><span style="width:50%"><i>&frac12;</i></span></a>
+                                    <div class="clearfix"></div>
+                                    <a href="#" split="33|33|33"><span style="width:33%"><i>&frac13;</i></span><span style="width:33%"><i>&frac13;</i></span><span style="width:33%"><i>&frac13;</i></span></a>
+                                    <a href="#" split="67|33"><span style="width:67%"><i>&frac23;</i></span><span style="width:33%"><i>&frac13;</i></span></a>
+                                    <a href="#" split="33|67"><span style="width:33%"><i>&frac13;</i></span><span style="width:67%"><i>&frac23;</i></span></a>
+                                    <div class="clearfix"></div>
+                                    <a href="#" split="25|25|25|25"><span style="width:25%"><i>&frac14;</i></span><span style="width:25%"><i>&frac14;</i></span><span style="width:25%"><i>&frac14;</i></span><span style="width:25%"><i>&frac14;</i></span></a>
+                                    <a href="#" split="50|25|25"><span style="width:50%"><i>&frac12;</i></span><span style="width:25%"><i>&frac14;</i></span><span style="width:25%"><i>&frac14;</i></span></a>
+                                    <a href="#" split="25|25|50"><span style="width:25%"><i>&frac14;</i></span><span style="width:25%"><i>&frac14;</i></span><span style="width:50%"><i>&frac12;</i></span></a>
+                                    <a href="#" split="25|50|25"><span style="width:25%"><i>&frac14;</i></span><span style="width:50%"><i>&frac12;</i></span><span style="width:25%"><i>&frac14;</i></span></a>
+                                    <input style="display:none" type="text" fieldname="structure" value="50|50" />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Spalte 1</label></th>
+                            <td><textarea fieldname="col"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Spalte 2</label></th>
+                            <td><textarea fieldname="col"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Spalte 3</label></th>
+                            <td><textarea fieldname="col" disabled="disabled"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Spalte 4</label></th>
+                            <td><textarea fieldname="col" disabled="disabled"></textarea></td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end tab -->
+            <!-- ALERT -->
+            <div class="endcore-shortcodes-form-tab" id="endcore-shortcodes-form-tab_alert">
+                <h2>Alerts</h2>
+                <div class="endcore-shortcodes-form-fields">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th><label>Style</label></th>
+                            <td>
+                                <select fieldname="alert_style">
+                                    <option value="success" selected="selected">Grün</option>
+                                    <option value="info">Blau</option>
+                                    <option value="warning">Gelb</option>
+                                    <option value="danger">Rot</option>
+                                </select>
+                                <span class="tip">Ein Beispiel findest du hier: http://getbootstrap.com/components/#alerts</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Inhalt</label></th>
+                            <td>
+                                <textarea fieldname="alert_content"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end tab -->
+            <!-- MEDIA -->
+            <div class="endcore-shortcodes-form-tab" id="endcore-shortcodes-form-tab_media">
+                <h2>Media</h2>
+                <div class="endcore-shortcodes-form-fields">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th><label>Style</label></th>
+                            <td>
+                                <select fieldname="media_style">
+                                    <option value="left" selected="selected">Objekt Links</option>
+                                    <option value="right">Objekt rechts</option>
+                                </select>
+                                <span class="tip">Ein Beispiel findest du hier: http://getbootstrap.com/components/#media</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Horizontale Ausrichtung</label></th>
+                            <td>
+                                <select fieldname="media_aligned">
+                                    <option value="top" selected="selected">Oben</option>
+                                    <option value="middle">Mittig</option>
+                                    <option value="bottom">Unten</option>
+                                </select>
+                                <span class="tip">Horizontale Ausrichtung des Bildes</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Objekt</label></th>
+                            <td>
+                                <input type="text" fieldname="media_object" placeholder="" />
+                                <span class="tip">Bitte gebe hier z.B. ein Bild an (komplettes HTML-Tag!).</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label>Inhalt</label></th>
+                            <td>
+                                <textarea fieldname="media_content"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end tab -->
+            <!-- TABS -->
+            <div class="endcore-shortcodes-form-tab" id="endcore-shortcodes-form-tab_tabs">
+                <h2>Tabs hinzufügen</h2>
+                <div class="endcore-shortcodes-form-fields">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr>
+                            <th><label>Tab 1</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 2</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 3</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 4</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 5</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 6</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 7</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 8</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 9</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th><label>Tab 10</label></th>
+                            <td><label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea></td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end tab -->
+            <!-- ACCORDIONS -->
+            <div class="endcore-shortcodes-form-tab" id="endcore-shortcodes-form-tab_accordion">
+                <h2>Accordions hinzufügen</h2>
+                <div class="endcore-shortcodes-form-fields">
+                    <table cellpadding="0" cellspacing="0">
+                        <tr class="toggle-items">
+                            <th><label>Toggle 1</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 2</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 3</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 4</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 5</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 6</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 7</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 8</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 9</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                        <tr class="toggle-items">
+                            <th><label>Toggle 10</label></th>
+                            <td>
+                                <label>Label</label><input type="text" value="" fieldname="label" />
+                                <label>Text</label><textarea fieldname="text"></textarea>
+                                <label>Ausgangszustand</label><select fieldname="onload">
+                                    <option value="">Geschlossen</option>
+                                    <option value="true">Geöffnet</option>
+                                </select></td>
+                        </tr>
+                    </table>
+                </div>
+            </div><!-- end tab -->
+            
+        </div></div>
+    <div class="endcore-shortcodes-submit">
+        <input style="display:none" id="endcore-shortcodes-form-type" value="button" />
+        <textarea style="display:none" id="endcore-shortcodes-form-code-to-add"></textarea>
+        <input type="button" id="endcore_shortcodes-submit" class="button-primary" value="Shortcode einfügen" name="submit" />
+    </div>
+</div></div>

@@ -1,0 +1,6240 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 09:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: library/filter/posttype.php:13 library/filter/posttype.php:14
+#: library/filter/posttype.php:19 library/filter/posttype.php:23
+#: library/plugins/acf/fields/filter.php:5
+#: library/plugins/acf/fields/page_builder.php:1219
+msgid "Filter"
+msgstr ""
+
+#: library/plugins/acf/fields/product_compare.php:5
+msgid "Produktvergleich"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:5
+msgid "Page Builder"
+msgstr ""
+
+#: library/shop/posttype.php:16 library/shop/posttype.php:17
+#: library/shop/posttype.php:22 library/shop/posttype.php:26
+#: library/plugins/acf/acf-functions.php:108
+#: library/plugins/acf/fields/shop.php:6
+#: library/plugins/acf/fields/_load.php:21
+msgid "Shops"
+msgstr ""
+
+#: library/shop/posttype.php:18
+msgid "Neuen Shop Erstellen"
+msgstr ""
+
+#: library/shop/posttype.php:19
+msgid "Neuen Shop hinzuf&uuml;gen"
+msgstr ""
+
+#: library/shop/posttype.php:20
+msgid "Shop editieren"
+msgstr ""
+
+#: library/shop/posttype.php:21
+msgid "Neuen Shop"
+msgstr ""
+
+#: library/shop/posttype.php:23
+msgid "Zeige Shop"
+msgstr ""
+
+#: library/shop/posttype.php:24
+msgid "Suche Shop"
+msgstr ""
+
+#: library/shop/posttype.php:25
+msgid "Kein Shop gefunden"
+msgstr ""
+
+#: library/navigation/menus.php:13
+#: library/plugins/kirki/kirki-customizer.php:104
+#: library/plugins/acf/fields/options_design.php:148
+#: library/plugins/acf/fields/options_design.php:163
+msgid "Topbar"
+msgstr ""
+
+#: library/navigation/menus.php:15
+msgid "Hauptnavigation"
+msgstr ""
+
+#: library/navigation/menus.php:18
+msgid "Hauptnavigation (2)"
+msgstr ""
+
+#: library/navigation/menus.php:20
+#: library/plugins/kirki/kirki-customizer.php:37
+#: library/plugins/acf/fields/options_design.php:840
+msgid "Footer"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:12
+msgid "Dieses Widget zeigt Einträge einer bestimmten Taxonomie an."
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:13
+msgid "affiliatetheme.io &raquo; Einträge einer Taxonomie"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:81
+msgid ""
+"<strong>Wichtiger Hinweis:</strong> Um dieses Widget zu nutzen, musst du "
+"zuerst Taxonomien anlegen."
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:85 library/widgets/product-advice.php:152
+#: library/widgets/product-filter.php:49 library/widgets/social.php:104
+#: library/widgets/product-select.php:140
+msgid "Titel:"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:90
+msgid "Taxonomie:"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:97
+msgid "Keine Taxonomien vorhanden"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:103
+msgid "Exclude:"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:105
+msgid ""
+"Terms die exkludiert werden sollen. Bitte die IDs kommasepariert angeben."
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:109
+msgid "Zeige Beitragszähler"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:114
+msgid "Zeige Hierarchie"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:119
+msgid "Scrollbares Widget?"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:123
+msgid "Leere Taxonomien verstecken?"
+msgstr ""
+
+#: library/widgets/taxonomy-terms.php:127
+msgid "Taxonomy Desc als Linktext verwenden?"
+msgstr ""
+
+#: library/widgets/areas.php:13
+msgid "Allgemeine Sidebar"
+msgstr ""
+
+#: library/widgets/areas.php:15
+msgid "Allgemeine Sidebar, diese ist fuer WooSidebars notwendig."
+msgstr ""
+
+#: library/widgets/areas.php:25
+msgid "Footer "
+msgstr ""
+
+#: library/widgets/product-advice.php:11
+msgid "Dieses Widget ermöglicht es ein bestimmtes Produkt zu empfehlen."
+msgstr ""
+
+#: library/widgets/product-advice.php:12
+msgid "affiliatetheme.io &raquo; Produkt Empfehlung"
+msgstr ""
+
+#: library/widgets/product-custom.php:13
+msgid "affiliatetheme.io &raquo; Produktinfo"
+msgstr ""
+
+#: library/widgets/product-custom.php:48
+msgid ""
+"<strong>Hinweis:</strong> Den Inhalt dieses Widgets kannst du in einem "
+"Customfield im Produkt selbst bearbeiten. Falls du für ein Produkt keinen "
+"Inhalt hast, erscheint dieses Widget nicht."
+msgstr ""
+
+#: library/widgets/product-filter.php:12
+msgid "Dieses Widget zeigt den neuen Produktfilter an."
+msgstr ""
+
+#: library/widgets/product-filter.php:13
+msgid "affiliatetheme.io &raquo; Filter"
+msgstr ""
+
+#: library/widgets/social.php:12
+msgid "Dieses Widget zeigt eine Auswahl von Social Media Links an."
+msgstr ""
+
+#: library/widgets/social.php:13
+msgid "affiliatetheme.io &raquo; Social Media"
+msgstr ""
+
+#: library/widgets/social.php:109
+msgid ""
+"Um die Ausgabe eines Netwerkes zu aktivieren, fülle einfach das "
+"entsprechende Feld mit der URL des Profils aus."
+msgstr ""
+
+#: library/widgets/product-select.php:12
+msgid ""
+"Dieses Widget ermöglicht es eine bestimmte Auswahl von Produkten im Widget "
+"anzuzeigen."
+msgstr ""
+
+#: library/widgets/product-select.php:13
+msgid "affiliatetheme.io &raquo; Auswahl von Produkten"
+msgstr ""
+
+#: library/widgets/class.php:17
+msgid "CSS-Klasse:"
+msgstr ""
+
+#: library/widgets/shop-custom.php:13
+msgid "affiliatetheme.io &raquo; Shopinfo"
+msgstr ""
+
+#: library/widgets/shop-custom.php:48
+msgid ""
+"<strong>Hinweis:</strong> Den Inhalt dieses Widgets kannst du in einem "
+"Customfield im Shop selbst bearbeiten. Falls du für einen Shop keinen Inhalt "
+"hast, erscheint dieses Widget nicht."
+msgstr ""
+
+#: library/helper/func.php:387
+#, php-format
+msgid ""
+"Bitte trage <a href=\"%s\">hier</a> eine Lizenz ein um das Theme nutzen zu "
+"können."
+msgstr ""
+
+#: library/helper/func.php:395
+#, php-format
+msgid ""
+"Es scheint so als wäre deine Lizenz nicht gültig. Prüfe deine Lizenz bitte "
+"<a href=\"%s\">hier</a>."
+msgstr ""
+
+#: library/helper/func.php:403
+#, php-format
+msgid ""
+"Es scheint so als wäre deine aktuelle Seite nicht aktiviert. Prüfe deine "
+"Lizenz bitte <a href=\"%s\">hier</a>."
+msgstr ""
+
+#: library/helper/func.php:721
+#, php-format
+msgid ""
+"Achtung: Um das Affiliate Theme fehlerfrei nutzen zu können, benötigst du "
+"mindestens PHP Version 5.5.x. Derzeit verwendest du Version %s."
+msgstr ""
+
+#: library/helper/filter.php:182
+msgid "Aufrufe"
+msgstr ""
+
+#. A unique slug/ID
+#: library/helper/rankalyst.php:38
+msgid "Rankalyst Statistik"
+msgstr ""
+
+#: library/helper/rankalyst.php:55
+msgid "Bitte prüfe die Einstellungen &and;"
+msgstr ""
+
+#: library/helper/rankalyst.php:59
+#, php-format
+msgid ""
+"Mit <a href=\"%s\" target=\"_blank\">Rankalyst</a> kannst du 10 Keywords "
+"kostenlos tracken!"
+msgstr ""
+
+#: library/helper/rankalyst.php:60
+msgid "Kostenlos starten"
+msgstr ""
+
+#: library/helper/rankalyst.php:70
+msgid "Organic"
+msgstr ""
+
+#: library/helper/rankalyst.php:71
+msgid "Mobile"
+msgstr ""
+
+#: library/helper/rankalyst.php:72
+msgid "Local"
+msgstr ""
+
+#: library/helper/rankalyst.php:154
+msgid "Benutzername:"
+msgstr ""
+
+#: library/helper/rankalyst.php:155
+msgid "API Key:"
+msgstr ""
+
+#: library/helper/rankalyst.php:156
+msgid "Projekt ID:"
+msgstr ""
+
+#: library/helper/rankalyst.php:158
+msgid ""
+"Kein API Key vorhanden? Bitte wende dich an den Rankalyst Support: "
+"support@rankalyst.de"
+msgstr ""
+
+#: library/helper/rankalyst.php:294
+msgid ""
+"Eine Verbindung kann nicht hergestellt werden. Bitte überprüfe deine "
+"Einstellungen."
+msgstr ""
+
+#: library/helper/rankalyst.php:310
+msgid "Keyword"
+msgstr ""
+
+#: library/helper/rankalyst.php:311
+msgid "Ranking"
+msgstr ""
+
+#: library/helper/rankalyst.php:312
+msgid "Aktualisiert"
+msgstr ""
+
+#: library/helper/rankalyst.php:341
+msgid "Du brauchst mehr Keywords? Rankalyst gibt's ab 11,50,- EUR!"
+msgstr ""
+
+#: library/helper/api-dashboard.php:17
+msgid "affiliatetheme.io &raquo; Import Dashboard"
+msgstr ""
+
+#: library/helper/api-dashboard.php:21
+msgid ""
+"Unser Ziel ist es das affiliatetheme.io so vielseitig wie Möglich zu "
+"gestalten. Das affiliatetheme.io soll nicht nur auf Amazon optimiert werden,"
+"\n"
+"\t\t\t\t\tsondern für weitere Portale nutzbar sein."
+msgstr ""
+
+#: library/helper/api-dashboard.php:25
+msgid "Unsere Schnittestellen im Überblick"
+msgstr ""
+
+#: library/helper/api-dashboard.php:44 library/helper/debug.php:397
+#: library/plugins/tinymce/shortcodes-form.php:865
+#: library/plugins/acf/fields/options_product.php:720
+#: library/plugins/acf/fields/options_product.php:1009
+#: library/plugins/acf/fields/options_product.php:1558
+#: library/plugins/acf/fields/product.php:956
+#: library/plugins/acf/fields/page_builder.php:1133
+#: library/plugins/acf/fields/filter_design.php:138
+#: library/plugins/acf/fields/options_general.php:984
+msgid "Name"
+msgstr ""
+
+#: library/helper/api-dashboard.php:45
+msgid "Aktuelle Version"
+msgstr ""
+
+#: library/helper/api-dashboard.php:46
+msgid "Zuletzt aktualisiert"
+msgstr ""
+
+#: library/helper/api-dashboard.php:87
+#: library/plugins/acf/fields/product.php:397
+msgid "Weitere Informationen"
+msgstr ""
+
+#: library/helper/api-dashboard.php:90
+msgid "Schnittstelle herunterladen"
+msgstr ""
+
+#: library/helper/api-dashboard.php:93
+msgid "Support"
+msgstr ""
+
+#: library/helper/api-dashboard.php:103
+#, php-format
+msgid ""
+"Ooops, es wurden keine Extensions gefunden, was ist denn hier los? Schau mal "
+"auf <a href=\"%s\" target=\"_blank\">unserer Webseite</a> nach."
+msgstr ""
+
+#: library/helper/api-dashboard.php:106
+#, php-format
+msgid ""
+"Ooops, eine Serverfunktion (allow_url_fopen) fehlt bei Dir, wir können die "
+"Liste nicht laden. Schau mal auf <a href=\"%s\" target=\"_blank\">unserer "
+"Webseite</a> nach."
+msgstr ""
+
+#: library/helper/debug.php:64 library/helper/debug.php:372
+msgid "Besuche die Plugin-Homepage"
+msgstr ""
+
+#: library/helper/debug.php:88
+#, php-format
+msgid "Debug-Informationen zu: %s"
+msgstr ""
+
+#: library/helper/debug.php:122
+msgid "affiliatetheme.io &raquo; Debug"
+msgstr ""
+
+#: library/helper/debug.php:124
+msgid ""
+"<strong>Wichtig:</strong> Wenn du einen Thread im Forum erstellst, füge "
+"bitte diese Information im entsprechenden Feld dafür hinzu. So können wir "
+"Dir besser helfen."
+msgstr ""
+
+#: library/helper/debug.php:129
+msgid "Cronjobs deaktiviert"
+msgstr ""
+
+#: library/helper/debug.php:130
+msgid ""
+"In deiner Installation sind Cronjobs deaktiviert. Bitte trage folgenden Wert "
+"in die <mark>wp-config.php</mark> ein:"
+msgstr ""
+
+#: library/helper/debug.php:132
+msgid ""
+"Alternativ kannst du die Cronjobs auch über deinen Hoster ausführen lassen, "
+"scroll dazu bitte ganz nach unten und lies die Anleitung durch."
+msgstr ""
+
+#: library/helper/debug.php:139
+msgid "WordPress"
+msgstr ""
+
+#: library/helper/debug.php:144
+msgid "Home URL"
+msgstr ""
+
+#: library/helper/debug.php:148
+msgid "Site URL"
+msgstr ""
+
+#: library/helper/debug.php:152
+msgid "Document Root"
+msgstr ""
+
+#: library/helper/debug.php:156
+msgid "Template URL"
+msgstr ""
+
+#: library/helper/debug.php:160
+msgid "Stylesheet URL"
+msgstr ""
+
+#: library/helper/debug.php:164
+msgid "Template Ordner"
+msgstr ""
+
+#: library/helper/debug.php:168
+msgid "Stylesheet Ordner"
+msgstr ""
+
+#: library/helper/debug.php:172
+msgid "Uploads Ordner"
+msgstr ""
+
+#: library/helper/debug.php:176
+msgid "bitte Schreibrechte setzen (chmod 775 / 777)"
+msgstr ""
+
+#: library/helper/debug.php:184
+msgid "WP Version"
+msgstr ""
+
+#: library/helper/debug.php:188
+msgid "WP Multisite"
+msgstr ""
+
+#: library/helper/debug.php:192
+msgid "WP Memory Limit"
+msgstr ""
+
+#: library/helper/debug.php:199
+msgid "Server Memory Limit"
+msgstr ""
+
+#: library/helper/debug.php:204
+#, php-format
+msgid ""
+"%s - Damit WordPress reibungslos funktioniert, empfehlen wir ein Memory "
+"Limit von min. 64MB. <a href=\"%s\" target=\"_blank\">Mehr Informationen</a>"
+msgstr ""
+
+#: library/helper/debug.php:211
+msgid "WP Debug Mode"
+msgstr ""
+
+#: library/helper/debug.php:215
+msgid "Language"
+msgstr ""
+
+#: library/helper/debug.php:226 library/helper/debug.php:231
+msgid "Server"
+msgstr ""
+
+#: library/helper/debug.php:235
+msgid "PHP Version"
+msgstr ""
+
+#: library/helper/debug.php:241
+#, php-format
+msgid ""
+"%s - Benutze mind. Version 5.5. <a href=\"%s\" target=\"_blank\">Mehr "
+"Informationen</a>"
+msgstr ""
+
+#: library/helper/debug.php:246
+msgid "PHP Version nicht abrufbar, die Funktion phpversion() existiert nicht."
+msgstr ""
+
+#: library/helper/debug.php:251
+msgid "cURL"
+msgstr ""
+
+#: library/helper/debug.php:255
+msgid ""
+"Für die Verwendung der Schnittstellen benötigst du cURL. <a href=\"http:"
+"//php.net/manual/de/book.curl.php\" taget=\"_blank\">Hier</a> findest du "
+"mehr Informationen darüber. Kontaktiere im Zweifel deinen "
+"Systemadministrator."
+msgstr ""
+
+#: library/helper/debug.php:263
+msgid "SOAP"
+msgstr ""
+
+#: library/helper/debug.php:267
+msgid ""
+"Für die Verwendung der Schnittstellen benötigst du SOAP. <a href=\"http:"
+"//php.net/manual/de/book.soap.php\" taget=\"_blank\">Hier</a> findest du "
+"mehr Informationen darüber. Kontaktiere im Zweifel deinen "
+"Systemadministrator."
+msgstr ""
+
+#: library/helper/debug.php:277
+msgid "PHP Allow URL Fopen"
+msgstr ""
+
+#: library/helper/debug.php:281
+msgid ""
+"Du hast allow_url_fopen deaktiviert. Du benötigst diese Funktionen für "
+"versch. Funktionen der Schnittstellen."
+msgstr ""
+
+#: library/helper/debug.php:289
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: library/helper/debug.php:293
+msgid "PHP Time Limit"
+msgstr ""
+
+#: library/helper/debug.php:297
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: library/helper/debug.php:302
+msgid "MySQL Version"
+msgstr ""
+
+#: library/helper/debug.php:308
+msgid "Max Upload Size"
+msgstr ""
+
+#: library/helper/debug.php:319
+msgid "Themes"
+msgstr ""
+
+#: library/helper/debug.php:337 library/helper/debug.php:377
+#, php-format
+msgctxt "von"
+msgid "von %s"
+msgstr ""
+
+#: library/helper/debug.php:350
+msgid "Plugins"
+msgstr ""
+
+#: library/helper/debug.php:392
+msgid "Cronjobs"
+msgstr ""
+
+#: library/helper/debug.php:398
+msgid "Argumente"
+msgstr ""
+
+#: library/helper/debug.php:399
+msgid "Intervall"
+msgstr ""
+
+#: library/helper/debug.php:400
+msgid "Nächste Laufzeit"
+msgstr ""
+
+#: library/helper/debug.php:415 library/helper/debug.php:417
+#: library/helper/debug.php:419 library/helper/debug.php:421
+msgid "Cronjob jetzt ausführen"
+msgstr ""
+
+#: library/helper/debug.php:451
+msgid "Cronjobs manuell ausführen"
+msgstr ""
+
+#: library/helper/debug.php:452
+msgid ""
+"Die WordPress Cronjobs laufen nicht auf jedem Server optimal. Wenn du die "
+"Cronjobs für die API gerne über deinen Hoster anstoßen willst, musst du die "
+"folgenden URLs verwenden:"
+msgstr ""
+
+#: library/helper/debug.php:455
+msgid "Amazon API"
+msgstr ""
+
+#: library/helper/debug.php:456
+msgid "affilinet API"
+msgstr ""
+
+#: library/helper/debug.php:457
+msgid "Zanox API"
+msgstr ""
+
+#: library/helper/debug.php:458
+msgid "Belboon API"
+msgstr ""
+
+#: library/helper/debug.php:459
+msgid "eBay API"
+msgstr ""
+
+#: library/helper/debug.php:460
+msgid "Adcell API"
+msgstr ""
+
+#: library/helper/debug.php:461
+msgid "CJ API"
+msgstr ""
+
+#: library/helper/debug.php:462
+msgid "Rakuten API"
+msgstr ""
+
+#: library/helper/debug.php:463
+msgid "Tradetracker API"
+msgstr ""
+
+#: library/helper/debug.php:464
+msgid "Tradedoubler API"
+msgstr ""
+
+#: library/helper/debug.php:465
+msgid "Daisycon API"
+msgstr ""
+
+#: library/helper/debug.php:466
+msgid "FinanceAds API"
+msgstr ""
+
+#: library/helper/debug.php:467
+msgid "Yadore API"
+msgstr ""
+
+#: library/helper/debug.php:468
+msgid "Custom CSV"
+msgstr ""
+
+#: library/helper/debug.php:469
+msgid "Tracdelight API"
+msgstr ""
+
+#: library/helper/external-thumbnail.php:28
+msgid "- oder - "
+msgstr ""
+
+#: library/helper/external-thumbnail.php:29
+msgid "verwende ein externes Bild:"
+msgstr ""
+
+#: library/helper/ad.php:36
+msgid "affilinet Plugin installieren"
+msgstr ""
+
+#: library/helper/ad.php:37
+msgid ""
+"Installiere direkt das affili.net Plugin um deine ersten Produkte "
+"automatisch zu importieren. Eine Anleitung zur Nutzung findest du in unserer "
+"<a href=\"#\">Dokumentation</a>."
+msgstr ""
+
+#: library/helper/ad.php:71
+msgid "CJ Affiliate Plugin installieren"
+msgstr ""
+
+#: library/helper/ad.php:72
+msgid ""
+"Installiere direkt das CJ Affiliate Plugin um deine ersten Produkte "
+"automatisch zu importieren. Eine Anleitung zur Nutzung findest du in unserer "
+"<a href=\"#\">Dokumentation</a>."
+msgstr ""
+
+#: library/filter/helper.php:21
+msgid "Der neue Filter"
+msgstr ""
+
+#: library/filter/helper.php:22
+msgid ""
+"Wir sind stolz darauf dir unseren neuen Filter zu präsentieren. Dieser ist "
+"ein zusätzliches Feature und wird vorerst parallel zum alten Filter "
+"verfügbar sein. Bitte stelle zeitnah alle alten Filter auf den neuen um. "
+"Eine passende Anleitung für den Filter findest du in <a href=\"https:"
+"//affiliatetheme.io/?p=107544\" target=\"_blank\">unserem Blog.</a>"
+msgstr ""
+
+#: library/filter/helper.php:103
+msgid "Ausgabe"
+msgstr ""
+
+#: library/filter/helper.php:120
+msgid ""
+"Benutze folgenden Shortcode um den Filter an der gewünschten Stelle "
+"auszugeben:"
+msgstr ""
+
+#: library/filter/helper.php:125
+msgid "Parameter:"
+msgstr ""
+
+#: library/filter/helper.php:126
+msgid "ID des Filters"
+msgstr ""
+
+#: library/filter/helper.php:128
+msgid "oder"
+msgstr ""
+
+#: library/filter/helper.php:135
+msgid "Um den Filter zu nutzen, musst du diesen erst veröffentlichen."
+msgstr ""
+
+#: library/filter/helper.php:176
+#: library/plugins/tinymce/shortcodes-form.php:516
+#: library/plugins/tinymce/shortcodes-form.php:569
+#: library/plugins/acf/fields/shop.php:77
+#: library/plugins/acf/fields/options_product.php:1684
+#: library/plugins/acf/fields/options_blog.php:1587
+#: library/plugins/acf/fields/product.php:1224
+#: library/plugins/acf/fields/page_builder.php:807
+#: library/plugins/acf/fields/page_builder.php:986
+#: library/plugins/acf/fields/widget_product_select.php:162
+msgid "Titel"
+msgstr ""
+
+#: library/filter/helper.php:177
+msgid "Shortcode"
+msgstr ""
+
+#: library/filter/helper.php:178
+#: library/plugins/acf/fields/page_builder.php:132
+msgid "Felder"
+msgstr ""
+
+#: library/filter/helper.php:179
+msgid "Erstellt am"
+msgstr ""
+
+#: library/filter/posttype.php:15
+msgid "Neuen Filter Erstellen"
+msgstr ""
+
+#: library/filter/posttype.php:16
+msgid "Neuen Filter hinzuf&uuml;gen"
+msgstr ""
+
+#: library/filter/posttype.php:17
+msgid "Filter editieren"
+msgstr ""
+
+#: library/filter/posttype.php:18
+msgid "Neuen Filter"
+msgstr ""
+
+#: library/filter/posttype.php:20
+msgid "Zeige Filter"
+msgstr ""
+
+#: library/filter/posttype.php:21
+msgid "Suche Filter"
+msgstr ""
+
+#: library/filter/posttype.php:22
+msgid "Kein Filter gefunden"
+msgstr ""
+
+#: library/filter/posttype.php:33
+msgctxt "Filter Slug"
+msgid "filter"
+msgstr ""
+
+#: library/product/helper_productdata.php:19
+msgid "Produktdaten Import"
+msgstr ""
+
+#: library/product/helper_productdata.php:30
+msgid ""
+"Importiere Produktdaten oder lege eigene Felder vollautomatisch an. (<a "
+"href=\"https://affiliatetheme.io/doc/produktdaten-import/\">Anleitung</a>)"
+msgstr ""
+
+#: library/product/helper_productdata.php:31
+msgid "Quellen: icecat.biz"
+msgstr ""
+
+#: library/product/helper_productdata.php:49
+msgid "icecat.biz Produkt URL eingeben."
+msgstr ""
+
+#: library/product/helper_productdata.php:50
+msgid "Produktdaten suchen"
+msgstr ""
+
+#: library/product/helper_productdata.php:59
+msgid ""
+"Mit dieser Funktion kannst du voll automatisch Produktdaten von <strong>"
+"icecat.biz</strong> abfragen und diese Werte entweder \n"
+"                in bestehende Felder importieren (bei gleichem Namen wird "
+"das richtige Feld direkt ausgewählt) oder anhand der Werte eine neue "
+"Feldgruppe anlegen."
+msgstr ""
+
+#: library/product/helper_productdata.php:87
+#: library/product/helper_productdata.php:196
+msgid "Der eingegebene Text/Link ist keine gültige icecat Produkt URL."
+msgstr ""
+
+#: library/product/helper_productdata.php:112
+msgid ""
+"Du hast keine Felder für die Eigenschaften generiert. Bitte generiere diese "
+"durch klicken des \"Felder generieren\" Buttons."
+msgstr ""
+
+#: library/product/helper_productdata.php:168
+msgid "Speichern"
+msgstr ""
+
+#: library/product/helper_productdata.php:203
+#, php-format
+msgid "Produktdaten - Automatic - %s"
+msgstr ""
+
+#: library/product/helper_productdata.php:254
+msgid "Datei konnte nicht erstellt werden."
+msgstr ""
+
+#: library/product/helper_productdata.php:259
+msgid "Felder erfolgreich generiert."
+msgstr ""
+
+#: library/product/helper_productdata.php:501
+msgid ""
+"Die Produktdaten wurden erfolgreich importiert. Bitte schließe das Fenster, "
+"das Produkt wird gespeichert und die Seite lädt automatisch neu."
+msgstr ""
+
+#: library/product/helper.php:420
+msgid "Euro (&euro;)"
+msgstr ""
+
+#: library/product/helper.php:421
+msgid "US-Dollar (&#36;)"
+msgstr ""
+
+#: library/product/helper.php:422
+msgid "Kanadischer Dollar (C&#36;)"
+msgstr ""
+
+#: library/product/helper.php:423
+msgid "Britisches Pfund (&pound;)"
+msgstr ""
+
+#: library/product/helper.php:424
+msgid "Indischer Rupie (&#8377;)"
+msgstr ""
+
+#: library/product/helper.php:425
+msgid "Japanischer Yen (&#165;)"
+msgstr ""
+
+#: library/product/helper.php:426
+msgid "Mexikanischer Peso (Mex&#36;)"
+msgstr ""
+
+#: library/product/helper.php:427
+msgid "Chinesischer Renminbi (CN&#165;)"
+msgstr ""
+
+#: library/product/helper.php:428
+msgid "Brasilianischer Real (R&#36;)"
+msgstr ""
+
+#: library/product/helper.php:429
+msgid "Schweizer Franken (CHF)"
+msgstr ""
+
+#: library/product/helper.php:430
+msgid "Russischer Rubel (&#8381;)"
+msgstr ""
+
+#: library/product/helper.php:431
+msgid "Polnischer Zloty (z&#322;)"
+msgstr ""
+
+#: library/product/helper.php:432
+msgid "Australischer Dollar (&#36;A)"
+msgstr ""
+
+#: library/product/helper.php:433
+msgid "Hongkong-Dollar (HK&#36;)"
+msgstr ""
+
+#: library/product/helper.php:434
+msgid "Nordkoreanischer Won (&#8361;)"
+msgstr ""
+
+#: library/product/helper.php:435
+msgid "Ringgit (RM)"
+msgstr ""
+
+#: library/product/helper.php:436
+msgid "Philippinischer Peso (&#8369;)"
+msgstr ""
+
+#: library/product/helper.php:437
+msgid "Singapur-Dollar (S&#36;)"
+msgstr ""
+
+#: library/product/helper.php:438
+msgid "Schwedische Krone (kr)"
+msgstr ""
+
+#: library/product/helper.php:439
+msgid "Norwegische Krone (nkr)"
+msgstr ""
+
+#: library/product/helper.php:440
+msgid "Dänische Krone (dkr)"
+msgstr ""
+
+#: library/product/helper.php:441
+msgid "Tschechische Krone (K&#269;)"
+msgstr ""
+
+#: library/product/helper.php:442
+msgid "Türkische Lira (TL)"
+msgstr ""
+
+#: library/product/helper.php:443
+msgid "Konvertible Mark (KM)"
+msgstr ""
+
+#: library/product/helper.php:444
+msgid "Serbischer Dinar (Din.)"
+msgstr ""
+
+#: library/product/helper.php:445
+msgid "Hrywnja (&#8372;)"
+msgstr ""
+
+#: library/product/helper.php:446
+msgid "Ungarische Forint (Ft)"
+msgstr ""
+
+#: library/product/helper.php:447
+msgid "Südkoreanischer Won (&#8361;)"
+msgstr ""
+
+#: library/product/helper.php:448
+msgid "Neuer Taiwan-Dollar (NT&#36;)"
+msgstr ""
+
+#: library/product/helper.php:1610
+msgid "Bitte wählen"
+msgstr ""
+
+#: library/product/helper.php:1620
+msgid ""
+"Mit der Auswahl eines Produktes, wird dieses Produkt einem bestehenden "
+"Produkt angehängt, somit kannst du einen Preisvergleich der Anbieter "
+"erstellen."
+msgstr ""
+
+#: library/product/posttype.php:17 library/product/posttype.php:23
+#: library/product/posttype.php:27
+#: library/plugins/kirki/kirki-customizer.php:173
+#: library/plugins/tinymce/shortcodes-form.php:25
+#: library/plugins/acf/acf-functions.php:98
+#: library/helper/pointer/welcome.php:105
+#: library/plugins/acf/fields/product_compare.php:25
+#: library/plugins/acf/fields/_load.php:20
+#: library/plugins/acf/fields/product.php:15
+#: library/plugins/acf/fields/widget_product_select.php:26
+#: library/plugins/acf/fields/options_general.php:419
+msgid "Produkte"
+msgstr ""
+
+#: library/product/posttype.php:18
+#: library/plugins/acf/fields/widget_product_advice.php:10
+msgid "Produkt"
+msgstr ""
+
+#: library/product/posttype.php:19
+msgid "Neues Produkt Erstellen"
+msgstr ""
+
+#: library/product/posttype.php:20
+msgid "Neues Produkt hinzuf&uuml;gen"
+msgstr ""
+
+#: library/product/posttype.php:21
+msgid "Produkt editieren"
+msgstr ""
+
+#: library/product/posttype.php:22
+msgid "Neues Produkt"
+msgstr ""
+
+#: library/product/posttype.php:24
+msgid "Zeige Produkt"
+msgstr ""
+
+#: library/product/posttype.php:25
+msgid "Suche Produkt"
+msgstr ""
+
+#: library/product/posttype.php:26
+msgid "Kein Produkt gefunden"
+msgstr ""
+
+#: library/product/comments.php:73
+#: library/plugins/tinymce/shortcodes-form.php:574
+#: library/plugins/acf/fields/options_product.php:722
+#: library/plugins/acf/fields/options_product.php:1011
+#: library/plugins/acf/fields/options_product.php:1560
+#: library/plugins/acf/fields/filter.php:193
+#: library/plugins/acf/fields/product.php:449
+#: library/plugins/acf/fields/widget_product_select.php:164
+#: library/plugins/acf/fields/filter_design.php:140
+msgid "Bewertung"
+msgstr ""
+
+#: library/product/rich-snippets.php:157
+msgid "Benutzerdefiniertes Feld"
+msgstr ""
+
+#: library/product/rich-snippets.php:164
+#, php-format
+msgid "Taxonomie: %s"
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:180
+msgid "Beta"
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:184
+msgid "Ja, ich möchte Beta-Updates beziehen."
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:192
+msgid ""
+"<strong>ACHTUNG</strong> Bitte beachte, dass es bei einer Beta Version zu "
+"Fehlern kommen kann. Daher solltest du diese Version nur in deiner "
+"Entwicklungsumgebung aktivieren. Zudem solltest du vor jedem Update immer "
+"ein Backup erstellen um deine Seiten bei Problemen wiederherstellen zu "
+"können."
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:220
+msgid ""
+"Dein Lizenzschlüssel ist abgelaufen. Du kannst das Theme zwar weiterhin "
+"nutzen, erhältst aber weder Updates noch Support."
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:284
+msgid ""
+"Die Verbindung zu unserem Lizenzserver (Domain: affiliatetheme.io) wird "
+"blockiert, bitte wende dich an deinen Hoster/Provider/Serveradministrator um "
+"dieses Problem zu lösen."
+msgstr ""
+
+#: library/plugins/edd/at-updater-admin.php:289
+msgid ""
+"Die Verbindung zu unserem Lizenzserver (Domain: affiliatetheme.io) kann "
+"nicht hergestellt werden, bitte wende dich an deinen "
+"Hoster/Provider/Serveradministrator um dieses Problem zu lösen."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:32
+msgid "Lizenz"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:33
+msgid "Bitte geben deinen Lizenzschlüssel an."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:34
+msgid "Lizenzschlüssel"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:35
+#: library/plugins/tinymce/shortcodes-form.php:785
+msgid "Aktion"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:36
+msgid "Deaktiviere Lizenz"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:37
+msgid "Aktiviere Lizenz"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:38 library/plugins/edd/at-updater.php:51
+msgid "Status der Lizenz unbekannt."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:39
+msgid "Erneuern?"
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:40
+msgid "unlimitiert."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:41
+msgid "Lizenzschlüssel ist valide."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:42
+#, php-format
+msgid "Läuft ab in %s."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:43
+msgid "Lifetime Lizenz."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:44
+#, php-format
+msgid "Du hast %1$s / %2$s Seiten aktiviert."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:45
+#, php-format
+msgid "Lizenzschlüssel läuft ab am %s."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:46
+msgid "Lizenzschlüssel ist abgelaufen."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:47
+msgid "Lizenzschlüssel stimmt nicht überein."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:48
+msgid "Lizenzschlüssel ist inaktiv."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:49
+msgid "Lizenzschlüssel ist deaktiviert."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:50
+msgid "Seite ist inaktiv."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:52
+msgid ""
+"Updates für dieses Theme überschreiben alle Änderungen in Dateien an diesem "
+"Theme. 'Abbrechen' um zu stoppen, 'OK' um Update durchzuführen."
+msgstr ""
+
+#: library/plugins/edd/at-updater.php:53
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> ist verfügbar. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4s\">Sieh dir an was es neues gibt</a> oder <a "
+"href=\"%5$s\"%6$s>aktualisiere jetzt</a>."
+msgstr ""
+
+#: library/plugins/tax-editor/editor.php:49
+#: library/plugins/acf/fields/filter.php:108
+#: library/plugins/acf/fields/filter.php:217
+#: library/plugins/acf/fields/filter.php:265
+#: library/plugins/acf/fields/filter.php:395
+msgid "Beschreibung"
+msgstr ""
+
+#: library/plugins/tax-editor/editor.php:51
+#: library/plugins/tax-editor/editor.php:72
+msgid ""
+"Die Beschreibung wird oberhalb der Produktauflistung angezeigt. Wenn du "
+"einen Text darunter anzeigen willst, dann nutze den unteren Editor "
+"(Erweritere Beschreibung)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:17
+#: library/plugins/kirki/kirki-customizer.php:126
+#: library/plugins/kirki/kirki-customizer.php:144
+#: library/plugins/acf/acf-functions.php:68
+#: library/plugins/acf/fields/options_product.php:9
+#: library/plugins/acf/fields/options_shop.php:9
+#: library/plugins/acf/fields/options_blog.php:9
+#: library/plugins/acf/fields/product.php:19
+#: library/plugins/acf/fields/options_design.php:9
+msgid "Allgemein"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:22
+msgid "Typography"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:27
+#: library/plugins/acf/fields/options_design.php:534
+msgid "Navigation"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:32
+#: library/plugins/acf/fields/shop.php:62
+#: library/plugins/acf/fields/options_product.php:584
+#: library/plugins/acf/fields/options_product.php:839
+#: library/plugins/acf/fields/options_product.php:1219
+#: library/plugins/acf/fields/page.php:5
+#: library/plugins/acf/fields/options_shop.php:113
+#: library/plugins/acf/fields/options_shop.php:256
+#: library/plugins/acf/fields/options_blog.php:24
+#: library/plugins/acf/fields/options_blog.php:266
+#: library/plugins/acf/fields/options_blog.php:487
+#: library/plugins/acf/fields/options_blog.php:708
+#: library/plugins/acf/fields/options_blog.php:929
+#: library/plugins/acf/fields/options_blog.php:1150
+#: library/plugins/acf/fields/product.php:1193
+#: library/plugins/acf/fields/page_builder.php:9
+#: library/plugins/acf/fields/filter_design.php:9
+#: library/plugins/acf/fields/options_general.php:758
+msgid "Sidebar"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:44
+#: library/plugins/kirki/kirki-customizer.php:196
+msgid "Hintergrund"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:50
+msgid "Boxed Layout"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:56
+msgid "Überschriften"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:62
+#: library/plugins/tinymce/shortcodes-form.php:110
+#: library/plugins/tinymce/shortcodes-form.php:305
+#: library/plugins/tinymce/shortcodes-form.php:311
+#: library/plugins/tinymce/shortcodes-form.php:317
+#: library/plugins/tinymce/shortcodes-form.php:323
+#: library/plugins/tinymce/shortcodes-form.php:329
+#: library/plugins/tinymce/shortcodes-form.php:335
+#: library/plugins/tinymce/shortcodes-form.php:341
+#: library/plugins/tinymce/shortcodes-form.php:347
+#: library/plugins/tinymce/shortcodes-form.php:353
+#: library/plugins/tinymce/shortcodes-form.php:359
+#: library/plugins/tinymce/shortcodes-form.php:386
+#: library/plugins/tinymce/shortcodes-form.php:397
+#: library/plugins/tinymce/shortcodes-form.php:408
+#: library/plugins/tinymce/shortcodes-form.php:419
+#: library/plugins/tinymce/shortcodes-form.php:430
+#: library/plugins/tinymce/shortcodes-form.php:441
+#: library/plugins/tinymce/shortcodes-form.php:452
+#: library/plugins/tinymce/shortcodes-form.php:463
+#: library/plugins/tinymce/shortcodes-form.php:474
+#: library/plugins/tinymce/shortcodes-form.php:485
+#: library/plugins/acf/fields/slider.php:185
+#: library/plugins/acf/fields/page_builder.php:608
+#: library/plugins/acf/fields/page_builder.php:1097
+#: library/plugins/acf/fields/page_builder.php:1194
+#: library/plugins/acf/fields/options_general.php:253
+msgid "Text"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:68
+#: library/plugins/tinymce/shortcodes-form.php:191
+#: library/plugins/acf/fields/options_product.php:597
+#: library/plugins/acf/fields/options_product.php:852
+#: library/plugins/acf/fields/options_product.php:1232
+#: library/plugins/acf/fields/options_shop.php:126
+#: library/plugins/acf/fields/options_shop.php:269
+#: library/plugins/acf/fields/options_blog.php:37
+#: library/plugins/acf/fields/options_blog.php:279
+#: library/plugins/acf/fields/options_blog.php:500
+#: library/plugins/acf/fields/options_blog.php:721
+#: library/plugins/acf/fields/options_blog.php:942
+#: library/plugins/acf/fields/options_blog.php:1163
+#: library/plugins/acf/fields/page_builder.php:23
+#: library/plugins/acf/fields/filter_design.php:22
+#: library/plugins/acf/fields/options_general.php:771
+msgid "Links"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:74
+msgid "Selection"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:80
+msgid "Allgemeiner Button"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:86
+msgid "Details Button"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:92
+msgid "Kaufen Button"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:98
+msgid "Link Button"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:109
+#: library/plugins/acf/fields/options_design.php:281
+msgid "Header"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:114
+msgid "Leiste"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:120
+msgid "Dropdown"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:132
+#: library/plugins/tinymce/shortcodes-form.php:810
+msgid "Block"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:138
+#: library/plugins/tinymce/shortcodes-form.php:811
+msgid "Inline"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:150
+msgid "Widgets: Allgemein"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:156
+msgid "Widgets: Block"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:162
+msgid "Widgets: Inline"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:168
+#: library/plugins/acf/fields/options_design.php:710
+msgid "Breadcrumbs"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:178
+msgid "Tabellen"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:183
+#: library/plugins/acf/fields/options_product.php:2058
+msgid "Sonstiges"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:217
+#: library/plugins/kirki/kirki-customizer.php:417
+#: library/plugins/kirki/kirki-customizer.php:464
+#: library/plugins/kirki/kirki-customizer.php:504
+#: library/plugins/kirki/kirki-customizer.php:583
+#: library/plugins/kirki/kirki-customizer.php:700
+#: library/plugins/kirki/kirki-customizer.php:970
+#: library/plugins/kirki/kirki-customizer.php:1018
+#: library/plugins/kirki/kirki-customizer.php:1139
+#: library/plugins/kirki/kirki-customizer.php:1223
+#: library/plugins/kirki/kirki-customizer.php:1354
+#: library/plugins/kirki/kirki-functions.php:19
+#: library/plugins/acf/fields/slider.php:98
+#: library/plugins/acf/fields/page_builder.php:227
+#: library/plugins/acf/fields/page_builder.php:545
+#: library/plugins/acf/fields/page_builder.php:728
+#: library/plugins/acf/fields/page_builder.php:933
+#: library/plugins/acf/fields/page_builder.php:1266
+msgid "Hintergrundfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:234
+msgid "Schattenfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:243
+msgid "Schattenstärke"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:260
+msgid "Überschrift "
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:308
+msgid "Text "
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:380
+#: library/plugins/kirki/kirki-customizer.php:734
+#: library/plugins/kirki/kirki-customizer.php:888
+#: library/plugins/kirki/kirki-customizer.php:988
+#: library/plugins/kirki/kirki-customizer.php:1091
+#: library/plugins/kirki/kirki-customizer.php:1118
+#: library/plugins/kirki/kirki-customizer.php:1157
+#: library/plugins/kirki/kirki-customizer.php:1205
+#: library/plugins/kirki/kirki-customizer.php:1306
+#: library/plugins/kirki/kirki-customizer.php:1333
+#: library/plugins/kirki/kirki-customizer.php:1372
+msgid "Linkfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:397
+msgid "Linkfarbe (Hover/Focus)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:439
+#: library/plugins/kirki/kirki-customizer.php:474
+#: library/plugins/kirki/kirki-customizer.php:526
+#: library/plugins/kirki/kirki-customizer.php:605
+#: library/plugins/kirki/kirki-customizer.php:662
+#: library/plugins/kirki/kirki-customizer.php:717
+#: library/plugins/kirki/kirki-customizer.php:789
+#: library/plugins/kirki/kirki-customizer.php:1036
+#: library/plugins/kirki/kirki-customizer.php:1064
+#: library/plugins/kirki/kirki-customizer.php:1241
+#: library/plugins/kirki/kirki-customizer.php:1269
+#: library/plugins/kirki/kirki-functions.php:76
+msgid "Schriftfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:484
+#: library/plugins/kirki/kirki-customizer.php:544
+#: library/plugins/kirki/kirki-customizer.php:623
+#: library/plugins/kirki/kirki-customizer.php:979
+#: library/plugins/kirki/kirki-customizer.php:1109
+#: library/plugins/kirki/kirki-customizer.php:1324
+msgid "Hintergrundfarbe (Hover)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:494
+#: library/plugins/kirki/kirki-customizer.php:566
+#: library/plugins/kirki/kirki-customizer.php:645
+#: library/plugins/kirki/kirki-customizer.php:680
+msgid "Schriftfarbe (Hover)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:751
+#: library/plugins/kirki/kirki-customizer.php:907
+#: library/plugins/kirki/kirki-customizer.php:997
+#: library/plugins/kirki/kirki-customizer.php:1100
+#: library/plugins/kirki/kirki-customizer.php:1127
+#: library/plugins/kirki/kirki-customizer.php:1166
+#: library/plugins/kirki/kirki-customizer.php:1214
+#: library/plugins/kirki/kirki-customizer.php:1315
+#: library/plugins/kirki/kirki-customizer.php:1342
+#: library/plugins/kirki/kirki-customizer.php:1381
+msgid "Linkfarbe (Hover)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:771
+msgid "Hintergrundfarbe (Top)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:780
+msgid "Hintergrundfarbe (Bottom)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:806
+msgid "Schriftart (Blogname)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:833
+msgid "Schriftfarbe (Blogname)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:850
+msgid "Blogname (Hover)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:870
+#: library/plugins/kirki/kirki-customizer.php:1073
+#: library/plugins/kirki/kirki-customizer.php:1278
+msgid "Hintergrundfarbe (Oben)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:879
+#: library/plugins/kirki/kirki-customizer.php:1082
+#: library/plugins/kirki/kirki-customizer.php:1287
+msgid "Hintergrundfarbe (Unten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:897
+msgid "Linkfarbe (Textschatten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:916
+#: library/plugins/kirki/kirki-customizer.php:1006
+msgid "Linkfarbe (aktiv)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:925
+msgid "Linkfarbe (Brand)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:934
+msgid "Hintergrundfarbe (Hover/Oben)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:943
+msgid "Hintergrundfarbe (Hover/Unten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:952
+msgid "Rahmenfarbe (Links)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:961
+msgid "Rahmenfarbe (Rechts)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1027
+#: library/plugins/kirki/kirki-customizer.php:1232
+msgid "Rahmenfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1045
+msgid "Text (hell)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1048
+#: library/plugins/kirki/kirki-customizer.php:1253
+msgid "Wird u.A. für den Counter im Kategorie/Taxonomie Widget verwendet."
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1055
+#: library/plugins/kirki/kirki-customizer.php:1260
+#: library/plugins/acf/fields/page_builder.php:1305
+msgid "Überschrift"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1148
+#: library/plugins/kirki/kirki-customizer.php:1196
+#: library/plugins/kirki/kirki-customizer.php:1363
+msgid "Textfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1178
+msgid "Hintergrundfarbe (oben)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1187
+msgid "Hintergrundfarbe (unten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1250
+msgid "Schriftfarbe (hell)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1296
+msgid "Abschließender Rahmen"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1393
+#: library/plugins/tinymce/shortcodes-form.php:575
+#: library/plugins/acf/fields/options_product.php:721
+#: library/plugins/acf/fields/options_product.php:1010
+#: library/plugins/acf/fields/options_product.php:1559
+#: library/plugins/acf/fields/filter.php:84
+#: library/plugins/acf/fields/product.php:123
+#: library/plugins/acf/fields/product.php:332
+#: library/plugins/acf/fields/widget_product_select.php:163
+#: library/plugins/acf/fields/filter_design.php:139
+msgid "Preis"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1402
+msgid "Streichpreis"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1411
+msgid "Sterne (leer)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1420
+msgid "Sterne (voll)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1429
+msgid "Preis Hinweis"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1441
+msgid "Kopfzeile - Hintergrundfarbe (Oben)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1450
+msgid "Kopfzeile - Hintergrundfarbe (Unten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1459
+msgid "Kopfzeile - Textfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1468
+msgid "Highlight (Kopfzeile)  - Hintergrundfarbe (Oben)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1477
+msgid "Highlight (Kopfzeile) - Hintergrundfarbe (Unten)"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1486
+msgid "Highlight (Kopfzeile)  - Textfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1495
+msgid "Highlight (Spalte) - Hintergrundfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1504
+msgid "Highlight (Spalte) - Rahmenfarbe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1516
+msgid "Custom 1"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1518
+msgid ""
+"Dieser Farbwert legt die Farbe für verschiedene Bereiche, wie etwa die "
+"Pagination, Tabs, Toggles und den Filter-Slider fest."
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1526
+msgid "Custom 2"
+msgstr ""
+
+#: library/plugins/kirki/kirki-customizer.php:1528
+msgid ""
+"Dieser Farbwert dient vor allem für verlinkte Überschriften, wie etwa "
+"Produktname oder Blogtitle (Empfehlung: gleiche Farbe wie Überschriften)."
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:20
+#: library/plugins/acf/fields/page_builder.php:1281
+msgid "Hintergrundbild"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:21
+msgid "No Repeat"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:22
+msgid "Repeat All"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:23
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:24
+msgid "Repeat Vertically"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:25
+msgid "Inherit"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:26
+msgid "Background Repeat"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:27
+msgid "Cover"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:28
+msgid "Contain"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:29
+msgid "Background Size"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:30
+msgid "Fixed"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:31
+msgid "Scroll"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:32
+msgid "Background Attachment"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:33
+msgid "Left Top"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:34
+msgid "Left Center"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:35
+msgid "Left Bottom"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:36
+msgid "Right Top"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:37
+msgid "Right Center"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:38
+msgid "Right Bottom"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:39
+msgid "Center Top"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:40
+msgid "Center Center"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:41
+msgid "Center Bottom"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:42
+msgid "Background Position"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:43
+msgid "Background Opacity"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:44
+msgid "An"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:45
+msgid "Aus"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:46
+msgid "All"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:47
+msgid "Cyrillic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:48
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:49
+msgid "Devanagari"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:50
+msgid "Greek"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:51
+msgid "Greek Extended"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:52
+msgid "Khmer"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:53
+msgid "Latin"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:54
+msgid "Latin Extended"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:55
+msgid "Vietnamese"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:56
+msgid "Hebrew"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:57
+msgid "Arabic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:58
+msgid "Bengali"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:59
+msgid "Gujarati"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:60
+msgid "Tamil"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:61
+msgid "Telugu"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:62
+msgid "Thai"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:63
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:64
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:65
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:66
+msgid "Schriftart"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:67
+msgid "Schriftgröße"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:68
+#: library/plugins/kirki/kirki-functions.php:82
+msgid "Schriftstärke"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:69
+msgid "Lininehöhe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:70
+msgid "Schriftstil"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:71
+msgid "Zeichenabstand"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:72
+msgid "Top"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:73
+msgid "Bottom"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:74
+msgid "Left"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:75
+msgid "Right"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:77
+msgid "Add Image"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:78
+msgid "Change Image"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:79
+msgid "Remove"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:80
+msgid "No Image Selected"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:81
+msgid "Schriftart wählen"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:83
+msgid "Subset"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:84
+#: library/plugins/tinymce/shortcodes-form.php:141
+msgid "Größe"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:85
+msgid "Height"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:86
+msgid "Spacing"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:87
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:88
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:89
+msgid "Light 200"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:90
+msgid "Light 200 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:91
+msgid "Book 300"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:92
+msgid "Book 300 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:93
+msgid "Normal 400"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:94
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:95
+msgid "Medium 500"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:96
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:97
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:98
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:99
+msgid "Bold 700"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:100
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:101
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:102
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:103
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:104
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: library/plugins/kirki/kirki-functions.php:105
+msgid "Invalid Value"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:18
+#: library/plugins/tinymce/shortcodes-form.php:540
+#: library/plugins/tinymce/shortcodes-form.php:616
+#: library/plugins/acf/fields/options_product.php:568
+#: library/plugins/acf/fields/options_product.php:957
+#: library/plugins/acf/fields/options_product.php:1521
+#: library/plugins/acf/fields/options_product.php:1651
+#: library/plugins/acf/fields/options_shop.php:374
+#: library/plugins/acf/fields/options_blog.php:1512
+#: library/plugins/acf/fields/filter_design.php:90
+msgid "Grid"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:19
+#: library/plugins/tinymce/shortcodes-form.php:105
+#: library/plugins/acf/fields/options_product.php:174
+msgid "Buttons"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:20
+#: library/plugins/tinymce/shortcodes-form.php:226
+msgid "Alerts"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:21
+#: library/plugins/tinymce/shortcodes-form.php:253
+msgid "Media"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:22
+#: library/plugins/acf/fields/page_builder.php:890
+msgid "Tabs"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:23
+#: library/plugins/tinymce/shortcodes-form.php:376
+#: library/plugins/acf/fields/page_builder.php:685
+msgid "Accordion"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:24
+#: library/plugins/tinymce/shortcodes-form.php:498
+msgid "Blog-Beiträge"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:26
+#: library/plugins/tinymce/shortcodes-form.php:745
+msgid "Infobox"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:27
+#: library/plugins/tinymce/shortcodes-form.php:763
+#: library/plugins/acf/fields/options_product.php:1769
+msgid "Preisvergleich"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:28
+#: library/plugins/tinymce/shortcodes-form.php:781
+msgid "Responsive Content"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:29
+#: library/plugins/tinymce/shortcodes-form.php:828
+msgid "Taxonomie-Bilder"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:43
+msgid "Wähle das gewünschte Layout aus"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:84
+msgid "Spalte 1"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:88
+msgid "Spalte 2"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:92
+msgid "Spalte 3"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:96
+msgid "Spalte 4"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:106
+msgid ""
+"Einige Beispiele findest du hier: http://demo01.affiliatetheme."
+"io/content/typografie/"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:116
+#: library/plugins/acf/fields/slider.php:203
+#: library/plugins/acf/fields/product.php:309
+#: library/plugins/acf/fields/page_builder.php:626
+msgid "Link"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:119
+msgid "Externe URLs müssen http:// oder https:// enthalten!"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:123
+#: library/plugins/acf/fields/shop.php:47
+msgid "Farbe"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:126
+msgid "Custom Farbe (Customizer, btn-primary)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:127
+msgid "Hellgrau (btn-grayl)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:128
+msgid "Grau (btn-gray)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:129
+msgid "Dunkelgrau (btn-grayd)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:130
+msgid "Schwarz (btn-black)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:131
+msgid "Weiß (btn-default)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:132
+msgid "Grün (btn-success)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:133
+msgid "Blau (btn-info)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:134
+msgid "Orange (btn-warning)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:135
+msgid "Rot (btn-danger)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:136
+msgid "Transparent (btn-link)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:144
+#: library/plugins/acf/fields/options_general.php:220
+msgid "Extra Klein"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:145
+#: library/plugins/acf/fields/options_general.php:221
+msgid "Klein"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:146
+#: library/plugins/acf/fields/options_general.php:219
+msgid "Normal"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:147
+#: library/plugins/acf/fields/options_general.php:222
+msgid "Groß"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:152
+msgid "Form"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:155
+msgid "Eckig (btn-square)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:156
+msgid "Leicht Rund (btn-rounded)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:157
+msgid "Rund (btn-round)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:162
+msgid "Kontur (Outline)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:165
+#: library/plugins/tinymce/shortcodes-form.php:174
+#: library/plugins/tinymce/shortcodes-form.php:200
+#: library/plugins/tinymce/shortcodes-form.php:209
+#: library/plugins/tinymce/shortcodes-form.php:886
+#: library/plugins/tinymce/shortcodes-form.php:912
+#: library/plugins/acf/fields/options_product.php:2185
+#: library/plugins/acf/fields/options_general.php:257
+msgid "Nein"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:166
+#: library/plugins/tinymce/shortcodes-form.php:175
+#: library/plugins/tinymce/shortcodes-form.php:201
+#: library/plugins/tinymce/shortcodes-form.php:210
+#: library/plugins/tinymce/shortcodes-form.php:885
+#: library/plugins/tinymce/shortcodes-form.php:913
+#: library/plugins/acf/fields/options_product.php:2164
+#: library/plugins/acf/fields/page_builder.php:657
+#: library/plugins/acf/fields/page_builder.php:673
+#: library/plugins/acf/fields/options_general.php:258
+msgid "Ja"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:171
+msgid "Volle Breite (Block)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:180
+msgid "Icon"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:183
+msgid ""
+"Du findest alle Möglichen Icons hier: http://fortawesome.github.io/Font-"
+"Awesome/icons/"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:187
+msgid "Position des Icons"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:192
+#: library/plugins/acf/fields/options_product.php:598
+#: library/plugins/acf/fields/options_product.php:851
+#: library/plugins/acf/fields/options_product.php:1231
+#: library/plugins/acf/fields/options_shop.php:125
+#: library/plugins/acf/fields/options_shop.php:268
+#: library/plugins/acf/fields/options_blog.php:36
+#: library/plugins/acf/fields/options_blog.php:278
+#: library/plugins/acf/fields/options_blog.php:499
+#: library/plugins/acf/fields/options_blog.php:720
+#: library/plugins/acf/fields/options_blog.php:941
+#: library/plugins/acf/fields/options_blog.php:1162
+#: library/plugins/acf/fields/page_builder.php:22
+#: library/plugins/acf/fields/filter_design.php:23
+#: library/plugins/acf/fields/options_general.php:770
+msgid "Rechts"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:197
+msgid "Link im neuen Tab öffnen?"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:206
+msgid "Nofollow?"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:215
+msgid "Weitere CSS-Klasse(n)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:230
+#: library/plugins/tinymce/shortcodes-form.php:258
+msgid "Style"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:233
+msgid "Grün"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:234
+msgid "Blau"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:235
+msgid "Gelb"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:236
+msgid "Rot"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:238
+msgid ""
+"Ein Beispiel findest du hier: http://getbootstrap.com/components/#alerts"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:242
+#: library/plugins/tinymce/shortcodes-form.php:287
+#: library/plugins/tinymce/shortcodes-form.php:818
+#: library/plugins/acf/fields/shop.php:98
+#: library/plugins/acf/fields/product.php:1245
+#: library/plugins/acf/fields/page_builder.php:845
+#: library/plugins/acf/fields/page_builder.php:1005
+#: library/plugins/acf/fields/options_design.php:797
+msgid "Inhalt"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:261
+msgid "Objekt Links"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:262
+msgid "Objekt rechts"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:264
+msgid "Ein Beispiel findest du hier: http://getbootstrap.com/components/#media"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:268
+msgid "Horizontale Ausrichtung"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:271
+#: library/plugins/acf/fields/options_blog.php:1291
+#: library/plugins/acf/fields/options_general.php:349
+#: library/plugins/acf/fields/options_general.php:402
+#: library/plugins/acf/fields/options_general.php:455
+msgid "Oben"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:272
+#: library/plugins/acf/fields/options_shop.php:458
+msgid "Mittig"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:273
+#: library/plugins/acf/fields/options_blog.php:1292
+#: library/plugins/acf/fields/options_general.php:350
+#: library/plugins/acf/fields/options_general.php:403
+#: library/plugins/acf/fields/options_general.php:456
+msgid "Unten"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:275
+msgid "Horizontale Ausrichtung des Bildes"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:279
+msgid "Objekt"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:283
+msgid "Bitte gebe hier z.B. ein Bild an (komplettes HTML-Tag!)."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:298
+msgid "Tabs hinzufügen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:303
+msgid "Tab 1"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:304
+#: library/plugins/tinymce/shortcodes-form.php:310
+#: library/plugins/tinymce/shortcodes-form.php:316
+#: library/plugins/tinymce/shortcodes-form.php:322
+#: library/plugins/tinymce/shortcodes-form.php:328
+#: library/plugins/tinymce/shortcodes-form.php:334
+#: library/plugins/tinymce/shortcodes-form.php:340
+#: library/plugins/tinymce/shortcodes-form.php:346
+#: library/plugins/tinymce/shortcodes-form.php:352
+#: library/plugins/tinymce/shortcodes-form.php:358
+#: library/plugins/tinymce/shortcodes-form.php:385
+#: library/plugins/tinymce/shortcodes-form.php:396
+#: library/plugins/tinymce/shortcodes-form.php:407
+#: library/plugins/tinymce/shortcodes-form.php:418
+#: library/plugins/tinymce/shortcodes-form.php:429
+#: library/plugins/tinymce/shortcodes-form.php:440
+#: library/plugins/tinymce/shortcodes-form.php:451
+#: library/plugins/tinymce/shortcodes-form.php:462
+#: library/plugins/tinymce/shortcodes-form.php:473
+#: library/plugins/tinymce/shortcodes-form.php:484
+msgid "Label"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:309
+msgid "Tab 2"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:315
+msgid "Tab 3"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:321
+msgid "Tab 4"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:327
+msgid "Tab 5"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:333
+msgid "Tab 6"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:339
+msgid "Tab 7"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:345
+msgid "Tab 8"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:351
+msgid "Tab 9"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:357
+msgid "Tab 10"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:368
+msgid "Accordions hinzufügen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:373
+#: library/plugins/acf/fields/page_builder.php:743
+msgid "Auszeichnung"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:377
+msgid "FAQ"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:379
+msgid ""
+"Bestimme die Auszeichnung im Frontend. Für FAQ wird die FAQ <a href=\"https:"
+"//developers.google.com/search/docs/data-types/faqpage?hl=de\" "
+"target=\"_blank\">Auszeichung für strukturierte Daten</a> verwendet."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:383
+msgid "Toggle 1"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:387
+#: library/plugins/tinymce/shortcodes-form.php:398
+#: library/plugins/tinymce/shortcodes-form.php:409
+#: library/plugins/tinymce/shortcodes-form.php:420
+#: library/plugins/tinymce/shortcodes-form.php:431
+#: library/plugins/tinymce/shortcodes-form.php:442
+#: library/plugins/tinymce/shortcodes-form.php:453
+#: library/plugins/tinymce/shortcodes-form.php:464
+#: library/plugins/tinymce/shortcodes-form.php:475
+#: library/plugins/tinymce/shortcodes-form.php:486
+msgid "Ausgangszustand"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:388
+#: library/plugins/tinymce/shortcodes-form.php:399
+#: library/plugins/tinymce/shortcodes-form.php:410
+#: library/plugins/tinymce/shortcodes-form.php:421
+#: library/plugins/tinymce/shortcodes-form.php:432
+#: library/plugins/tinymce/shortcodes-form.php:443
+#: library/plugins/tinymce/shortcodes-form.php:454
+#: library/plugins/tinymce/shortcodes-form.php:465
+#: library/plugins/tinymce/shortcodes-form.php:476
+#: library/plugins/tinymce/shortcodes-form.php:487
+msgid "Geschlossen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:389
+#: library/plugins/tinymce/shortcodes-form.php:400
+#: library/plugins/tinymce/shortcodes-form.php:411
+#: library/plugins/tinymce/shortcodes-form.php:422
+#: library/plugins/tinymce/shortcodes-form.php:433
+#: library/plugins/tinymce/shortcodes-form.php:444
+#: library/plugins/tinymce/shortcodes-form.php:455
+#: library/plugins/tinymce/shortcodes-form.php:466
+#: library/plugins/tinymce/shortcodes-form.php:477
+#: library/plugins/tinymce/shortcodes-form.php:488
+#: library/plugins/acf/fields/page_builder.php:826
+msgid "Geöffnet"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:394
+msgid "Toggle 2"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:405
+msgid "Toggle 3"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:416
+msgid "Toggle 4"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:427
+msgid "Toggle 5"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:438
+msgid "Toggle 6"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:449
+msgid "Toggle 7"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:460
+msgid "Toggle 8"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:471
+msgid "Toggle 9"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:482
+msgid "Toggle 10"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:502
+msgid "Anzahl von Beiträgen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:506
+msgid "Wieviele Beiträge sollen ausgegeben werden?"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:511
+#: library/plugins/tinymce/shortcodes-form.php:564
+#: library/plugins/tinymce/shortcodes-form.php:862
+msgid "Sortieren nach"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:514
+#: library/plugins/tinymce/shortcodes-form.php:567
+#: library/plugins/acf/fields/options_product.php:719
+#: library/plugins/acf/fields/options_product.php:1008
+#: library/plugins/acf/fields/options_product.php:1557
+#: library/plugins/acf/fields/options_blog.php:1332
+#: library/plugins/acf/fields/options_blog.php:1586
+#: library/plugins/acf/fields/widget_product_select.php:161
+#: library/plugins/acf/fields/filter_design.php:137
+msgid "Datum"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:515
+#: library/plugins/tinymce/shortcodes-form.php:568
+#: library/plugins/tinymce/shortcodes-form.php:866
+#: library/plugins/acf/fields/page_builder.php:690
+#: library/plugins/acf/fields/page_builder.php:895
+#: library/plugins/acf/fields/page_builder.php:1055
+#: library/plugins/acf/fields/page_builder.php:1224
+#: library/plugins/acf/fields/page_builder.php:1359
+msgid "ID"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:517
+#: library/plugins/tinymce/shortcodes-form.php:570
+msgid "Zuletzt geändert"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:518
+#: library/plugins/tinymce/shortcodes-form.php:571
+#: library/plugins/acf/fields/options_product.php:725
+#: library/plugins/acf/fields/options_product.php:1014
+#: library/plugins/acf/fields/options_product.php:1563
+#: library/plugins/acf/fields/options_blog.php:1588
+#: library/plugins/acf/fields/filter_design.php:143
+msgid "Zufällig"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:519
+#: library/plugins/tinymce/shortcodes-form.php:572
+msgid "Anzahl Kommentare"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:520
+#: library/plugins/tinymce/shortcodes-form.php:573
+#: library/plugins/acf/fields/options_product.php:724
+#: library/plugins/acf/fields/options_product.php:1013
+#: library/plugins/acf/fields/options_product.php:1562
+#: library/plugins/acf/fields/filter_design.php:142
+msgid "Menü Reihenfolge"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:525
+#: library/plugins/tinymce/shortcodes-form.php:581
+#: library/plugins/tinymce/shortcodes-form.php:873
+#: library/plugins/acf/fields/options_product.php:740
+#: library/plugins/acf/fields/options_product.php:1029
+#: library/plugins/acf/fields/options_product.php:1578
+#: library/plugins/acf/fields/options_blog.php:1603
+#: library/plugins/acf/fields/widget_product_select.php:179
+#: library/plugins/acf/fields/filter_design.php:156
+msgid "Reihenfolge"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:528
+#: library/plugins/tinymce/shortcodes-form.php:584
+#: library/plugins/tinymce/shortcodes-form.php:876
+#: library/plugins/acf/fields/options_product.php:752
+#: library/plugins/acf/fields/options_product.php:1041
+#: library/plugins/acf/fields/options_product.php:1598
+#: library/plugins/acf/fields/options_blog.php:1628
+#: library/plugins/acf/fields/widget_product_select.php:199
+#: library/plugins/acf/fields/filter_design.php:168
+msgid "Absteigend"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:529
+#: library/plugins/tinymce/shortcodes-form.php:585
+#: library/plugins/tinymce/shortcodes-form.php:877
+#: library/plugins/acf/fields/options_product.php:753
+#: library/plugins/acf/fields/options_product.php:1042
+#: library/plugins/acf/fields/options_product.php:1599
+#: library/plugins/acf/fields/options_blog.php:1629
+#: library/plugins/acf/fields/widget_product_select.php:200
+#: library/plugins/acf/fields/filter_design.php:169
+msgid "Aufsteigend"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:534
+#: library/plugins/tinymce/shortcodes-form.php:807
+#: library/plugins/acf/fields/product.php:792
+msgid "Stil"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:537
+#: library/plugins/acf/fields/options_blog.php:141
+#: library/plugins/acf/fields/options_blog.php:383
+#: library/plugins/acf/fields/options_blog.php:604
+#: library/plugins/acf/fields/options_blog.php:825
+#: library/plugins/acf/fields/options_blog.php:1046
+msgid "Thumbnail"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:538
+msgid "Large"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:539
+#: library/plugins/acf/fields/options_blog.php:1511
+msgid "Einfache Liste"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:549
+msgid "Produkte hinzufügen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:554
+msgid "Anzahl von Produkten"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:558
+msgid ""
+"Wieviele Produkte sollen ausgegeben werden? Diese Option ist nicht<br>\n"
+"                                            relevant wenn nur ausgewählte "
+"Produkte angezeigt werden sollen."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:576
+msgid "Eigene Reihenfolge (include)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:590
+msgid "Produkte filtern"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:592
+msgid "Es können nur bestimmte Produkte angezeigt oder ausgeblendet werden."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:594
+msgid "Nichts"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:595
+msgid "Auswahl an Produkten anzeigen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:596
+msgid "Auswahl an Produkten ausblenden"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:601
+msgid "Produktauswahl"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:604
+msgid "Bitte im obigen Auswahlfeld eine Auswahl treffen."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:612
+#: library/plugins/acf/fields/options_product.php:555
+#: library/plugins/acf/fields/options_general.php:297
+msgid "Darstellung"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:615
+#: library/plugins/acf/fields/options_product.php:567
+#: library/plugins/acf/fields/options_product.php:956
+#: library/plugins/acf/fields/options_product.php:1520
+#: library/plugins/acf/fields/options_product.php:1650
+#: library/plugins/acf/fields/options_shop.php:373
+#: library/plugins/acf/fields/filter_design.php:89
+msgid "Liste"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:617
+#: library/plugins/acf/fields/options_product.php:569
+#: library/plugins/acf/fields/options_product.php:958
+#: library/plugins/acf/fields/options_product.php:1522
+#: library/plugins/acf/fields/options_product.php:1652
+#: library/plugins/acf/fields/filter_design.php:91
+msgid "Grid mit Hover-Effekt"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:618
+msgid "Tabelle (X-Achse)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:619
+msgid "Tabelle (Y-Achse)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:624
+msgid "Eigene Bewertung"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:627
+#: library/plugins/tinymce/shortcodes-form.php:639
+#: library/plugins/tinymce/shortcodes-form.php:652
+#: library/plugins/tinymce/shortcodes-form.php:661
+#: library/plugins/tinymce/shortcodes-form.php:670
+#: library/plugins/tinymce/shortcodes-form.php:679
+msgid "Ausblenden"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:628
+#: library/plugins/tinymce/shortcodes-form.php:640
+#: library/plugins/tinymce/shortcodes-form.php:651
+#: library/plugins/tinymce/shortcodes-form.php:660
+#: library/plugins/tinymce/shortcodes-form.php:669
+#: library/plugins/tinymce/shortcodes-form.php:678
+#: library/plugins/tinymce/shortcodes-form.php:788
+msgid "Anzeigen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:631
+msgid ""
+"Mit diesem Parameter kannst du für die Tabellen-Layouts (X/Y) die „Eigenen "
+"Bewertungen“ als eigene Spalte anzeigen lassen."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:636
+#: library/plugins/acf/fields/product.php:55
+msgid "Preisvergleich anzeigen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:643
+msgid ""
+"Mit diesem Parameter kannst du für die Tabellen-Layouts (X) den "
+"„Preisvergleich“ als eigene Spalte anzeigen lassen."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:648
+msgid "Button: Detail"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:657
+msgid "Button: Kaufen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:666
+#: library/plugins/acf/acf-functions.php:351
+msgid "Eigenschaften"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:675
+#: library/plugins/acf/fields/options_product.php:369
+#: library/plugins/acf/fields/options_product.php:411
+msgid "Taxonomien"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:684
+msgid "Minimaler Preis"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:688
+msgid ""
+"Mit diesem Filter kannst du z.B. Produkte ab einem Preis von xx.xx Euro "
+"ausgeben."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:693
+msgid "Maximaler Preis"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:697
+msgid ""
+"Mit diesem Filter kannst du z.B. Produkte bis zu einem Preis von xx.xx Euro "
+"ausgeben."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:702
+msgid "Nur Angebote"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:705
+msgid "Nein, alle Produkte anzeigen."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:706
+msgid "Ja, nur Angebote anzeigen!"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:709
+msgid ""
+"Mit dieser Option kannst du deine Ausgabe auf Angebote (mit Streichpreis) "
+"beschränken."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:714
+msgid "Ausrichtung"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:717
+#: library/plugins/acf/fields/options_shop.php:456
+msgid "Linksbündig"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:718
+#: library/plugins/acf/fields/options_shop.php:457
+msgid "Rechtsbündig"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:721
+msgid ""
+"Diese Option greift nur, wenn maximal 1 Produkt ausgegeben wird. Du kannst "
+"das Produkt\n"
+"                                            dann z.B. Links oder "
+"Rechtsbündig vom Text darstellen lassen. Beachte das dies natürlich nur mit "
+"dem Grid-Layout\n"
+"                                            funktionieren kann."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:728
+msgid "Slider"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:731
+#: library/plugins/acf/fields/options_product.php:237
+#: library/plugins/acf/fields/options_product.php:253
+#: library/plugins/acf/fields/options_product.php:1142
+#: library/plugins/acf/fields/options_product.php:2027
+msgid "Deaktivieren"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:732
+msgid "Aktivieren"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:735
+msgid ""
+"Wenn du den Slider aktivierst, wird automatisch das Grid-Layout aktiviert."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:750
+#: library/plugins/tinymce/shortcodes-form.php:768
+msgid "Produktauswahl (optional)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:753
+msgid ""
+"Wenn du den Shortcode auf einer Produktseite ausgibst, wird die Infobox des "
+"aktuellen Produktes verwendet. Natürlich kannst du aber auf jeder beliebigen "
+"Seite die Infobox eines gewünschten Produktes ausgeben. Dazu wähle hier im "
+"Dropdown einfach das Produkt aus."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:771
+msgid ""
+"Wenn du den Shortcode auf einer Produktseite ausgibst, wird der "
+"Preisvergleich des aktuellen Produktes verwendet. Natürlich kannst du aber "
+"auf jeder beliebigen Seite den Preisvergleich eines gewünschten Produktes "
+"ausgeben. Dazu wähle hier im Dropdown einfach das Produkt aus."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:789
+#: library/plugins/acf/fields/product.php:759
+msgid "Verstecken"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:791
+msgid ""
+"Was soll mit dem Inhalt geschehen? Er kann versteckt oder angezeigt werden"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:795
+msgid "Devices"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:798
+msgid "Smartphone"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:799
+msgid "Tablets"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:800
+msgid "Notebooks / kleinere Desktops"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:801
+msgid "Desktops"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:803
+msgid ""
+"Wähle hier aus, auf welchen Devices der Inhalt versteckt/angezeigt werden "
+"soll."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:812
+msgid "Inline-Block"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:814
+msgid ""
+"Gilt nur für \"Anzeigen\". Wenn du innerhalb eines Textes besimmte Wörter "
+"ausblenden/anzeigen willst, wähle hier \"Inline\". Wenn du Block wählst, "
+"bricht der Inhalt in einen Absatz um."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:833
+#: library/plugins/acf/fields/filter.php:241
+#: library/plugins/acf/fields/filter.php:303
+msgid "Taxonomie"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:843
+msgid "Es wurden keine Taxonomien gefunden."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:848
+msgid "Aus welcher Taxonomie sollen die Einträge gezogen werden?"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:853
+msgid "Anzahl von Einträgen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:857
+msgid "Wieviele Einträge sollen ausgegeben werden? Kein Wert steht für alle!"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:867
+#: library/plugins/acf/fields/options_product.php:1469
+#: library/plugins/acf/fields/widget_product_select.php:110
+msgid "Anzahl der Produkte"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:868
+msgid "Slug (URL)"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:882
+msgid "Leere Einträge ignorieren"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:891
+msgid "Bestimmte Einträge ignorieren"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:895
+msgid ""
+"Wenn du bestimmte Einträge filteren möchtest, kannst du hier die ID(s) "
+"kommasepariert angeben."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:900
+msgid "Nur Bestimmte Einträge anzeigen"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:904
+msgid ""
+"Wenn du nur bestimmte Einträge anzeigen möchtest, kannst du hier die ID(s) "
+"kommasepariert angeben."
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:909
+msgid "Einträge ohne Bilder ignorieren"
+msgstr ""
+
+#: library/plugins/tinymce/shortcodes-form.php:926
+msgid "Shortcode einfügen"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:57
+#: library/plugins/acf/acf-functions.php:59
+#: library/plugins/acf/export/_load.php:23
+msgid "Optionen"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:78
+#: library/helper/pointer/welcome.php:88
+msgid "Design"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:88
+#: library/helper/pointer/welcome.php:98
+#: library/plugins/acf/fields/options_general.php:313
+msgid "Blog"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:118
+msgid "DSGVO"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:343
+msgid "Ansicht"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:350
+msgid "Tab: Produktdaten"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:352
+msgid "Tabelle"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:450
+msgid "Wichtige Links & Support"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:463
+msgid ""
+"Du hast Fragen zur Installation, Konfiguration oder Anpassung des Themes?\n"
+"\t\tDann wirf einen Blick auf die Folgenden Informationen:"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:468
+#: library/plugins/acf/fields/page_builder.php:1178
+msgid "Webseite"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:469
+msgid "Dokumentation"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:470
+msgid "Video Tutorials"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:471
+msgid "Changelog"
+msgstr ""
+
+#: library/plugins/acf/acf-functions.php:475
+#, php-format
+msgid ""
+"Copyright &copy; %s <a href=\"%s\" target=\"_blank\">affiliatetheme.io</a>"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:67
+msgid "Willkommen im affiliatetheme.io"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:68
+msgid ""
+"Bevor du los legst musst du dein Theme aktivieren, das kannst du hier unter "
+"dem Punkt Lizenz erledigen. Anschließend kannst du unter Anpassen die Farben "
+"deiner Seite anpassen."
+msgstr ""
+
+#: library/helper/pointer/welcome.php:74 library/helper/pointer/welcome.php:84
+#: library/helper/pointer/welcome.php:94 library/helper/pointer/welcome.php:101
+#: library/helper/pointer/welcome.php:108
+#: library/helper/pointer/welcome.php:115
+#: library/helper/pointer/welcome.php:169
+msgid "Weiter"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:78
+msgid "Allgemeine Optionen"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:78
+msgid ""
+"An dieser Stelle kannst du z.B. eigenen CSS oder JavaScript Code laden oder "
+"andere allgemeine Einstellungen vornehmen."
+msgstr ""
+
+#: library/helper/pointer/welcome.php:88
+msgid ""
+"Passe das Layout deiner Seite an deine Bedürfnisse an, es stehen dir viele "
+"Möglichkeiten zur Auswahl."
+msgstr ""
+
+#: library/helper/pointer/welcome.php:99
+msgid "Du nutzt einen Blog? Passe die Ausgabe an!"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:106
+msgid ""
+"Produkte sind der Hauptbestandteil des Themes, hier kannst du z.B. "
+"Taxonomien erstellen oder viele Einstellungen bearbeiten."
+msgstr ""
+
+#: library/helper/pointer/welcome.php:112
+msgid "Import"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:113
+msgid ""
+"Wir bieten dir verschiedene Schnittstellen an um Produkte automatisiert zu "
+"importieren. Sobald du eine Schnittstelle als Plugin aktivierst, wird diese "
+"hier erscheinen."
+msgstr ""
+
+#: library/helper/pointer/welcome.php:119
+msgid "Debug"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:120
+msgid ""
+"Wenn du Probleme hast, schau bitte erstmal hier - oftmals fehlen "
+"Serverfunktionen. Ansonsten kannst du jederzeit das Supportforum benutzen. "
+"Und jetzt viel Spaß mit deinem neuen Theme!"
+msgstr ""
+
+#: library/helper/pointer/welcome.php:176
+msgid "Schließen"
+msgstr ""
+
+#: library/filter/classes/AT_Filter_Field.php:188
+msgid "ja"
+msgstr ""
+
+#: library/product/price_trend/helper.php:54
+msgid ""
+"Eine oder mehrere Datenbank-Tabellen für den <strong>Preisverlauf</strong> "
+"fehlen.\n"
+"                Bitte aktualisiere deine Datenbank. <a class=\"button\" "
+"id=\"at_price_trend_database_install\">Datenbank aktualisieren</a>"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:203
+msgid "affiliatetheme.io &raquo; Demo Daten"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:205
+msgid ""
+"Mit diesem Tool kannst du per Knopfdruck die Demo Daten installieren. Wenn "
+"du den Import ausführst, geschehen folgende Dinge:"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:208
+msgid ""
+"Es werden keine existierenden Seiten, Kategorien, Bilder oder andere Daten "
+"geändert oder gelöscht."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:209
+msgid "WordPress Einstellungen werden nicht geändert."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:210
+msgid ""
+"Es werden Beiträge, Seiten, Shops, Produkte, Bilder, Widgets und Menüs "
+"importiert."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:211
+msgid ""
+"Es werden Bilder heruntergeladen und im Inhalt platziert, die Bilder darfst "
+"du gerne später weiter nutzen."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:212
+msgid ""
+"Bitte klicke nur einmal auf <strong>Importvorgang starten</strong>, dies "
+"kann einige Minuten dauern."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:215
+msgid "Folgende Plugins sollten installiert sein:"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:218
+#: library/plugins/demo-installer/importer/radium-importer.php:219
+msgid "herunterladen"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:222
+msgid ""
+"Sobald der Import erfolgreich war, führe bitte folgendes Einstellungen aus:"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:225
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Optionen</a></mark> öffnen und einmalig "
+"speichern."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:226
+#, php-format
+msgid ""
+"Einstellungen</mark> › <mark><a href=\"%s\" target=\"_blank\">Lesen</a>"
+"</mark> öffnen und die Seite <strong>Startseite</strong> unter <mark>"
+"\"statische Seite\"</mark> als Startseite definieren."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:227
+#, php-format
+msgid ""
+"Einstellungen</mark> › <mark><a href=\"%s\" target=\"_blank\">Lesen</a>"
+"</mark> öffnen und die Seite <strong>Blog</strong> unter <mark>\"statische "
+"Seite\"</mark> als Beitragsseite definieren."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:228
+msgid ""
+"Design</mark> › <mark><a href=\"%S\" target=\"_blank\">Menüs</a></mark> "
+"öffnen und alle 3 Navigationen (Topbar, Hauptnavigation, Footer) an die "
+"entsprechenden Stellen setzen"
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:231
+msgid ""
+"Solltest du eine Fehlermeldung nach dem Import bekommen (z.B. Failed to...), "
+"versuche den Import nochmal neu zu starten."
+msgstr ""
+
+#: library/plugins/demo-installer/importer/radium-importer.php:237
+msgid "Demo Daten sind bereits importiert"
+msgstr ""
+
+#: library/plugins/acf/fields/shop.php:10
+#: library/plugins/acf/fields/shop.php:25
+#: library/plugins/acf/fields/options_product.php:1324
+msgid "Preisverlauf"
+msgstr ""
+
+#: library/plugins/acf/fields/shop.php:28
+msgid "Mit dieser Option kannst du diesen Shop vom Preisverlauf ausschließen."
+msgstr ""
+
+#: library/plugins/acf/fields/shop.php:41
+#: library/plugins/acf/fields/slider.php:20
+#: library/plugins/acf/fields/slider.php:36
+#: library/plugins/acf/fields/product.php:227
+#: library/plugins/acf/fields/page_builder.php:467
+msgid "ausblenden"
+msgstr ""
+
+#: library/plugins/acf/fields/shop.php:50
+msgid "Diese Farbe wird für die Darstellung im Preisverlauf verwendet."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:5
+msgid "Optionen - Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:35
+msgid "Allgemeiner Hinweis"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:35
+msgid ""
+"Sofern du einen Permalink umstellst oder den Fakeshop aktivierst solltest du "
+"deine Permalinks speichern um <strong>404 Fehler</strong> zu verhindern. "
+"Navigiere dazu auf die Seite <strong>Einstellungen</strong> - <strong>"
+"Permalinks</strong>. Das aufrufen der Seite genügt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:40
+msgid "Fakeshop"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:44
+msgid ""
+"<strong>Achtung:</strong> Mit dieser Option schaltest du alle Unterseiten "
+"für Produkte ab. Die Produkte verlinken somit direkt in den Shop."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:56
+#: library/plugins/acf/fields/options_shop.php:24
+msgid "Permalink"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:59
+msgid ""
+"Der Slug findet sich z.B. in der URL eines Produktes wieder. Beispiel:<br>"
+"<br>http://www.deineseite.de/slug/dein-produkt-name/<br><br>Du kannst diesen "
+"anpassen, wenn du dieses Feld leer lässt, wird als Slug \"product\" "
+"verwendet. Es gibt auch schon von <a href=\"https://codex.wordpress."
+"org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">"
+"WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden "
+"darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen "
+"und Großbuchstaben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:66
+msgid "produkt"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:76
+#: library/plugins/acf/fields/options_shop.php:45
+msgid "Permalink entfernen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:80
+msgid ""
+"<strong>Hinweis:</strong> Das entfernen des Slugs für Produkte kann zu "
+"Problemen bzw. 404 Fehlern führen. Bitte teste nach dieser Einstellung deine "
+"Seite auf mögliche Fehler!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:92
+#: library/plugins/acf/fields/options_shop.php:61
+msgid "Archiv Permalink"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:95
+msgid ""
+"WordPress erstellt ein automatisches Archiv mit allen Produkten. Die Ausgabe "
+"kannst du im kommenden Tab bestimmten. Diese Einstellung legt fest, wie die "
+"URL des Archivs lauten soll. Im Normalfall ist die URL gleich mit dem "
+"Permalink in der obigen Option. Wenn du also \"produkt\" festlegst, ist das "
+"Archiv unter<br><br>http://www.deineurl.de/produkt/ zu finden.<br><br>Es "
+"gibt von <a href=\"https://codex.wordpress."
+"org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">"
+"WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden "
+"darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen "
+"und Großbuchstaben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:113
+#: library/plugins/acf/fields/options_shop.php:82
+msgid "Archiv deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:117
+#: library/plugins/acf/fields/options_shop.php:86
+msgid ""
+"<strong>Hinweis:</strong> Mit dieser Option wird das Archiv komplett "
+"deaktiviert, achte darauf das du die daraus resultierende 404-Seite mit "
+"einem Redirect anpasst."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:129
+msgid "Cloaker"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:133
+msgid "Mit dieser Option werden alle ausgehende Links gecloaked."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:145
+msgid "Permalink für Cloaker"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:148
+msgid ""
+"Welcher Slug soll für den Cloaker verwendet werden? Bitte bedenke die "
+"allgemeinen Regeln für Permalinks. Siehe Hinweis-Text für die obere "
+"Einstellung \"Permalinks\"."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:200
+msgid ""
+"<strong style=\"color:#c01313\">Wichtiger Hinweis</strong><p>Sofern du "
+"Produkte aus einer API verwendest (Amazon, affilinet, zanox, ...) werden die "
+"Button-Texte mit den Einstellungen der API überschrieben. <br>Öffne dazu die "
+"jeweilige Schnittstelle unter <mark>Import</mark> und gehe dort in den Tab "
+"<mark>Buttons</mark> um die Button-Texte dort anzupassen.</p>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:205
+#: library/plugins/acf/fields/options_product.php:322
+msgid "Details"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:221
+#: library/plugins/acf/fields/options_product.php:343
+msgid "Kaufen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:241
+msgid "Mit dieser Option kannst du den Button \"Details\" global deaktvieren!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:257
+msgid "Mit dieser Option kannst du den Button \"Kaufen\" global deaktvieren!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:269
+#: library/plugins/acf/fields/options_product.php:290
+msgid "Beschriftung (lang)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:280
+msgid "Mehr Details"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:301
+msgid "Jetzt kaufen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:311
+#: library/plugins/acf/fields/options_product.php:332
+msgid "Beschriftung (kurz)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:353
+msgid "Buttons untereinander anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:357
+msgid "Diese Option gilt z.B. für die Grid-Ansicht der Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:395
+msgid ""
+"<strong>Hinweis</strong><p>Hier kannst du für deine Produkte mehrere "
+"Taxonomien hinzufügen. Mit Taxonomien kannst du deine Produkte besser "
+"sortieren. Du kannst Taxonomien z.B. mit den Kategorien für Beiträge "
+"vergleichen. Beispiele für Taxonomien:"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:398
+#: library/plugins/acf/fields/options_blog.php:1356
+msgid "Kategorien"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:399
+msgid "Typen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:400
+msgid "Marken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:401
+#: library/plugins/acf/fields/options_product.php:442
+#: library/plugins/acf/fields/product.php:1136
+msgid "Hersteller"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:404
+msgid ""
+"Nach dem du eine Taxonomie angelegt hast, kannst du für diese verschiedene "
+"Einträge erstellen und dann die Produkte entsprechend zuordnen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:406
+msgid ""
+"<strong style=\"color:#c01313\">Wichtiger Hinweis</strong> <p>Du solltest "
+"nach der Erstellung einer Taxonomie unbedingt deine Permalinks neu speichern,"
+" so verhinderst du einen 404 Fehler. Öffne dazu einfach die Seite <strong>"
+"Einstellungen</strong> - <strong>Permalinks</strong>.</p>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:426
+msgid "Taxonomie hinzufügen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:433
+msgid "Wird z.B. im Menü angezeigt. Beispiel: <strong>Hersteller</strong>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:454
+msgid ""
+"Bitte beachte das der Slug in deiner Installation <strong>einmalig</strong> "
+"sein muss. Es gibt auch schon von <a href=\"https://codex.wordpress."
+"org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">"
+"WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden "
+"darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen "
+"und Großbuchstaben.<br><br>Beispiel: hersteller"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:463
+msgid "hersteller"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:472
+msgid "Abweichender Permalink"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:475
+msgid ""
+"<strong>Standardmäßig wird der (Datenbank-Name) Slug in deiner URL "
+"verwendet</strong>, wenn du eine abweichende URL haben willst, nutze dieses "
+"Feld. Es gelten die gleichen Regeln wie für den Slug."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:493
+msgid "Hierachie"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:497
+msgid ""
+"Ohne Hierarchie wird deine Taxonomie wie Schlagwörter dargestellt. Mit "
+"Hierachie ähnelt es den Kategorien unter Beiträge."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:508
+msgid "Hierachie in den URLs"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:512
+msgid "Mit dieser Option aktivierst du eine Hierachie in den URLs."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:523
+msgid "Frontend"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:527
+msgid ""
+"Soll die Taxonomie auf der Produkt- sowie auf den Übersichtsseiten angezeigt "
+"werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:539
+msgid "Backend"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:543
+msgid ""
+"Soll die Taxonomie in der Tabelle der Produktübersicht im Backend angezeigt "
+"werden? <strong>Wichtiger Hinweis:</strong> Zuviele Taxonomien können dazu "
+"führen das die Übersichtsseite langsam oder garnicht mehr lädt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:558
+msgid "Darstellung der Produkte auf der Überssichtsseite"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:587
+msgid "Darstellung der Sidebar in der Übersicht"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:596
+#: library/plugins/acf/fields/options_product.php:853
+#: library/plugins/acf/fields/options_product.php:1233
+#: library/plugins/acf/fields/options_shop.php:127
+#: library/plugins/acf/fields/options_shop.php:270
+#: library/plugins/acf/fields/options_blog.php:38
+#: library/plugins/acf/fields/options_blog.php:280
+#: library/plugins/acf/fields/options_blog.php:501
+#: library/plugins/acf/fields/options_blog.php:722
+#: library/plugins/acf/fields/options_blog.php:943
+#: library/plugins/acf/fields/options_blog.php:1164
+#: library/plugins/acf/fields/page_builder.php:21
+#: library/plugins/acf/fields/filter_design.php:21
+#: library/plugins/acf/fields/options_general.php:772
+msgid "Keine"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:613
+#: library/plugins/acf/fields/options_product.php:868
+#: library/plugins/acf/fields/options_product.php:1248
+#: library/plugins/acf/fields/page.php:9
+#: library/plugins/acf/fields/options_shop.php:142
+#: library/plugins/acf/fields/options_shop.php:285
+#: library/plugins/acf/fields/options_blog.php:53
+#: library/plugins/acf/fields/options_blog.php:295
+#: library/plugins/acf/fields/options_blog.php:516
+#: library/plugins/acf/fields/options_blog.php:737
+#: library/plugins/acf/fields/options_blog.php:958
+#: library/plugins/acf/fields/options_blog.php:1179
+#: library/plugins/acf/fields/page_builder.php:38
+#: library/plugins/acf/fields/filter_design.php:36
+#: library/plugins/acf/fields/options_general.php:787
+msgid "Verhältnis (Inhalt / Sidebar)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:616
+#: library/plugins/acf/fields/options_product.php:871
+#: library/plugins/acf/fields/options_product.php:1251
+#: library/plugins/acf/fields/page.php:12
+#: library/plugins/acf/fields/options_shop.php:145
+#: library/plugins/acf/fields/options_shop.php:288
+#: library/plugins/acf/fields/options_blog.php:56
+#: library/plugins/acf/fields/options_blog.php:298
+#: library/plugins/acf/fields/options_blog.php:519
+#: library/plugins/acf/fields/options_blog.php:740
+#: library/plugins/acf/fields/options_blog.php:961
+#: library/plugins/acf/fields/options_blog.php:1182
+#: library/plugins/acf/fields/page_builder.php:41
+#: library/plugins/acf/fields/options_general.php:790
+msgid "Bestimme hier die Aufteilung von Inhalt und Sidebar."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:649
+#: library/plugins/acf/fields/options_product.php:678
+#: library/plugins/acf/fields/options_product.php:896
+#: library/plugins/acf/fields/options_product.php:920
+#: library/plugins/acf/fields/options_product.php:1276
+#: library/plugins/acf/fields/options_product.php:1300
+#: library/plugins/acf/fields/page.php:37
+#: library/plugins/acf/fields/page.php:61
+#: library/plugins/acf/fields/options_shop.php:170
+#: library/plugins/acf/fields/options_shop.php:194
+#: library/plugins/acf/fields/options_shop.php:313
+#: library/plugins/acf/fields/options_shop.php:337
+#: library/plugins/acf/fields/options_blog.php:81
+#: library/plugins/acf/fields/options_blog.php:105
+#: library/plugins/acf/fields/options_blog.php:158
+#: library/plugins/acf/fields/options_blog.php:182
+#: library/plugins/acf/fields/options_blog.php:206
+#: library/plugins/acf/fields/options_blog.php:323
+#: library/plugins/acf/fields/options_blog.php:347
+#: library/plugins/acf/fields/options_blog.php:400
+#: library/plugins/acf/fields/options_blog.php:424
+#: library/plugins/acf/fields/options_blog.php:448
+#: library/plugins/acf/fields/options_blog.php:544
+#: library/plugins/acf/fields/options_blog.php:568
+#: library/plugins/acf/fields/options_blog.php:621
+#: library/plugins/acf/fields/options_blog.php:645
+#: library/plugins/acf/fields/options_blog.php:669
+#: library/plugins/acf/fields/options_blog.php:765
+#: library/plugins/acf/fields/options_blog.php:789
+#: library/plugins/acf/fields/options_blog.php:842
+#: library/plugins/acf/fields/options_blog.php:866
+#: library/plugins/acf/fields/options_blog.php:890
+#: library/plugins/acf/fields/options_blog.php:986
+#: library/plugins/acf/fields/options_blog.php:1010
+#: library/plugins/acf/fields/options_blog.php:1063
+#: library/plugins/acf/fields/options_blog.php:1087
+#: library/plugins/acf/fields/options_blog.php:1111
+#: library/plugins/acf/fields/options_blog.php:1207
+#: library/plugins/acf/fields/options_blog.php:1231
+#: library/plugins/acf/fields/page_builder.php:74
+#: library/plugins/acf/fields/page_builder.php:103
+#: library/plugins/acf/fields/options_general.php:815
+#: library/plugins/acf/fields/options_general.php:839
+#: library/plugins/acf/fields/options_design.php:353
+#: library/plugins/acf/fields/options_design.php:377
+#: library/plugins/acf/fields/options_design.php:401
+msgid "Vorschau"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:707
+#: library/plugins/acf/fields/options_product.php:996
+#: library/plugins/acf/fields/options_product.php:1537
+#: library/plugins/acf/fields/options_blog.php:1566
+#: library/plugins/acf/fields/widget_product_select.php:141
+#: library/plugins/acf/fields/filter_design.php:125
+msgid "Sortierung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:710
+#: library/plugins/acf/fields/options_product.php:999
+#: library/plugins/acf/fields/filter_design.php:128
+#: library/plugins/acf/fields/filter_design.php:159
+msgid "Wie sollen die Produkte in der Übersicht sortiert werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:723
+#: library/plugins/acf/fields/options_product.php:1012
+#: library/plugins/acf/fields/options_product.php:1561
+#: library/plugins/acf/fields/options_blog.php:1404
+#: library/plugins/acf/fields/filter_design.php:141
+msgid "Kommentare"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:743
+#: library/plugins/acf/fields/options_product.php:1032
+msgid "In welcher Reihenfolge?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:768
+#: library/plugins/acf/fields/options_product.php:973
+#: library/plugins/acf/fields/filter_design.php:104
+msgid "Produkte pro Seite"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:771
+#: library/plugins/acf/fields/options_product.php:976
+#: library/plugins/acf/fields/filter_design.php:107
+msgid "Wieviele Produkte sollen pro Seite angezeigt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:791
+#: library/plugins/acf/fields/options_product.php:1057
+#: library/plugins/acf/fields/options_shop.php:412
+#: library/plugins/acf/fields/filter_design.php:182
+msgid "Benutzer-Filter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:795
+#: library/plugins/acf/fields/options_product.php:1061
+#: library/plugins/acf/fields/options_shop.php:416
+#: library/plugins/acf/fields/filter_design.php:185
+msgid ""
+"Soll der User einen Filter angezeigt bekommen in dem er die Darstellung "
+"sowie die Sortierung der Produkte manuell anpassen kann?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:807
+msgid "Beschreibung für den Filter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:810
+msgid ""
+"Dieser Hinweis wird im Filter (Page Builder / Sidebar) unterhalb der Auswahl "
+"angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:824
+#: library/plugins/acf/fields/options_shop.php:98
+msgid "Archiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:842
+#: library/plugins/acf/fields/options_product.php:1222
+#: library/plugins/acf/fields/options_shop.php:116
+#: library/plugins/acf/fields/options_shop.php:259
+#: library/plugins/acf/fields/page_builder.php:12
+msgid "Soll die Sidebar angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:944
+#: library/plugins/acf/fields/options_product.php:1500
+#: library/plugins/acf/fields/options_product.php:1630
+#: library/plugins/acf/fields/options_shop.php:361
+#: library/plugins/acf/fields/options_blog.php:1491
+#: library/plugins/acf/fields/options_design.php:24
+#: library/plugins/acf/fields/options_design.php:180
+#: library/plugins/acf/fields/options_design.php:296
+#: library/plugins/acf/fields/options_design.php:549
+#: library/plugins/acf/fields/options_design.php:682
+#: library/plugins/acf/fields/options_design.php:741
+#: library/plugins/acf/fields/options_design.php:812
+#: library/plugins/acf/fields/options_design.php:855
+msgid "Layout"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:947
+#: library/plugins/acf/fields/options_shop.php:364
+#: library/plugins/acf/fields/filter_design.php:80
+msgid "Darstellung der Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1073
+msgid "Text (oberhalb der Produkte)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1091
+msgid "Text (unterhalb der Produkte)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1136
+msgid ""
+"<div class=\"alert alert-info\"><strong>Hinweis</strong><p>Hier findest du "
+"einige wichtige Einstellungen für das <a href=\"https://developers.google."
+"com/search/docs/data-types/product/\" target=\"_blank\">Rich Snippet "
+"Markup</a> für Produkte.</p></div>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1161
+msgid "Quelle für Hersteller"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1164
+msgid ""
+"Bitte lege hier fest woher der Wert für den Hersteller bezogen werden soll. "
+"Die Angabe des Herstellers ist keine Pflichtangabe."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1185
+msgid "Autor der Reviews"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1188
+msgid ""
+"Für die Ausgabe der Reviews wird ein Autor benötigt. Wenn du dieses fällt "
+"leer lässt, wird der Name deiner Webseite (unter Einstellungen > Allgemein "
+"festgelegt) verwendet. Wir empfehlen dir, deinen Namen zu verwenden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1204
+#: library/plugins/acf/fields/options_shop.php:241
+#: library/plugins/acf/fields/options_blog.php:1135
+msgid "Single"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1328
+msgid ""
+"<strong>Hinweis:</strong> Der Preisverlauf zeigt in einer Chart den Verlauf "
+"an. Achtung: Wenn du zu wenige Preise hast, warte ein paar Tage bis weitere "
+"Daten gesammelt wurden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1359
+msgid "Wichtiger Hinweis"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1359
+msgid ""
+"Der Preisverlauf <strong>darf nicht zusammen mit Amazon</strong> genutzt "
+"werden. Du kannst es natürlich auf eigene Gefahr hin selbst nutzen. Wir "
+"empfehlen dir Amazon manuell aus dem Preisverlauf auszuschließen. Dazu "
+"einfach unter <strong>Shops</strong> den Eintrag von <strong>Amazon</strong> "
+"bearbeiten und den entsprechenden Haken im unteren Bereich setzen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1364
+#: library/plugins/acf/fields/options_product.php:1713
+#: library/plugins/acf/fields/options_general.php:329
+#: library/plugins/acf/fields/options_general.php:382
+#: library/plugins/acf/fields/options_general.php:435
+#: library/plugins/acf/fields/options_design.php:769
+msgid "Position"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1384
+msgid "unter den Tabs"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1385
+msgid "als Tab"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1386
+msgid "im Popup"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1401
+msgid "Bewertungen durch Besucher"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1405
+msgid ""
+"<strong>Hinweis:</strong> Du musst die Kommentare (Erfahrungsberichte) für "
+"deine Produkte aktiv haben, damit die Benutzer dein Produkt bewerten können."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1417
+#: library/plugins/acf/fields/product.php:545
+msgid "Ähnliche Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1421
+msgid ""
+"<strong>Hinweis:</strong> Alternativ kann man bei jedem Produkt die "
+"ähnlichen Produkte auch manuell verknüpfen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1433
+#: library/plugins/acf/fields/options_blog.php:1528
+#: library/plugins/acf/fields/options_blog.php:1660
+msgid "Auswahl einschränken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1436
+msgid "Wie sollen die Ähnlichen Produkte gefiltert werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1453
+#: library/plugins/acf/fields/options_blog.php:1548
+#: library/plugins/acf/fields/options_blog.php:1680
+msgid "kein Filter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1454
+msgid "nach Taxonomie(n)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1472
+msgid "Wieviele Produkte sollen angezeigt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1614
+#: library/plugins/acf/fields/product.php:604
+msgid "Zubehör"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1618
+msgid ""
+"<strong>Hinweis:</strong> Du kannst bei jedem Produkte das Zubehör manuell "
+"verknüpfen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1667
+#: library/plugins/acf/fields/options_product.php:1703
+msgid "Produktdaten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1670
+msgid ""
+"<strong>Hinweis:</strong> Du kannst einer Feld-Gruppe die Ansicht \"Tab: "
+"Produktdaten\" zuordnen um diesen Tab mit Eigenschaften zu befüllen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1679
+#: library/plugins/acf/fields/options_general.php:918
+#: library/plugins/acf/fields/options_design.php:175
+msgid "anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1733
+msgid "am Anfang"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1734
+msgid "nach der Beschreibung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1735
+msgid "nach dem Preisverlauf"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1736
+msgid "nach den Erfahrungsberichten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1737
+msgid "nach den Ähnlichen Produkten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1738
+#: library/plugins/acf/fields/options_product.php:1741
+msgid "am Ende"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1753
+msgid "Tabs deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1757
+msgid ""
+"Im Standard werden Informationen wie Beschreibung, Erfahrungsberichte, "
+"Ähnliche Produkte und Zubehör in Tabs angezeigt. Wenn du eine Darstellung "
+"ohne Tabs möchtest, musst du diese Einstellung aktivieren."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1795
+msgid ""
+"<strong>Hinweis</strong><p>Der Preisvergleich kann auch <strong>ohne</strong>"
+" die affilinet - API genutzt werden. Im Produkt können mehrere Preise und "
+"Shops gepflegt werden, so könnte man auch ohne affilinet API einen "
+"Preisvergleich aufbauen. Alternativ kannst du den Preisvergleich jederzeit "
+"mit einem Shortcode an einer gewünschte Stelle aufrufen:</p>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1799
+msgid ""
+"<p>Den Parameter <strong>id</strong> musst du nur mit der Produkt ID "
+"befüllen, wenn du den Preisvergleich außerhalb der Produktdetailseite "
+"verwenden willst.</p>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1804
+msgid "Preisvergleich ausgeben"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1807
+msgid ""
+"Hier kannst du den Preisvergleich global aktivieren.\tSobald ein Produkt "
+"mehr als einen Preis hat, wir der Preisvergleich auf der Produktseite "
+"dargestellt. Alternativ kannst du auch den Preisvergleich nur für einzelne "
+"Produkte aktivieren, öffne dazu die Produktseite."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1816
+msgid "nicht anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1817
+#: library/plugins/acf/fields/product.php:68
+msgid "oben"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1818
+#: library/plugins/acf/fields/product.php:69
+msgid "unterhalb der Beschreibung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1819
+#: library/plugins/acf/fields/product.php:70
+msgid "an beiden Positionen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1821
+msgid "Global aktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1826
+msgid "Preisvergleich deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1830
+msgid ""
+"Wenn du den Preisvergleich für einzelne Produkte aktiviert hast, kannst du "
+"diese mit dieser Option global deaktivieren. Das erspart dir die Arbeit "
+"jedes Produkt zu bearbeiten."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1842
+#: library/plugins/acf/fields/product.php:104
+msgid "Preise"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1857
+msgid "Preise global deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1861
+msgid "Versteckt alle Preise auf der Seite."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1873
+#: library/plugins/acf/fields/product.php:146
+msgid "Alter Preis"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1877
+msgid ""
+"Sofern vorhanden wird der alte Preis neben dem aktuellen Preis "
+"durchgestrichen angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1889
+msgid "Preisformat"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1891
+msgid "Bitte wähle das passende Format für deine Preisangaben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1900
+#: library/plugins/acf/fields/options_product.php:1905
+msgid "Standardformat (1.234.567,89)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1901
+msgid "Amerikanisches Format (1,234,567.89)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1902
+msgid "Schweizer Format (1'234'567.89)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1917
+msgid "Standardwährung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1919
+msgid "Bitte wähle deine Standardwährung aus."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1930
+msgid "Euro"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1942
+msgid "Position der Währung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1944
+msgid "Bitte wähle aus wie die Währung angezeigt werden soll."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1953
+#: library/plugins/acf/fields/options_product.php:1959
+msgid "Rechts mit Leerzeichen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1954
+msgid "Rechts ohne Leerzeichen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1955
+msgid "Links mit Leerzeichen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1956
+msgid "Links ohne Leerzeichen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1971
+msgid "Allgemeiner Hinweis (z.B. für Mehrwertsteuer)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1974
+msgid ""
+"Wird u.A. unterhalb des Preises angezeigt. Dieser Hinweis kann für jedes "
+"einzelne Produkt überschrieben werden. Das Feld findet man in der "
+"Produktbearbeitung neben der Währung."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1982
+#, php-format
+msgid "inkl. 19% gesetzlicher MwSt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1992
+msgid "Preisaktualisierung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:1995
+#, php-format
+msgid "Die Variable %s ist ein Platzhalter für Datum & Uhrzeit."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2003
+#, php-format
+msgid "Zuletzt aktualisiert am: %s"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2013
+msgid "Hinweis zur Preisaktualisierung anzeigen auf"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2015
+msgid "Gilt i.d.R. nur für Amazon Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2024
+#: library/plugins/acf/fields/options_product.php:2030
+msgid "Detailseite"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2025
+msgid "Loop (Grid/Liste/Table)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2026
+msgid "Detailseite & Loop (Grid/Liste/Table)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2042
+msgid "Automatische Sortierung nach Preis deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2046
+msgid ""
+"Wenn du für ein Produkt mehrere Preise pflegst, werden diese automatisch "
+"nach Preis sortiert. Wenn du das nicht möchtest, hake diese Option an."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2073
+msgid "Produktbilder direkt verlinken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2077
+msgid ""
+"Mit dieser Option werden die Produktbilder direkt auf die Ziel URL verlinkt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2089
+msgid "Linkziel für externe Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2091
+msgid "Bestimme hier das Linkziel für externe Links (z.B. Shop)."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2100
+#: library/plugins/acf/fields/options_product.php:2104
+msgid "Neues Fenster"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2101
+msgid "Im gleichen Fenster"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2116
+msgid "Sterne-Bewertungen deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2120
+msgid "Mit dieser Option werden die Sterne-Bewertungen global deaktiviert."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2132
+msgid "Eigene Bewertungen (Reviews) deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2136
+msgid ""
+"Mit dieser Option werden die eigenen Bewertungen (Reviews) global "
+"deaktiviert."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2148
+msgid "Fallback für Ja/Nein Feld"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2159
+msgid ""
+"Wenn du ein Ja/Nein Feld verwendest wandeln wir das Ergebnis (0 oder 1) in "
+"einen Wert um, welchen du hier bestimmen kannst. HTML ist aktiviert!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2206
+msgid "Fallback für leere Felder in der Vergleichstabelle"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2209
+msgid ""
+"Wenn in der Vergleichstabelle bei einem Produkt ein Feld nicht ausgefüllt "
+"ist, erscheint ein Fallback, dieser kann hier definiert werden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2227
+msgid "Taxonomie im Grid-Layout"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2231
+msgid ""
+"Mit dieser Option kannst du eine bestimmte Taxonomie im Grid-Layout anzeigen "
+"lassen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2243
+msgid "Taxonomie wählen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2265
+msgid "Einstellungen für die \"Grid-Hover\"-Ansicht"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2276
+msgid ""
+"Wenn du dir Produkte in der \"Grid-Hover\"-Ansicht ausgeben lässt, hast du "
+"hier einige Einstellungsmöglichkeiten."
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2281
+msgid "Buttons außerhalb vom Overlay verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2285
+msgid "Sollen die Buttons in der Übersicht (ohne Hover) versteckt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2297
+msgid "Buttons im Overlay verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2301
+msgid "Sollen die Buttons im Overlay (Hover) versteckt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2313
+msgid "Bilder im Overlay verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2317
+msgid "Sollen die Bilder im Overlay (Hover) versteckt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2329
+msgid "Text im Overlay verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_product.php:2333
+msgid "Soll der Text im Overlay (Hover) versteckt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:6
+msgid "Widget: Produkt Empfehlung"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:44
+#: library/plugins/acf/fields/widget_product_select.php:242
+msgid "Bewertung anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:60
+msgid "Thumbnail verlinken"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:65
+msgid "Ziel des Links"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:85
+msgid "Produktseite"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:112
+msgid "Preis anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:128
+msgid "Details-Button anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_advice.php:144
+msgid "Kaufen-Button anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/product_compare.php:9
+#: library/plugins/acf/fields/filter.php:505
+#: library/plugins/acf/fields/product.php:195
+#: library/plugins/acf/fields/product.php:560
+#: library/plugins/acf/fields/product.php:619
+#: library/plugins/acf/fields/product.php:1039
+#: library/plugins/acf/fields/product.php:1208
+#: library/plugins/acf/fields/options_general.php:947
+msgid "Hinweis"
+msgstr ""
+
+#: library/plugins/acf/fields/product_compare.php:20
+msgid ""
+"Der Produktvergleich kann nur fehlerfrei funktionieren wenn die ausgewählen "
+"Produkte die gleichen Eigenschaften besitzen. Du kannst so logischerweise "
+"keine Autos mit Druckern vergleichen. Wenn du also mehrere Produkttypen in "
+"deinem System hast, so wähle bitte die gewünschten Produkte für diesen "
+"Vergleich per Hand aus."
+msgstr ""
+
+#: library/plugins/acf/fields/product_compare.php:28
+msgid ""
+"Verfügbare Produkte für diesen Vergleich. Sofern keine Auswahl getroffen "
+"wird, werden alle Produkte verwendet."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:5
+msgid "Optionen - Shops"
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:27
+msgid ""
+"Der Slug findet sich z.B. in der URL eines Shops wieder. Beispiel:<br><br>"
+"http://www.deineseite.de/slug/shop-name/<br><br>Du kannst diesen anpassen, "
+"wenn du dieses Feld leer lässt, wird der Slug komplett entfernt. Bedenke "
+"aber das ein fehlender Slug oft zu Probleme (404-Seiten) führen kann.\tEs "
+"gibt auch schon von <a href=\"https://codex.wordpress."
+"org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">"
+"WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden "
+"darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen "
+"und Großbuchstaben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:49
+msgid ""
+"<strong>Hinweis:</strong> Das entfernen des Slugs für Shops kann zu "
+"Problemen bzw. 404 Fehlern führen. Bitte teste nach dieser Einstellung deine "
+"Seite auf mögliche Fehler!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:64
+msgid ""
+"WordPress erstellt ein automatisches Archiv mit allen Shops. Die Ausgabe "
+"kannst du im kommenden Tab bestimmten. Diese Einstellung legt fest, wie die "
+"URL des Archivs lauten soll. Im Normalfall ist die URL gleich mit dem "
+"Permalink in der obigen Option. Wenn du also \"shop\" festlegst, ist das "
+"Archiv unter<br><br>http://www.deineurl.de/shop/ zu finden.<br><br>Es gibt "
+"von <a href=\"https://codex.wordpress."
+"org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">"
+"WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden "
+"darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen "
+"und Großbuchstaben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:218
+msgid "Shops pro Seite"
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:221
+msgid "Der Wert -1 steht für alle Shops."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:389
+msgid "Maximale Anzahl an Produkten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:392
+msgid ""
+"Leider ist auf dieser Seite keine Pagination Möglich, du kannst aber die "
+"Ausgabe begrenzen. Der Wert -1 steht für alle Produkte."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:428
+msgid "Logo automatisch ausgeben"
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:432
+msgid ""
+"Hiermit kannst du das Beitragsbild, welches in der Regel das Logo des Shops "
+"ist, automatisch ausgeben. Alternativ kannst du es einfach im Inhalts-Editor "
+"ausgeben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_shop.php:444
+msgid "Position des Logos"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_filter.php:6
+msgid "Widget: Filter"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_filter.php:10
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:208
+msgid "Verfügbare Felder"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_filter.php:13
+msgid ""
+"<strong>Achtung:</strong> Es werden nur Felder des Typs: Nummer, Ja/Nein "
+"oder Auswahlfeld angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:6
+msgid "Einstellungen für diese Taxonomie"
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:10
+msgid "Alternative Überschrift"
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:13
+msgid "Sofern angegeben wird die Ausgabe der h1 mit diesem Wert überschrieben."
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:24
+#: library/plugins/acf/fields/page_builder.php:560
+#: library/plugins/acf/fields/page_builder.php:1154
+msgid "Bild"
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:27
+msgid "Hier kannst du ein Bild wie z.B. ein Logo einfügen."
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:48
+msgid "Erweiterte Beschreibung"
+msgstr ""
+
+#: library/plugins/acf/fields/taxonomy.php:51
+msgid ""
+"Das obere Feld für die Beschreibung zeigt den Text oberhalb der Produkte an. "
+"Mit diesem Feld kannst du auch darunter einen Text einfügen. Bedenke das der "
+"Text nur auf Seite 1 angezeigt wird."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:5
+msgid "Optionen - DSGVO"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:9
+msgid "Google Fonts"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:12
+msgid ""
+"Du kannst mit dieser Einstellung Google Fonts (welche durch das Theme "
+"geladen werden) vollständig deaktivieren. Bitte beachte das Google Fonts "
+"welche durch Plugins oder eigene Anpassungen geladen werden mit dieser "
+"Option nicht deaktiviert werden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:20
+#: library/plugins/acf/fields/options_dsgvo.php:23
+msgid "deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:24
+#: library/plugins/acf/fields/options_dsgvo.php:39
+#: library/plugins/acf/fields/options_dsgvo.php:58
+#: library/plugins/acf/fields/options_dsgvo.php:77
+#: library/plugins/acf/fields/options_dsgvo.php:124
+#: library/plugins/acf/fields/options_dsgvo.php:181
+#: library/plugins/acf/fields/options_dsgvo.php:238
+#: library/plugins/acf/fields/slider.php:75
+#: library/plugins/acf/fields/product.php:370
+msgid "aktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:28
+msgid "Proxy für externe Bilder"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:31
+msgid ""
+"Mit dieser Option werden alle extern geladenen Bilder (z.B. Amazon Bilder) "
+"über einen lokale Proxy geladen, so wird verhindert das Daten der Besucher "
+"an einen Drittanbieter gesendet werden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:47
+msgid "YouTube \"No-Cookie\""
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:50
+msgid ""
+"Mit dieser Option werden alle YouTube Embedds automatisch über die \"No-"
+"Cookie\" Methode geladen, d.h. ein Video setzt keine Cookies mehr und wird "
+"somit mit der DSGVO kompatibel. Weitere Informationen zur No-Cookie Variante "
+"findest du bei YouTube selbst."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:66
+msgid "IP-Adressen in Kommentaren anonymisieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:69
+msgid "Mit dieser Option werden IP-Adressen in neuen Kommentaren anonymisiert."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:85
+msgid "Rechtlich relevante Seiten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:88
+msgid ""
+"Verknüpfe hier rechtlich relevante Seiten wie deine Datenschutzerklärung und "
+"dein Impressum. Diese Seiten werden dann z.B. auf der Weiterleitungsseite "
+"des Cloakers angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:112
+msgid "Google Analytics Opt Out Script"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:115
+msgid ""
+"Mit dieser Option laden wir ein kleines JavaScript auf deiner Seite mit "
+"welcher deine Besucher sich vom Tracking ausschließen können. Nach dem "
+"aktivieren musst du an gewünschter Stelle (z.B. im Datenschutz) den "
+"folgenden Link hinterlegen:<br>\n"
+"\t<br><code>&lt;a onClick=\"javascript:at_gaOptout()\">Google Analytics "
+"deaktivieren&lt;/a></code>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:132
+msgid "Google Analytics UA-ID"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:135
+msgid ""
+"Gebe bitte hier eine UA-ID von Google Analytics an. Diese ist für die Opt "
+"Out Funktion notwendig."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:151
+msgid "Google Analytics Erfolgsmeldung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:154
+msgid "Definiere hier den Text, welcher nach erfolgreichem Opt Out erscheint."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:162
+msgid ""
+"Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website "
+"deaktiviert."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:170
+msgid "Datenschutz-Hinweis in Kommentaren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:173
+msgid ""
+"Mit dieser Option kannst du einen Datenschutz-Hinweis in deinen "
+"Kommentarformular hinterlegen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:189
+msgid "Text für Checkbox"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:192
+msgid ""
+"Hinterlege hier den Text für die Checkbox im Kommentarformular. Du kannst "
+"auch HTML nutzen!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:208
+msgid "Validierungsmeldung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:211
+msgid ""
+"Dieser Text wird angezeigt, falls jemand einen Kommentar OHNE Checkbox "
+"absenden möchte."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:219
+msgid "Bitte stimmen Sie der Speicherung und Verarbeitung Ihrer Daten zu"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:227
+msgid "Cookie-Bar"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:230
+msgid "Zeige deinen Besuchern eine Cookie-Bar mit einem individuellen Text."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:246
+msgid "Cookie-Bar Text"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:249
+msgid "Lege hier den Text für deine Cookie-Bar fest."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:257
+msgid ""
+"Um unsere Webseite für Sie optimal zu gestalten und fortlaufend verbessern "
+"zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite "
+"stimmen Sie der Verwendung von Cookies zu. Weitere Informationen zu Cookies "
+"erhalten Sie in unserer <a href=\"/datenschutz/\" style=\"text-decoration: "
+"underline;\">Datenschutzerklärung</a>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:265
+msgid "Cookie-Bar Button"
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:268
+msgid "Lege hier den Text für den Button fest."
+msgstr ""
+
+#: library/plugins/acf/fields/options_dsgvo.php:276
+msgid "Cookies zustimmen"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:5
+#: library/plugins/acf/fields/options_design.php:649
+#: library/plugins/acf/fields/options_design.php:664
+msgid "Teaser"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:9
+#: library/plugins/acf/fields/page_builder.php:456
+msgid "Indikatoren"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:12
+#: library/plugins/acf/fields/page_builder.php:459
+msgid ""
+"Die Indikatoren werden nur ausgegeben, wenn mehr als 1 Bild hochgeladen "
+"wurde. Falls du die Indikatoren bei mehreren Bildern nicht angezeigen willst,"
+" aktiviere dieses Feld."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:25
+#: library/plugins/acf/fields/page_builder.php:472
+msgid "Pfeile"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:28
+#: library/plugins/acf/fields/page_builder.php:475
+msgid ""
+"Die Pfeile werden nur ausgegeben, wenn mehr als 1 Bild hochgeladen wurde. "
+"Falls du die Pfeile bei mehreren Bildern nicht angezeigen willst, aktiviere "
+"dieses Feld."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:41
+#: library/plugins/acf/fields/page_builder.php:488
+msgid "Geschwindigkeit / Intervall"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:44
+#: library/plugins/acf/fields/page_builder.php:491
+msgid "Nach wievielen millisekunden soll der nächste Slide erscheinen?"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:64
+#: library/plugins/acf/fields/page_builder.php:511
+msgid "Fade Effekt"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:80
+#: library/plugins/acf/fields/page_builder.php:527
+msgid "Bilder"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:83
+msgid ""
+"Solltest du nur 1 Bild hochladen, wird die Slide-Funktion automatisch "
+"deaktiviert."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:94
+#: library/plugins/acf/fields/page_builder.php:541
+msgid "Bild hinzufügen"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:113
+msgid "Bild (Desktop)"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:161
+#: library/plugins/acf/fields/page_builder.php:584
+msgid "Bild (Smartphone)"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:164
+#: library/plugins/acf/fields/page_builder.php:587
+msgid ""
+"Sofern angegeben wird dieses Bild maximal <strong>767px</strong> angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:206
+#: library/plugins/acf/fields/page_builder.php:629
+msgid ""
+"Soll das komplette Bild verlinkt werden? Bitte gebe hier die URL an, auf "
+"welche verlinkt werden soll."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:223
+#: library/plugins/acf/fields/page_builder.php:646
+msgid "Externer Link"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:226
+#: library/plugins/acf/fields/page_builder.php:649
+msgid "Mit dieser Option wird der Link in einem neuen Fenster geöffnet."
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:239
+#: library/plugins/acf/fields/page_builder.php:662
+msgid "Nofollow"
+msgstr ""
+
+#: library/plugins/acf/fields/slider.php:242
+msgid "Mit dieser Option wird dem Link das Attribut rel=nofollow hinzugefügt."
+msgstr ""
+
+#: library/plugins/acf/fields/_load.php:18
+msgid "Beiträge"
+msgstr ""
+
+#: library/plugins/acf/fields/_load.php:19
+#: library/plugins/acf/fields/options_general.php:366
+msgid "Seiten"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:9
+msgid "Filter auf Zielseite ausgeben"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:28
+msgid "AJAX"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:31
+msgid "Suchergebnisse direkt unterhalb des Filters laden"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:47
+msgid "Button Beschriftung"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:66
+msgid "Elemente"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:77
+msgid "Element hinzufügen"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:89
+#: library/plugins/acf/fields/filter.php:198
+#: library/plugins/acf/fields/filter.php:246
+#: library/plugins/acf/fields/filter.php:376
+msgid "Beschriftung"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:92
+#: library/plugins/acf/fields/filter.php:201
+#: library/plugins/acf/fields/filter.php:249
+#: library/plugins/acf/fields/filter.php:379
+msgid "Abweichende Beschriftung bitte hier angeben."
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:127
+#: library/plugins/acf/fields/filter.php:284
+#: library/plugins/acf/fields/filter.php:414
+msgid "Feld verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:130
+#: library/plugins/acf/fields/filter.php:287
+#: library/plugins/acf/fields/filter.php:417
+msgid "Feld im Frontend nicht anzeigen aber in Filterung inkludieren."
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:146
+msgid "Minimaler Wert"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:149
+#: library/plugins/acf/fields/filter.php:170
+msgid "Falls nicht angegeben, wird dieser Wert automatisch berechnet."
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:167
+#: library/plugins/acf/fields/product.php:820
+msgid "Maximaler Wert"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:325
+#: library/plugins/acf/fields/filter.php:457
+msgid "Standard Wert"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:347
+msgid "Platzhalter für erstes Feld"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:359
+msgid "Bitte auswählen..."
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:371
+msgid "Eigenes Feld"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:433
+msgid "Feld"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:476
+msgid "Platzhalter für Auswahlfeld"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:500
+msgid "Reduzierte Produkte"
+msgstr ""
+
+#: library/plugins/acf/fields/filter.php:516
+msgid ""
+"Mit diesem Felder wird die Ausgabe der Produkt automatisch auf reduzierte "
+"Artikel eingegrenzt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:5
+msgid "Optionen - Blog"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:27
+msgid "Soll die Sidebar im Blog angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:129
+#: library/plugins/acf/fields/options_blog.php:371
+#: library/plugins/acf/fields/options_blog.php:592
+#: library/plugins/acf/fields/options_blog.php:813
+#: library/plugins/acf/fields/options_blog.php:1034
+msgid "Aufbau der Beiträge"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:142
+#: library/plugins/acf/fields/options_blog.php:384
+#: library/plugins/acf/fields/options_blog.php:605
+#: library/plugins/acf/fields/options_blog.php:826
+#: library/plugins/acf/fields/options_blog.php:1047
+#: library/plugins/acf/fields/options_design.php:37
+#: library/plugins/acf/fields/options_design.php:200
+#: library/plugins/acf/fields/options_design.php:308
+#: library/plugins/acf/fields/options_design.php:561
+#: library/plugins/acf/fields/options_design.php:694
+#: library/plugins/acf/fields/options_design.php:753
+#: library/plugins/acf/fields/options_design.php:824
+#: library/plugins/acf/fields/options_design.php:867
+msgid "Fullwidth"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:143
+#: library/plugins/acf/fields/options_blog.php:385
+#: library/plugins/acf/fields/options_blog.php:606
+#: library/plugins/acf/fields/options_blog.php:827
+#: library/plugins/acf/fields/options_blog.php:1048
+msgid "Masonry"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:230
+msgid "Länge des Auszugs"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:251
+msgid "Kategorie Archiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:269
+msgid ""
+"Soll die Sidebar in den Kategorie Archivseiten angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:472
+msgid "Datums Archiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:490
+msgid ""
+"Soll die Sidebar in den Datum Archivseiten angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:693
+msgid "Autoren Archiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:711
+msgid ""
+"Soll die Sidebar in den Autoren Archivseiten angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:914
+msgid "Schlagwörter Archiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:932
+msgid ""
+"Soll die Sidebar in den Schlagwörter Archivseiten angezeigt werden? Wenn ja, "
+"wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1153
+msgid "Soll die Sidebar auf der Detailseite angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1255
+msgid "Meta-Angaben"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1271
+msgid "Position auf der Detailseite"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1274
+msgid ""
+"An welcher Position sollen die Meta-Angaben platziert werden? Diese "
+"Einstellung gilt nur für die Detailseite eines Beitrages."
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1293
+#: library/plugins/acf/fields/options_general.php:351
+#: library/plugins/acf/fields/options_general.php:404
+#: library/plugins/acf/fields/options_general.php:457
+msgid "Oben & Unten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1308
+msgid "Veröffentlich von"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1327
+#: library/plugins/acf/fields/options_blog.php:1351
+#: library/plugins/acf/fields/options_blog.php:1375
+#: library/plugins/acf/fields/options_blog.php:1399
+#: library/plugins/acf/fields/options_blog.php:1423
+#: library/plugins/acf/fields/product.php:98
+#: library/plugins/acf/fields/product.php:348
+msgid "verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1380
+msgid "Schlagwörter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1428
+msgid "Authorenbox"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1444
+msgid "Ähnliche Beiträge"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1460
+msgid "Anzahl der Beiträge"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1463
+msgid "Wieviele Beiträge sollen angezeigt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1513
+msgid "Thumbnail (List)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1531
+msgid "Wie sollen die Ähnlichen Beiträge gefiltert werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1549
+msgid "nach Kategorie"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1550
+msgid "nach Schlagwörter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1551
+msgid "nach Kategorie & Schlagwörter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1644
+msgid "Artikel Navigation"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1663
+msgid "Soll die Navigation auf bestimtme Beiträge beschränkt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_blog.php:1681
+msgid "nach Kategorien"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:7
+msgid "Sonstige"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:34
+msgid "EAN"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:37
+msgid "Die EAN wird u.A. f&uuml;r den Preisvergleich ben&ouml;tigt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:58
+msgid ""
+"Zeigt den Preisvergleich f&uuml;r dieses Produkt an, &uuml;berschreibt die "
+"globale Einstellung. Achtung: Funktioniert nur, wenn mehr als 1 Preis "
+"vorhanden ist!"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:67
+msgid "globale Einstellung übernehmen"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:82
+msgid "Preisvergleich verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:85
+msgid ""
+"Mit dieser Option kannst du den Preisvergleich für dieses Produkt, "
+"unabh&auml;ngig von der globalen Einstellung, verstecken."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:119
+#: library/plugins/acf/fields/product.php:718
+#: library/plugins/acf/fields/product.php:952
+#: library/plugins/acf/fields/page_builder.php:1129
+msgid "Eintrag hinzufügen"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:126
+#: library/plugins/acf/fields/product.php:149
+msgid "Das Format wird automatisch umgewandelt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:169
+msgid "Währung"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:172
+msgid "Wähle deine Währung. Standart ist EUR."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:198
+msgid "Dieses Feld überschreibt den globalen Hinweis."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:216
+msgid "Hinweis ausblenden"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:232
+msgid "Affiliate Portal"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:257
+msgid "Artikel Nr."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:286
+msgid "Shop"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:335
+msgid "Wenn du diese Option wählst, wird der Preis versteckt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:354
+msgid "Fakeprodukt"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:357
+msgid ""
+"Wenn du diese Option wählst, wird dieses Produkt als Fakeprodukt behandelt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:376
+msgid "Ziel der Unterseite (301)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:379
+msgid ""
+"Definiere hier die URL auf welche die Unterseite weiterleiten soll (301)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:412
+msgid "Produkt hervorheben"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:423
+msgid "hervorheben"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:428
+msgid "Text: Hervorheben"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:431
+msgid "Wird als eine Art Label/Badge angezeigt, z.B: Testsieger."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:452
+msgid "Wie ist das Produkt bewertet?"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:461
+msgid "0 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:462
+msgid "0.5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:463
+msgid "1 Stern"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:464
+msgid "1.5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:465
+msgid "2 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:466
+msgid "2.5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:467
+msgid "3 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:468
+msgid "3.5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:469
+msgid "4 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:470
+msgid "4.5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:471
+msgid "5 Sterne"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:486
+msgid "Anzahl der Bewertungen"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:489
+msgid ""
+"Wenn die Daten über die API gezogen werden, wird dieses Feld automatisch "
+"befüllt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:500
+msgid "Bewertung(en)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:509
+msgid "Kurzbeschreibung"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:512
+msgid ""
+"Wird unterhalb der Eigenschaften und oberhalb des eigentlichen Inhalts "
+"dargestellt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:527
+msgid "Highlights"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:530
+msgid "Wird im Overlay der Grid-Ansicht angezeigt, bei aktivem Hover."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:571
+msgid ""
+"Wenn du für dieses Produkt abweichende ähnliche Produkte angezeigt haben "
+"willst, kannst du diese hier per Hand verknüpfen. Diese Einstellung "
+"überschreibt die globalen Einstellungen aus den Theme Optionen."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:576
+#: library/plugins/acf/fields/product.php:635
+msgid "Produkte verknüpfen"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:630
+msgid ""
+"Hier kannst du zu dem Produkt passendes Zubehör verknüpfen. Solltest du "
+"Beispielsweise ein Skateboard verkaufen, wäre es sinnvoll hier Zubehör wie z."
+"B. einen Helm oder Schienbeinschoner zu verknüpfen."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:663
+msgid "Galerie"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:678
+msgid "Bildergalerie"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:703
+msgid "Bildergalerie (Extern)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:706
+msgid ""
+"Alternativ kannst du deine Bildergalerie auch mit externen Bildern bestücken."
+" Sobald du dieses Feld befüllst wird die normale Galerie mit dieser ersetzt."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:722
+msgid "Bild URL"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:738
+msgid "ALT-Tag"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:770
+msgid "Bild verstecken"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:777
+#: library/plugins/acf/fields/product.php:938
+msgid "Bewertungen"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:804
+msgid "0-100%"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:805
+msgid "0-x Punkte"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:851
+msgid "Icon (empty)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:854
+#: library/plugins/acf/fields/product.php:883
+#: library/plugins/acf/fields/product.php:912
+msgid ""
+"An dieser Stelle kannst du z.B: Icons (Font-Awesome / Glyphicons) oder auch "
+"HTML Code verwenden."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:880
+msgid "Icon (half)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:909
+msgid "Icon (full)"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:977
+#: library/plugins/acf/fields/product.php:1008
+msgid "Wert"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1030
+msgid "Punkte"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1042
+msgid "z.B.: gut"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1062
+msgid "Fazit"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1065
+msgid "z.B: sehr gut"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1083
+msgid "Datum des Reviews"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1086
+msgid ""
+"Wenn dieses Feld nicht befüllt ist, wird das aktuelle Datum (Format: MM/YYYY)"
+" gezogen."
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1101
+msgid "Rich Snippets"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1117
+msgid "Für dieses Produkt deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1155
+msgid "SKU"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1174
+msgid "Abweichender Autor"
+msgstr ""
+
+#: library/plugins/acf/fields/product.php:1219
+msgid ""
+"Der Inhalt dieser Textfelder wird angezeigt wenn du das Widget <strong>"
+"\"affiliatetheme.io &raquo; Produktinfo\"</strong> verwendest. Mit dem "
+"Plugin <a href=\"https://wordpress.org/plugins/woosidebars/\" "
+"target=\"_blank\" rel=\"nofollow\">WooSidebars</a> kannst du dir einen "
+"eigenen Bereich nur für Produkte erstellen und dort dann das Widget an die "
+"gewünschte Stelle schieben."
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:143
+msgid "Neues Feld hinzufügen"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:150
+msgid "Textbereich"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:176
+#: library/plugins/acf/fields/page_builder.php:435
+#: library/plugins/acf/fields/page_builder.php:709
+#: library/plugins/acf/fields/page_builder.php:914
+#: library/plugins/acf/fields/page_builder.php:1076
+#: library/plugins/acf/fields/page_builder.php:1245
+#: library/plugins/acf/fields/page_builder.php:1380
+msgid "Klasse"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:197
+msgid "Spalten"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:200
+msgid "Wieviele Spalten sollen angezeigt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:242
+msgid "Abstand zwischen Spalten"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:245
+msgid "Soll der Abstand zwischen den Spalten entfernt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:253
+msgid "Abstand zwischen Spalten entfernen"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:258
+#: library/plugins/acf/fields/page_builder.php:305
+#: library/plugins/acf/fields/page_builder.php:345
+#: library/plugins/acf/fields/page_builder.php:378
+#: library/plugins/acf/fields/options_design.php:252
+#: library/plugins/acf/fields/options_design.php:461
+#: library/plugins/acf/fields/options_design.php:951
+#: library/plugins/acf/fields/options_design.php:988
+msgid "Textfeld"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:409
+msgid "Slideshow"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:530
+msgid ""
+"Wenn nur ein Bild angegeben wird, ist die Teaser-Funktion automatisch "
+"deaktiviert."
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:665
+msgid ""
+"Mit dieser Option wird dem Link das Attribut rel=\"nofollow\" hinzugefügt."
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:769
+#: library/plugins/acf/fields/page_builder.php:948
+msgid "Text (oberhalb)"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:788
+#: library/plugins/acf/fields/page_builder.php:967
+msgid "Einträge"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:866
+#: library/plugins/acf/fields/page_builder.php:1026
+msgid "Text (unterhalb)"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:1050
+msgid "Testimonials"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:1115
+msgid "Meinungen"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:1354
+#: library/plugins/acf/fields/options_general.php:163
+msgid "Social Buttons"
+msgstr ""
+
+#: library/plugins/acf/fields/page_builder.php:1406
+msgid "Trennlinie"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:6
+msgid "Widget: Auswahl von Produkten"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:10
+msgid "Manuelle zuweisung?"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:21
+msgid "Produkte manuell zuweisen"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:61
+msgid "Produkt IDs"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:64
+msgid ""
+"Alternativ können hier beliebige Produkt IDs hinterlegt werden. Mehrere IDs "
+"bitte kommasepariert angeben. Sofern dieses Feld ausgefüllt wird, wird die "
+"Auswahl im oberen Feld überschrieben"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:78
+msgid "Taxonomie(n)"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:226
+msgid "Produkbild anzeigen"
+msgstr ""
+
+#: library/plugins/acf/fields/widget_product_select.php:258
+msgid "Direkt auf den Shop verlinken"
+msgstr ""
+
+#: library/plugins/acf/fields/filter_design.php:5
+msgid "Filter - Design"
+msgstr ""
+
+#: library/plugins/acf/fields/filter_design.php:77
+msgid "Produktdarstellung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:5
+msgid "Optionen - Allgemein"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:9
+msgid "Anpassen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:24
+msgid "CSS"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:47
+msgid "JavaScript (Header)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:50
+#: library/plugins/acf/fields/options_general.php:73
+msgid "Bitte <strong>script-Container</strong> angeben!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:70
+msgid "JavaScript (Footer)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:93
+msgid "Scripte"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:108
+msgid "Font Awesome"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:112
+#: library/plugins/acf/fields/options_general.php:131
+#: library/plugins/acf/fields/options_general.php:149
+#: library/plugins/acf/fields/options_general.php:275
+msgid "deaktiviert"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:113
+#: library/plugins/acf/fields/options_general.php:132
+#: library/plugins/acf/fields/options_general.php:150
+#: library/plugins/acf/fields/options_general.php:276
+msgid "aktiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:114
+msgid ""
+"Font Awesome wird für einige Icons im Theme verwendet. Wir empfehlen daher "
+"Font Awesome nicht zu deaktvieren! <a href=\"http://fortawesome.github."
+"io/Font-Awesome/icons/\" target=\"_blank\">Hier</a> findest du alle Icons "
+"und <a href=\"http://fortawesome.github.io/Font-Awesome/cheatsheet/\" "
+"target=\"_blank\">hier</a> das Cheatsheet."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:127
+msgid "Bootstrap (JavaScript)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:133
+msgid ""
+"Es wird die neuste Version von Bootstrap JS geladen. <a href=\"http:"
+"//getbootstrap.com/javascript/\" target=\"_blank\">Hier</a> findest du alle "
+"Funktionen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:145
+msgid "Einfache Lightbox"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:151
+msgid ""
+"Es wird ein einfaches Lightbox Script geladen, mehr Informationen gibt es <a "
+"href=\"http://dimsemenov.com/plugins/magnific-popup/\" target=\"_blank\">"
+"hier</a>."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:178
+msgid "Netzwerke"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:181
+msgid ""
+"Welche Netzwerke sollen angezeigt werden? Bitte beachte das z.B. WhatsApp "
+"nur bei mobilen Geräten ausgegeben wird! Wenn du die Anzahl der Signale von "
+"Twitter nutzen willst, musst du deine Seite kostenlos auf <a href=\"http:"
+"//opensharecount.com/\" target=\"_blank\">opensharecount.com</a> "
+"registrieren. Sobald ein Account für die aktuelle Domain auf <a href=\"http:"
+"//opensharecount.com/\" target=\"_blank\">opensharecount.com</a> registriert "
+"wurde, werden die Signale ausgelesen. Dies kann bis zu 24 Stunden in "
+"Anspruch nehmen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:190
+msgid "Facebook (Like)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:191
+msgid "Facebook (Share)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:192
+msgid "Twitter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:193
+msgid "Google+"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:194
+msgid "Linked in"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:195
+msgid "Pinterest"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:196
+msgid "Xing"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:197
+msgid "WhatsApp (nur Mobile!)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:198
+msgid "E-Mail"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:207
+msgid "Größe der Buttons"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:237
+msgid "Anzahl der Signale"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:241
+msgid ""
+"Wenn du diese Option aktivierst werden die Anzahl der Singale pro Netzwerk "
+"ausgelesen. Bitte beachte das die Aktualisierung nicht sofort erfolgt, es "
+"kann pro Beitrag bis zu 30 Minuten dauern, das liegt daran das wir die "
+"Singale in der Datenbank zwischenspeichern/cachen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:259
+msgid ""
+"Solltest du viele Netzwerke aktiviert haben, ist es sinnvoll die Texte zu "
+"deaktivieren um Platz zu sparen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:271
+msgid "Gesamtzahl aller Signale"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:277
+msgid ""
+"Mit dieser Option kannst du die Ausgabe des Herzen, welches die Gesamtzahl "
+"aller Signale anzeigt, deaktivieren"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:308
+msgid ""
+"Wo sollen die Social Button angezeigt werden? Du kannst alternativ die "
+"Social Buttons jederzeit per Shortcode ausgeben: <strong>[socialbuttons /]"
+"</strong>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:472
+msgid "Platzhalter"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:487
+msgid "Platzhalter (Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:491
+msgid ""
+"Wenn kein Artikelbild vorhanden ist, wird ein Platzhalter ausgegeben. Du "
+"kannst auch eigene Bilder hochladen. Für Produkte kannst du die Platzhalter "
+"nicht deaktivieren."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:503
+msgid "50px x 50px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:506
+msgid "Auswahl von Produkten (Widget)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:527
+msgid "100px x 100px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:530
+msgid "Tabelle (Produkt)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:551
+msgid "150px x 150px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:554
+msgid "Thumbnail (Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:575
+msgid "162px x 162px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:578
+msgid "Liste (Produkt)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:599
+msgid "262px x 262px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:602
+msgid "Grid (Produkt)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:623
+msgid "263px x 138px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:626
+msgid "Artikelbild (Sidebar 9/3, Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:647
+msgid "360px x 189px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:650
+msgid "Artikelbild (Sidebar 8/4, Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:671
+msgid "360px x 360px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:674
+msgid "Galerie (Produkt)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:695
+msgid "848px x 446px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:698
+msgid "Artikelbild Fullwidth (Sidebar 9/3, Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:719
+msgid "1140px x 600px"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:722
+msgid "Artikelbild Fullwidth (ohne Sidebar, Blog)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:743
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:209
+msgid "Suche"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:761
+msgid "Soll die Sidebar auf der Suchseite angezeigt werden? Wenn ja, wo?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:863
+msgid "Beitragstypen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:866
+msgid "Welche Beitragstypen sollen in der Suche angezeigt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:888
+msgid "Standard Beitragstyp"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:891
+msgid "Welcher Beitragstyp soll als erstes angezeigt & durchsucht werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:913
+msgid "Tab: Alle"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:917
+msgid "entfernen"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:919
+msgid "Soll der Tab \"Alle\" entfernt werden?"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:932
+msgid "Kontakt"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:958
+msgid ""
+"Du kannst die Kontaktdaten hier zentral hinterlegen und an gewünschten "
+"Stellen einfach mit einem Shortcode ausgeben. <br><br><strong>[acf "
+"field=\"feldname\" post_id=\"option\" /]</strong><br><br> Den jeweiligen "
+"Feldnamen findest du als Hinweis unter jedem Feld."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:963
+msgid "Firma"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:966
+msgid ""
+"Feldname: contact_company <br> Shortcode: [acf field=\"contact_company\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:987
+msgid ""
+"Feldname: contact_lastname <br> Shortcode: [acf field=\"contact_lastname\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1005
+msgid "Vorname"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1008
+msgid ""
+"Feldname: contact_firstname <br> Shortcode: [acf field=\"contact_firstname\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1026
+msgid "Straße / H-Nr."
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1029
+msgid ""
+"Feldname: contact_street <br> Shortcode: [acf field=\"contact_street\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1047
+msgid "PLZ"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1050
+msgid ""
+"Feldname: contact_zipcode <br> Shortcode: [acf field=\"contact_zipcode\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1070
+msgid "Stadt"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1073
+msgid ""
+"Feldname: contact_city <br> Shortcode: [acf field=\"contact_city\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1091
+msgid "Telefon"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1094
+msgid ""
+"Feldname: contact_phone <br> Shortcode: [acf field=\"contact_phone\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1112
+msgid "Fax"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1115
+msgid ""
+"Feldname: contact_fax <br> Shortcode: [acf field=\"contact_fax\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1133
+msgid "E-Mail Adresse"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1136
+msgid ""
+"Feldname: contact_email <br> Shortcode: [acf field=\"contact_email\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1151
+msgid "Ust. ID"
+msgstr ""
+
+#: library/plugins/acf/fields/options_general.php:1154
+msgid ""
+"Feldname: contact_uid <br> Shortcode: [acf field=\"contact_uid\" "
+"post_id=\"option\" /]"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:5
+msgid "Optionen - Design"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:27
+msgid ""
+"Wird in dieser Option <strong>Fullwidth</strong> ausgewählt, so stehen für "
+"alle weitere Sektionen separate Layout-Einstellungen zur Verfügung."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:36
+#: library/plugins/acf/fields/options_design.php:201
+#: library/plugins/acf/fields/options_design.php:309
+#: library/plugins/acf/fields/options_design.php:562
+#: library/plugins/acf/fields/options_design.php:695
+#: library/plugins/acf/fields/options_design.php:754
+#: library/plugins/acf/fields/options_design.php:825
+#: library/plugins/acf/fields/options_design.php:868
+msgid "Boxed"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:52
+msgid "Logo"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:55
+msgid ""
+"Optimale Größe 230x60. Wenn der Aufbau des Header auf \"Logo Links, "
+"Navigation rechts\" oder \"Navigation links, Logo mittig, Navigation "
+"rechts\" gesetzt ist, sollte das Logo eine maximale Höhe von 40px haben."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:76
+msgid "Logo (Retina)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:79
+msgid ""
+"Sollte die doppelte Größe des normalen Logos haben um auf Retina Display "
+"ordentlich dargestellt zu werden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:100
+msgid "Favicon"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:103
+msgid "Bitte im Format .ico hochladen."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:124
+msgid "Favicon (Touch)"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:127
+msgid ""
+"Bitte im Format .png hochladen, die Optimale Auflösung ist <strong>152x152 "
+"Pixel</strong>."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:216
+#: library/plugins/acf/fields/options_design.php:324
+#: library/plugins/acf/fields/options_design.php:923
+msgid "Aufbau"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:236
+#: library/plugins/acf/fields/options_design.php:935
+msgid "Text links, Navigation rechts"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:237
+#: library/plugins/acf/fields/options_design.php:936
+msgid "Navigation links, Text rechts"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:336
+msgid "Logo oben, Navigation unten"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:337
+msgid "Logo links, Navigation rechts"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:338
+msgid "Navigation links, Logo mittig, Navigation rechts"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:425
+msgid "Darstellung im Header"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:445
+msgid "Logo / Text"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:446
+#: library/plugins/acf/fields/options_design.php:497
+msgid "Banner"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:464
+msgid ""
+"Der Inhalt des Textfeldes wird rechts neben dem Logo dargestellt. Du kannst "
+"hier z.B. USPs oder einen Werbebanner laden."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:486
+msgid "Kostenlose Lieferung"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:486
+msgid "bereits ab 29 Euro"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:487
+msgid "Echte Reviews"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:487
+msgid "von Usern"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:488
+msgid "In Kooperation"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:488
+msgid "mit den besten Shops"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:577
+msgid "Dropdown mit Hover"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:593
+msgid "Sticky Navigation"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:597
+msgid ""
+"Wenn diese Einstellung aktiviert ist, wird die Navigation beim Scrollen am "
+"oberen Bildschirmrand fixiert."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:609
+msgid "(Desktop) Suche"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:613
+msgid "Mit dieser Option wird eine Suchleiste in der Navigation dargestellt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:633
+msgid "(Mobil) Suche"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:637
+msgid "Mit dieser Option wird eine Suchleiste für Handy im Dropdown angezeigt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:668
+msgid "Global deaktiviert"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:669
+msgid "Global aktiv"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:736
+msgid ""
+"<strong>Hinweis</strong><p>In unserem Theme verwenden wir die Breadcrumbs "
+"des Plugins <a href=\"https://wordpress.org/plugins/wordpress-seo/\">"
+"WordPress SEO by Yoast</a>. Damit du die Breadcrumbs nutzen kannst, musst du "
+"das Plugin installieren und unter <strong>SEO</strong> » <strong>"
+"Fortgeschritten</strong> den Haken bei <strong>Breadcrumbs "
+"aktivieren</strong> setzen.</p>"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:781
+msgid "Unter der Navigation"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:782
+msgid "Über dem Footer"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:883
+msgid "Sticky Footer"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:907
+msgid "Widgets"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:911
+msgid ""
+"Mit dieser Option werden 4 Widgets-Bereiche unter \"Design\" > \"Widgets\" "
+"freigeschaltet."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:962
+msgid "Copyright - Blog Title"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:972
+msgid "Zeige uns deine Liebe"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:976
+msgid ""
+"Wenn du diese Option anhakst, wird in deinem Footer ein Link auf unsere "
+"Seite gesetzt."
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:991
+msgid ""
+"Wenn du möchstest kannst du auch deine Partner ID einsetzen - so verdienst "
+"du an jedem Verkauf!"
+msgstr ""
+
+#: library/plugins/acf/fields/options_design.php:1007
+msgid ""
+"Umgesetzt mit dem <a href=\"https://affiliatetheme.io\" target=\"blank\">"
+"Affiliate Theme</a>"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:4
+msgid "Import / Export"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:20
+msgid "affiliatetheme.io &raquo; Import / Export"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:24
+msgid "Customizer"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:33
+msgid "Optionen › Exportieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:35
+msgid "Wähle aus welche Einstellungen exportiert werden sollen"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:48
+#: library/plugins/acf/export/_load.php:82
+msgid "Exportierte Daten"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:52
+#: library/plugins/acf/export/_load.php:86
+msgid "Einstellungen exportieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:58
+msgid "Optionen › Importieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:60
+#: library/plugins/acf/export/_load.php:94
+msgid ""
+"Füge hier die exportierten Daten ein und bestätige mit dem Button den Import."
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:63
+msgid ""
+"Wichtiger Hinweis: Während des Importvorgangs werden alle aktuellen "
+"Einstellungen<strong>überschrieben!</strong>"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:68
+#: library/plugins/acf/export/_load.php:100
+msgid "Einstellungen importieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:80
+msgid "Customizer › Exportieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:92
+msgid "Customizer › Importieren"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:96
+msgid ""
+"Wichtiger Hinweis: Während des Importvorgangs werden alle aktuellen "
+"Anpassungen <strong>überschrieben!</strong>"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:230
+#: library/plugins/acf/export/_load.php:276
+msgid "Importvorgang erfolgreich"
+msgstr ""
+
+#: library/plugins/acf/export/_load.php:232
+#: library/plugins/acf/export/_load.php:278
+msgid "Es wurden keine Daten gefunden."
+msgstr ""
+
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:179
+msgid "Nummernfeld"
+msgstr ""
+
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:183
+msgid "Auswahlfeld"
+msgstr ""
+
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:187
+msgid "Ja/Nein"
+msgstr ""
+
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:218
+msgid "Gewählte Felder"
+msgstr ""
+
+#: library/plugins/acf/field-type-selector/acf-field_selector-v5.php:219
+msgid "Drag & Drop Sortierung"
+msgstr ""
+
+#. Name of the theme
+msgid "Affiliate Theme"
+msgstr ""
+
+#. Description of the theme
+msgid "Legen... wait for it... Dary!"
+msgstr ""
+
+#. URI of the theme
+msgid "https://affiliatetheme.io"
+msgstr ""
+
+#. Author of the theme
+msgid "endcore Medienagentur"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://endcore.com"
+msgstr ""

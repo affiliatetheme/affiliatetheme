@@ -1,0 +1,23 @@
+body.hide-acf-descriptions .acf-field .acf-label p {
+	display:none;
+}
+
+.field .label .dashicons,
+.acf-field .acf-label .dashicons,
+.table-layout .acf-th .dashicons,
+th.acf-th-text .dashicons {
+	color: #0074a2;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	cursor: pointer!important;
+}
+
+.qtip-acf {
+	background-color: rgba(0,0,0,0.9);
+	border-color: #000000;
+	color: #f3f3f3;
+	border-radius: 3px;
+	font-size: 13px;
+	line-height: 1.5;
+}

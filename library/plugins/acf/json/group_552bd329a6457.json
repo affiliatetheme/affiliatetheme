@@ -1,0 +1,1285 @@
+
+{
+    "ID": 0,
+    "key": "group_552bd329a6457",
+    "title": "Optionen - Design",
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-design"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "local": "php",
+    "fields": [
+        {
+            "ID": 0,
+            "key": "field_552bd4a5eec4a",
+            "label": "Allgemein",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 0,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "left"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd4afeec4b",
+            "label": "Layout",
+            "name": "design_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 1,
+            "instructions": "Wird in dieser Option <strong>Fullwidth<\/strong> ausgew\u00e4hlt, so stehen f\u00fcr alle weitere Sektionen separate Layout-Einstellungen zur Verf\u00fcgung.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "boxed": "Boxed",
+                "fullwidth": "Fullwidth"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd55cd0a2a",
+            "label": "Logo",
+            "name": "design_logo",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 2,
+            "instructions": "Optimale Gr\u00f6\u00dfe 230x60. Wenn der Aufbau des Header auf \"Logo Links, Navigation rechts\" oder \"Navigation links, Logo mittig, Navigation rechts\" gesetzt ist, sollte das Logo eine maximale H\u00f6he von 40px haben.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_logo",
+            "_input": "",
+            "_valid": 1,
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "ID": 0,
+            "key": "field_55544d65e01f0",
+            "label": "Logo (Retina)",
+            "name": "design_logo2x",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 3,
+            "instructions": "Sollte die doppelte Gr\u00f6\u00dfe des normalen Logos haben um auf Retina Display ordentlich dargestellt zu werden.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_logo2x",
+            "_input": "",
+            "_valid": 1,
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd56bd0a2b",
+            "label": "Favicon",
+            "name": "design_favicon",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 4,
+            "instructions": "Bitte im Format .ico hochladen.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_favicon",
+            "_input": "",
+            "_valid": 1,
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "ico"
+        },
+        {
+            "ID": 0,
+            "key": "field_552befde630ec",
+            "label": "Favicon (Touch)",
+            "name": "design_favicon_touch",
+            "prefix": "",
+            "type": "image",
+            "value": null,
+            "menu_order": 5,
+            "instructions": "Bitte im Format .png hochladen, die Optimale Aufl\u00f6sung ist <strong>152x152 Pixel<\/strong>.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_favicon_touch",
+            "_input": "",
+            "_valid": 1,
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": 152,
+            "min_height": 152,
+            "min_size": "",
+            "max_width": 152,
+            "max_height": 152,
+            "max_size": "",
+            "mime_types": "png"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd3300bba2",
+            "label": "Topbar",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 6,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "left"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd3430bba3",
+            "label": "Topbar",
+            "name": "design_topbar_show",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 7,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_topbar_show",
+            "_input": "",
+            "_valid": 1,
+            "message": "anzeigen",
+            "default_value": 1
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd3ab14755",
+            "label": "Layout",
+            "name": "design_topbar_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 8,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd3430bba3",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_topbar_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_554647ef98b96",
+            "label": "Aufbau",
+            "name": "design_topbar_structure",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 9,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_topbar_structure",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "tl_nr": "Text links, Navigation rechts",
+                "nl_tr": "Navigation links, Text rechts"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd36e0bba4",
+            "label": "Textfeld",
+            "name": "design_topbar_text",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 10,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd3430bba3",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_topbar_text",
+            "_input": "",
+            "_valid": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd40feec49",
+            "label": "Header",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 11,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "left"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd5c3fe1ec",
+            "label": "Layout",
+            "name": "design_header_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 12,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_header_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd63114c0d",
+            "label": "Aufbau",
+            "name": "design_header_structure",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 13,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_header_structure",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "12": "Logo oben, Navigation unten",
+                "4-8": "Logo links, Navigation rechts",
+                "5-2-5": "Navigation links, Logo mittig, Navigation rechts"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd65e14c0e",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 14,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd63114c0d",
+                        "operator": "==",
+                        "value": "4-8"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-header-two.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd6acaa69c",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 15,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd63114c0d",
+                        "operator": "==",
+                        "value": "12"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-header-one.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd6cf4badf",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 16,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd63114c0d",
+                        "operator": "==",
+                        "value": "5-2-5"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": 50,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-header-three.jpg\" class=\"img-responsive\" \/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55954b28438be",
+            "label": "Textfeld",
+            "name": "design_header_textarea",
+            "prefix": "",
+            "type": "wysiwyg",
+            "value": null,
+            "menu_order": 17,
+            "instructions": "Der Inhalt des Textfeldes wird rechts neben dem Logo dargestellt. Du kannst hier z.B. USPs oder einen Werbebanner laden.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd63114c0d",
+                        "operator": "==",
+                        "value": "12"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_header_textarea",
+            "_input": "",
+            "_valid": 1,
+            "default_value": "<ul class=\"list-inline list-usp pull-right hidden-xs hidden-sm\">\n\t<li><i class=\"fa fa-truck\"><\/i> <strong>Kostenlose Lieferung<\/strong><br> <span>bereits ab 29 Euro<\/span><\/li>\n\t<li><i class=\"fa fa-user\"><\/i> <strong>Echte Reviews<\/strong><br> <span>von Usern<\/span><\/li>\n\t<li><i class=\"fa fa-shopping-cart\"><\/i> <strong>In Kooperation<\/strong><br> <span>mit den besten Shops<\/span><\/li>\n<\/ul>\n<div class=\"clearfix\"><\/div>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd6ff2b5d5",
+            "label": "Navigation",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 18,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd7052b5d6",
+            "label": "Layout",
+            "name": "design_nav_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 19,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_nav_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd73e1b28d",
+            "label": "Dropdown mit Hover",
+            "name": "design_nav_hover",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 20,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_nav_hover",
+            "_input": "",
+            "_valid": 1,
+            "message": "aktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd78a1b28e",
+            "label": "Sticky Navigation",
+            "name": "design_nav_sticky",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 21,
+            "instructions": "Wenn diese Einstellung aktiviert ist, wird die Navigation beim Scrollen am oberen Bildschirmrand fixiert.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_nav_sticky",
+            "_input": "",
+            "_valid": 1,
+            "message": "aktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_553a2e73214a9",
+            "label": "(Desktop) Suche",
+            "name": "design_nav_searchform",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 22,
+            "instructions": "Mit dieser Option wird eine Suchleiste in der Navigation dargestellt. ",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bd63114c0d",
+                        "operator": "==",
+                        "value": "12"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_nav_searchform",
+            "_input": "",
+            "_valid": 1,
+            "message": "anzeigen",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_553a2ee8214aa",
+            "label": "(Mobil) Suche",
+            "name": "design_nav_mobile_searchform",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 23,
+            "instructions": "Mit dieser Option wird eine Suchleiste f\u00fcr Handy im Dropdown angezeigt.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_nav_mobile_searchform",
+            "_input": "",
+            "_valid": 1,
+            "message": "anzeigen",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552fc1659defb",
+            "label": "Teaser",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 24,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_552fc2655944d",
+            "label": "Teaser",
+            "name": "design_teaser_hide",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 25,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_teaser_hide",
+            "_input": "",
+            "_valid": 1,
+            "message": "Global ausblenden",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552fc1799defc",
+            "label": "Layout",
+            "name": "design_teaser_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 26,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_teaser_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd851d0567",
+            "label": "Breadcrumbs",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 27,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_55364a063f873",
+            "label": "",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 28,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<div class=\"alert alert-info\"><strong>Hinweis<\/strong><p>In unserem Theme verwenden wir die Breadcrumbs des Plugins <a href=\"https:\/\/wordpress.org\/plugins\/wordpress-seo\/\">WordPress SEO by Yoast<\/a>. Damit du die Breadcrumbs nutzen kannst, musst du das Plugin installieren und unter <strong>SEO<\/strong> \u00bb <strong>Erweitert<\/strong> den Haken bei <strong>Breadcrumbs aktivieren<\/strong> setzen.<\/p><\/div>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd85dd0568",
+            "label": "Layout",
+            "name": "design_breadcrumbs_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 29,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_breadcrumbs_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd8acd0569",
+            "label": "Position",
+            "name": "design_breadcrumbs_pos",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 30,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_breadcrumbs_pos",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "after_nav": "Unter der Navigation",
+                "above_footer": "\u00dcber dem Footer"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd9c6610f8",
+            "label": "Inhalt",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 31,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bd9e0610f9",
+            "label": "Layout",
+            "name": "design_content_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 32,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_content_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bda67f4eaf",
+            "label": "Footer",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 33,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_552bda6ff4eb0",
+            "label": "Layout",
+            "name": "design_footer_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 34,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_footer_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "fullwidth": "Fullwidth",
+                "boxed": "Boxed"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552fdd669ceeb",
+            "label": "Sticky Footer",
+            "name": "design_footer_sticky",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 35,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_552bda7ef4eb1",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_footer_sticky",
+            "_input": "",
+            "_valid": 1,
+            "message": "aktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bda7ef4eb1",
+            "label": "Widgets",
+            "name": "design_footer_widgets",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 36,
+            "instructions": "Mit dieser Option werden 4 Widgets-Bereiche unter \"Design\" > \"Widgets\" freigeschaltet.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_footer_widgets",
+            "_input": "",
+            "_valid": 1,
+            "message": "aktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bdad0f4eb2",
+            "label": "Aufbau",
+            "name": "design_footer_structure",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 37,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_footer_structure",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "tl_nr": "Text links, Navigation rechts",
+                "nl_tr": "Navigation links, Text rechts"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_552bdb11f4eb3",
+            "label": "Textfeld",
+            "name": "design_footer_text",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 38,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_552bd329a6457",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "design_footer_text",
+            "_input": "",
+            "_valid": 1,
+            "default_value": "Copyright - Blog Title",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ]
+}

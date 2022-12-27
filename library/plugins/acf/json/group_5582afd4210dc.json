@@ -1,0 +1,700 @@
+
+{
+    "ID": 0,
+    "key": "group_5582afd4210dc",
+    "title": "Optionen - Shops",
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-shops"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "local": "php",
+    "fields": [
+        {
+            "ID": 0,
+            "key": "field_5582b004ef675",
+            "label": "Allgemein",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 0,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "left"
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b016ef676",
+            "label": "Permalink",
+            "name": "shop_slug",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 1,
+            "instructions": "Der Slug findet sich z.B. in der URL eines Shops wieder. Beispiel:\n\nhttp:\/\/www.deineseite.de\/slug\/shop-name\/\n\nDu kannst diesen anpassen, wenn du dieses Feld leer l\u00e4sst, wird der Slug komplett entfernt. Bedenke aber das ein fehlender Slug oft zu Probleme (404-Seiten) f\u00fchren kann.\tEs gibt auch schon von <a href=\"https:\/\/codex.wordpress.org\/Function_Reference\/register_taxonomy#Reserved_Terms\" target=\"_blank\">WordPress reservierte Slugs<\/a>, welche du <strong>nicht<\/strong> verwenden darfst. Verwende au\u00dferdem <strong>keine<\/strong> Leerzeichen, Sonderzeichen und Gro\u00dfbuchstaben.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 70,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_slug",
+            "_input": "",
+            "_valid": 1,
+            "default_value": "shop",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b05aef677",
+            "label": "Permalink entfernen",
+            "name": "shop_slug_remove",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 2,
+            "instructions": "<strong>Hinweis:<\/strong> Das entfernen des Slugs f\u00fcr Shops kann zu Problemen bzw. 404 Fehlern f\u00fchren. Bitte teste nach dieser Einstellung deine Seite auf m\u00f6gliche Fehler!",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_slug_remove",
+            "_input": "",
+            "_valid": 1,
+            "message": "Slug vollst\u00e4ndig entfernen",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5592706133cd7",
+            "label": "Archiv Permalink",
+            "name": "shop_archive_slug",
+            "prefix": "",
+            "type": "text",
+            "value": null,
+            "menu_order": 3,
+            "instructions": "WordPress erstellt ein automatisches Archiv mit allen Shops. Die Ausgabe kannst du im kommenden Tab bestimmten. Diese Einstellung legt fest, wie die URL des Archivs lauten soll. Im Normalfall ist die URL gleich mit dem Permalink in der obigen Option. Wenn du also \"shop\" festlegst, ist das Archiv unter\n\nhttp:\/\/www.deineurl.de\/shop\/ zu finden.\n\nEs gibt von <a href=\"https:\/\/codex.wordpress.org\/Function_Reference\/register_taxonomy#Reserved_Terms\" target=\"_blank\">WordPress reservierte Slugs<\/a>, welche du <strong>nicht<\/strong> verwenden darfst. Verwende au\u00dferdem <strong>keine<\/strong> Leerzeichen, Sonderzeichen und Gro\u00dfbuchstaben.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 70,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_archive_slug",
+            "_input": "",
+            "_valid": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_559270aa33cd8",
+            "label": "Archiv deaktivieren",
+            "name": "shop_archive_remove",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 4,
+            "instructions": "<strong>Hinweis:<\/strong> Mit dieser Option wird das Archiv komplett deaktiviert, achte darauf das du die daraus resultierende 404-Seite mit einem Redirect anpasst.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_archive_remove",
+            "_input": "",
+            "_valid": 1,
+            "message": "Archiv vollst\u00e4ndig deaktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a23ce925",
+            "label": "Archiv",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 5,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a47ce927",
+            "label": "Sidebar",
+            "name": "shop_archive_sidebar",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 6,
+            "instructions": "Soll die Sidebar angezeigt werden? Wenn ja, wo?",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_archive_sidebar",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "right": "Rechts",
+                "left": "Links",
+                "none": "Keine"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a55ce928",
+            "label": "Verh\u00e4ltnis (Inhalt \/ Sidebar)",
+            "name": "shop_archive_sidebar_size",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 7,
+            "instructions": "Bestimme hier die Aufteilung von Inhalt und Sidebar.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_archive_sidebar_size",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "8_4": "8\/4",
+                "9_3": "9\/3"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a69ce929",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 8,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55926a55ce928",
+                        "operator": "==",
+                        "value": "8_4"
+                    }
+                ]
+            ],
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-8-4.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a75ce92a",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 9,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55926a55ce928",
+                        "operator": "==",
+                        "value": "9_3"
+                    }
+                ]
+            ],
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-9-3.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926a83ce92c",
+            "label": "Shops pro Seite",
+            "name": "shop_archive_posts_per_page",
+            "prefix": "",
+            "type": "number",
+            "value": null,
+            "menu_order": 10,
+            "instructions": "Der Wert -1 steht f\u00fcr alle Shops.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_archive_posts_per_page",
+            "_input": "",
+            "_valid": 1,
+            "default_value": -1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": -1,
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b0a3eebea",
+            "label": "Single",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "value": null,
+            "menu_order": 11,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "placement": "top"
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b0c2eebeb",
+            "label": "Sidebar",
+            "name": "shop_single_sidebar",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 12,
+            "instructions": "Soll die Sidebar angezeigt werden? Wenn ja, wo?",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_sidebar",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "right": "Rechts",
+                "left": "Links",
+                "none": "Keine"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926685f1e82",
+            "label": "Verh\u00e4ltnis (Inhalt \/ Sidebar)",
+            "name": "shop_single_sidebar_size",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 13,
+            "instructions": "Bestimme hier die Aufteilung von Inhalt und Sidebar.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 30,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_sidebar_size",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "8_4": "8\/4",
+                "9_3": "9\/3"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_559266f8f1e83",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 14,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55926685f1e82",
+                        "operator": "==",
+                        "value": "8_4"
+                    }
+                ]
+            ],
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-8-4.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55926729379a9",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 15,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55926685f1e82",
+                        "operator": "==",
+                        "value": "9_3"
+                    }
+                ]
+            ],
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-9-3.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b0ffeebec",
+            "label": "Layout",
+            "name": "shop_single_layout",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 16,
+            "instructions": "Darstellung der Produkte",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_layout",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "list": "Liste",
+                "grid": "Grid"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b129eebed",
+            "label": "Maximale Anzahl an Produkten",
+            "name": "shop_single_posts_per_page",
+            "prefix": "",
+            "type": "number",
+            "value": null,
+            "menu_order": 17,
+            "instructions": "Leider ist auf dieser Seite keine Pagination M\u00f6glich, du kannst aber die Ausgabe begrenzen. Der Wert -1 steht f\u00fcr alle Produkte.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_posts_per_page",
+            "_input": "",
+            "_valid": 1,
+            "default_value": -1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": -1,
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_559267d861f7d",
+            "label": "Benutzer-Filter",
+            "name": "shop_single_userfilter",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 18,
+            "instructions": "Soll der User einen Filter angezeigt bekommen in dem er die Darstellung sowie die Sortierung der Produkte manuell anpassen kann?",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_userfilter",
+            "_input": "",
+            "_valid": 1,
+            "message": "aktivieren",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b73ab2d79",
+            "label": "Logo",
+            "name": "shop_single_logo",
+            "prefix": "",
+            "type": "true_false",
+            "value": null,
+            "menu_order": 19,
+            "instructions": "Hiermit kannst du das Beitragsbild, welches in der Regel das Logo des Shops ist, automatisch ausgeben. Alternativ kannst du es einfach im Inhalts-Editor ausgeben.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 60,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_logo",
+            "_input": "",
+            "_valid": 1,
+            "message": "Beitragsbild (Logo) automatisch ausgeben",
+            "default_value": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_5582b7f4b2d7a",
+            "label": "Position des Logos",
+            "name": "shop_single_logo_align",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 20,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_5582afd4210dc",
+            "wrapper": {
+                "width": 40,
+                "class": "",
+                "id": ""
+            },
+            "_name": "shop_single_logo_align",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "alignleft": "Linksb\u00fcndig",
+                "alignright": "Rechtsb\u00fcndig",
+                "aligncenter": "Mittig"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        }
+    ]
+}

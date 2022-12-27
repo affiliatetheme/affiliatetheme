@@ -1,0 +1,166 @@
+<?php
+if( function_exists('acf_add_local_field_group') ):
+
+    acf_add_local_field_group(array (
+        'key' => 'group_5559aa9c154f9',
+        'title' => __('Widget: Produkt Empfehlung', 'affiliatetheme-backend'),
+        'fields' => array (
+            array (
+                'key' => 'field_5559aab83ef53',
+                'label' => __('Produkt', 'affiliatetheme-backend'),
+                'name' => 'widget_advice_product',
+                'type' => 'post_object',
+                'instructions' => '',
+                'required' => 1,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'post_type' => array (
+                    0 => 'product',
+                ),
+                'taxonomy' => array (
+                ),
+                'allow_null' => 0,
+                'multiple' => 0,
+                'return_format' => 'object',
+                'ui' => 1,
+            ),
+            array (
+                'key' => 'field_5559aad53ef54',
+                'label' => '',
+                'name' => 'widget_advice_rating',
+                'type' => 'true_false',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => __('Bewertung anzeigen', 'affiliatetheme-backend'),
+                'default_value' => 0,
+            ),
+            array (
+                'key' => 'field_5559aaeb3ef55',
+                'label' => '',
+                'name' => 'widget_advice_thumbnail_link',
+                'type' => 'true_false',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => __('Thumbnail verlinken', 'affiliatetheme-backend'),
+                'default_value' => 0,
+            ),
+            array (
+                'key' => 'field_5559aaff3ef56',
+                'label' => __('Ziel des Links', 'affiliatetheme-backend'),
+                'name' => 'widget_advice_thumbnail_link_target',
+                'type' => 'select',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => array (
+                    array (
+                        array (
+                            'field' => 'field_5559aaeb3ef55',
+                            'operator' => '==',
+                            'value' => '1',
+                        ),
+                    ),
+                ),
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'choices' => array (
+                    'detail' => __('Produktseite', 'affiliatetheme-backend'),
+                    'shop' => 'Shop',
+                ),
+                'default_value' => array (
+                    '' => '',
+                ),
+                'allow_null' => 0,
+                'multiple' => 0,
+                'ui' => 0,
+                'ajax' => 0,
+                'placeholder' => '',
+                'disabled' => 0,
+                'readonly' => 0,
+            ),
+            array (
+                'key' => 'field_555b945d96ada',
+                'label' => '',
+                'name' => 'widget_advice_price',
+                'type' => 'true_false',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => __('Preis anzeigen', 'affiliatetheme-backend'),
+                'default_value' => 0,
+            ),
+            array (
+                'key' => 'field_5559ab2c3ef57',
+                'label' => '',
+                'name' => 'widget_advice_details_button',
+                'type' => 'true_false',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => __('Details-Button anzeigen', 'affiliatetheme-backend'),
+                'default_value' => 0,
+            ),
+            array (
+                'key' => 'field_5559ab503ef58',
+                'label' => '',
+                'name' => 'widget_advice_buy_button',
+                'type' => 'true_false',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array (
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'message' => __('Kaufen-Button anzeigen', 'affiliatetheme-backend'),
+                'default_value' => 0,
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'widget',
+                    'operator' => '==',
+                    'value' => 'advice_widget',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'modified' => 1432065148,
+    ));
+
+endif;

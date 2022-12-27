@@ -1,0 +1,6 @@
+.idea/
+library/plugins/acf/json/group_557c8d240f5c1.json
+*.po~
+*.pot~
+package-lock.json
+node_modules

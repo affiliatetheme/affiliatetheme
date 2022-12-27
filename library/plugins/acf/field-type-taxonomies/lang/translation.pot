@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACF Advanced Taxonomy Selector 3.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-21 22:13+0100\n"
+"PO-Revision-Date: 2015-04-21 22:13+0100\n"
+"Last-Translator: Daniel Pataki <contact@tastique.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../acf-advanced_taxonomy_selector-v4.php:41
+#: ../acf-advanced_taxonomy_selector-v5.php:38
+msgid "Advanced Taxonomy Selector"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:42
+msgid "Relational"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:90
+#: ../acf-advanced_taxonomy_selector-v5.php:86
+msgid "Type"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:100
+#: ../acf-advanced_taxonomy_selector-v5.php:90
+msgid "Term Selector"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:101
+#: ../acf-advanced_taxonomy_selector-v5.php:91
+msgid "Taxonomy Selector"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:113
+#: ../acf-advanced_taxonomy_selector-v5.php:96
+msgid "Taxonomy Restrictions"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:134
+#: ../acf-advanced_taxonomy_selector-v5.php:104
+msgid "Post Type Restrictions"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:155
+#: ../acf-advanced_taxonomy_selector-v5.php:112
+msgid "Field Type"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:165
+#: ../acf-advanced_taxonomy_selector-v5.php:116
+msgid "Multiselect"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:166
+#: ../acf-advanced_taxonomy_selector-v5.php:117
+msgid "Select"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:178
+#: ../acf-advanced_taxonomy_selector-v5.php:122
+msgid "Allow Null?"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:189
+#: ../acf-advanced_taxonomy_selector-v5.php:127
+msgid "Yes"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:190
+#: ../acf-advanced_taxonomy_selector-v5.php:128
+msgid "No"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:202
+#: ../acf-advanced_taxonomy_selector-v5.php:133
+msgid "Return Value"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:212
+#: ../acf-advanced_taxonomy_selector-v5.php:137
+msgid "Term ID / Taxonomy Slug"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:213
+#: ../acf-advanced_taxonomy_selector-v5.php:138
+msgid "Term Object / Taxonomy Object"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:267
+#: ../acf-advanced_taxonomy_selector-v4.php:304
+#: ../acf-advanced_taxonomy_selector-v5.php:185
+#: ../acf-advanced_taxonomy_selector-v5.php:222
+msgid "None"
+msgstr ""
+
+#: ../acf-advanced_taxonomy_selector-v4.php:307
+#: ../acf-advanced_taxonomy_selector-v5.php:225
+msgid "No Taxonomies Exist For This Post Type"
+msgstr ""
+
+#: ../functions.php:34
+msgid "All Taxonomies"
+msgstr ""

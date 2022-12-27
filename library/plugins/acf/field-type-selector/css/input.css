@@ -1,0 +1,121 @@
+.multiselector {
+	overflow:hidden;
+}
+
+.multiselector .field-container {
+	width:48%;
+	position:relative;
+}
+
+.multiselector .selected-container {
+	float:right;
+}
+
+.multiselector .selectable-container {
+	float:left;
+}
+
+.multiselector .title {
+	background:#eee;
+	border:1px solid #ddd;
+	border-bottom:0px;
+	padding:6px 11px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#999;
+	letter-spacing:1px;
+}
+
+.multiselector .search {
+	background:#eee;
+	border:1px solid #ddd;
+	border-top:0px;
+	border-bottom:0px;
+	padding-bottom:8px;
+}
+
+.multiselector .selected-container .message {
+	line-height:34px;
+	height:34px;
+	text-align:center;
+	background:#eee;
+	border:1px solid #ddd;
+	border-top:0px;
+	border-bottom:0px;
+	color:#999;
+	font-size:12px;
+}
+
+
+.multiselector .search input#field-search {
+	border:0px;
+	width:90%;
+	display:block;
+	margin:0 auto;
+	border-radius:12px;
+	padding:4px 11px;
+	font-size:13px;
+}
+
+.multiselector .field {
+	max-height:250px;
+	height:250px;
+	overflow: scroll;
+	border: 1px solid #ddd;
+}
+
+.multiselector ul {
+	margin:0px;
+}
+
+.multiselector ul li {
+	position:relative;
+	padding:3px 0 3px 37px;
+	margin:0px;
+	background:#fff;
+	cursor:pointer;
+}
+
+.multiselector ul .sortable-placeholder {
+	background:#f1f1f1;
+	border:1px dashed #ddd;
+	border-left:0px;
+	border-right:0px;
+}
+
+.multiselector ul li:hover {
+	background: #2ea2cc;
+	color: #fff;
+}
+
+
+.multiselector .selectable li:before {
+    font-family: "dashicons";
+    content: "\f132";
+    position:absolute;
+    left:11px;
+    top:50%;
+    font-size:14px;
+    margin-top:-7px;
+}
+
+.multiselector .selected li:before {
+    font-family: "dashicons";
+    content: "\f335";
+    position:absolute;
+    left:11px;
+    top:50%;
+    font-size:14px;
+    margin-top:-7px;
+}
+
+
+.multiselector .selected li:after {
+    font-family: "dashicons";
+    content: "\f333";
+    position:absolute;
+    right:11px;
+    top:50%;
+    font-size:14px;
+    margin-top:-7px;
+}

@@ -1,0 +1,149 @@
+
+{
+    "ID": 0,
+    "key": "group_55c9e81610cca",
+    "title": "Sidebar",
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/sidebar-left.php"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/sidebar-right.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "local": "php",
+    "fields": [
+        {
+            "ID": 0,
+            "key": "field_55c9e81add881",
+            "label": "Verh\u00e4ltnis (Inhalt \/ Sidebar)",
+            "name": "page_allg_sidebar_size",
+            "prefix": "",
+            "type": "select",
+            "value": null,
+            "menu_order": 0,
+            "instructions": "Bestimme hier die Aufteilung von Inhalt und Sidebar.",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": 0,
+            "parent": "group_55c9e81610cca",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "page_allg_sidebar_size",
+            "_input": "",
+            "_valid": 1,
+            "choices": {
+                "8_4": "8\/4",
+                "9_3": "9\/3"
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55c9e876dd882",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 1,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55c9e81add881",
+                        "operator": "==",
+                        "value": "8_4"
+                    }
+                ]
+            ],
+            "parent": "group_55c9e81610cca",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-8-4.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        },
+        {
+            "ID": 0,
+            "key": "field_55c9e889dd883",
+            "label": "Vorschau",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "value": null,
+            "menu_order": 2,
+            "instructions": "",
+            "required": 0,
+            "id": "",
+            "class": "",
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_55c9e81add881",
+                        "operator": "==",
+                        "value": "9_3"
+                    }
+                ]
+            ],
+            "parent": "group_55c9e81610cca",
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "_name": "",
+            "_input": "",
+            "_valid": 1,
+            "message": "<img src=\"http:\/\/dev.affiliatetheme.io\/wp-content\/themes\/affiliatetheme\/library\/helper\/images\/xcore-content-9-3.jpg\" class=\"img-responsive\"\/>",
+            "esc_html": 0
+        }
+    ]
+}

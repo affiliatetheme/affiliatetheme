@@ -1,0 +1,2 @@
+ul.ui-autocomplete li { cursor: pointer; }
+ul.ui-autocomplete li:hover { background: #ccc; }
