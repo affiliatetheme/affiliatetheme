@@ -70,9 +70,18 @@ class at_navigation_walker extends Walker_Nav_Menu
 	{
 		$id_field = $this->db_fields['id'];
 		if ( is_object( $args[0] ) ) {
-			$args[0]->has_children = ! empty( $children_elements[ $element->$id_field ] );
+			$args[0]->has_children = ! empty( $children_elements[$element->$id_field] );
 		}
 
 		return parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
 	}
+}
+
+/**
+ * Prevent bugs with old child themes
+ *
+ * @deprecated 2.0
+ */
+class description_walker extends at_navigation_walker
+{
 }
