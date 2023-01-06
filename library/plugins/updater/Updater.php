@@ -11,6 +11,10 @@ add_filter( 'site_transient_update_themes', function( $transient ) {
 	$theme   = wp_get_theme();
 	$version = $theme->get( 'Version' );
 
+	// overwrite version if childtheme is active
+	if ( $theme->parent() ) {
+		$version = $theme->parent()->get( 'Version' );
+	}
 
 	// connect to a remote server where the update information is stored
 	$remote = wp_remote_get(
