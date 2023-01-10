@@ -17,6 +17,10 @@ The affiliatetheme (in any version) needs the premium plugin "ACF Pro" to work. 
 
 - https://www.advancedcustomfields.com/
 
+**UPDATE:** We spoke to Advanced Custom Fields and were able to negotiate a 30% coupon for you. Just enter `AFFILIATETHEME-G6LP23` at checkout or directly through the link below. Generally applies to the first year.
+
+- https://advancedcustomfields.com/pro/?coupon=AFFILIATETHEME-G6LP23
+
 ### Quick start
 
 Just download the latest release of our theme and upload it into your WordPress. You'll find a tutorial how to install WordPress Themes on our YouTube Channel (link below).
