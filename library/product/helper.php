@@ -712,6 +712,7 @@ if ( ! function_exists( 'at_number_format' ) ) {
 	{
 		$format = get_field( 'product_price_format', 'option' );
 
+        $price = floatval($price);
 		switch ( $format ) {
 			case 'de':
 				$output = number_format( $price, 2, ',', '.' );
