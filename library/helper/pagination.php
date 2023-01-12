@@ -58,3 +58,13 @@ function atio_pagination( $range = 3, $show_one_pager = true, $show_page_hint = 
 		return $output;
 	}
 }
+
+/**
+ * Prevent bugs with old child themes
+ *
+ * @deprecated 2.0
+ */
+function pagination( $range = 3, $show_one_pager = true, $show_page_hint = false )
+{
+    atio_pagination($range,$show_one_pager,$show_page_hint);
+}
