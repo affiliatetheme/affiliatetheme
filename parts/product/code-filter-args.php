@@ -2,7 +2,7 @@
 
 global $args, $layout;
 
-$layout  = isset( $_GET['layout'] ) ? sanitize_text_field( $_GET['layout'] ) : '';
+$layout  = isset( $_GET['layout'] ) ? sanitize_text_field( $_GET['layout'] ) : ( isset($layout) ? $layout : '' );
 $orderby = isset( $_GET['orderby'] ) ? sanitize_text_field( $_GET['orderby'] ) : '';
 
 if ( $orderby ) {
