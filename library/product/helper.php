@@ -1401,8 +1401,6 @@ if ( ! function_exists( 'get_product_review_rating' ) ) {
 		$rating_form = number_format( $rating, 1, '.', '' );
 		$rating_arr  = explode( '.', $rating_form );
 
-		var_dump( $rating_arr );
-
 		if ( $rating_arr ) {
 			if ( isset( $rating_arr[1] ) && $rating_arr[1] > 0 ) {
 				$rating_arr[1] = '1';
