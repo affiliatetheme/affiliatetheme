@@ -1,5 +1,5 @@
 
-![affiliatetheme logo](https://affiliatetheme.io/wp-content/uploads/logo.png)
+![affiliatetheme logo](https://endcore.com/wp-content/themes/xcore/_/img/logo-affiliatetheme.png)
 
 ---
 
@@ -13,11 +13,7 @@ The affiliatetheme is a WordPress theme perfect for creating new affiliate websi
 
 ### (required) Advanced Custom Fields Pro
 
-The affiliatetheme (in any version) needs the premium plugin "ACF Pro" to work. When our theme was not yet public, the plugin was included with the purchase. However, this is no longer possible with the free / public version. The reason for this is simply the licensing terms of the plugin.
-
-- https://www.advancedcustomfields.com/
-
-**UPDATE:** We spoke to Advanced Custom Fields and were able to negotiate a 30% coupon for you. Just enter `AFFILIATETHEME-G6LP23` at checkout or directly through the link below. Generally applies to the first year.
+The affiliatetheme (in any version) needs the premium plugin "ACF Pro" to work. When our theme was not yet public, the plugin was included with the purchase. However, this is no longer possible with the free / public version. The reason for this is simply the licensing terms of the plugin. We spoke to Advanced Custom Fields and were able to negotiate a 30% coupon for you. Just enter `AFFILIATETHEME-G6LP23` at checkout or directly through the link below. Generally applies to the first year.
 
 - https://advancedcustomfields.com/pro/?coupon=AFFILIATETHEME-G6LP23
 
@@ -25,29 +21,11 @@ The affiliatetheme (in any version) needs the premium plugin "ACF Pro" to work. 
 
 Just download the latest release of our theme and upload it into your WordPress. You'll find a tutorial how to install WordPress Themes on our YouTube Channel (link below).
 
-- https://affiliatetheme.io/go/download-theme/
-
 ### For existing customer
 
 If you have used our theme before, please see our migration guide from 1.X to 2.0.
 
-- https://affiliatetheme.io/en/affiliatetheme-upgrade-1-x-auf-2-0/
-
----
-
-## More downloads...
-
-### Child Theme
-
-To make changes to your WordPress installation without overwriting everything during an update, a child theme is recommended. A tutorial on how to use our child theme can also be found on our YouTube.
-
-- https://affiliatetheme.io/go/download-childtheme/
-
-### ATIO Plugins
-
-To prevent the theme for being overloaded, we have outsourced various API interfaces in own plugins, which will also be partly paid later. The most important plugin is the Amazon API, which is completely free.
-
-- https://affiliatetheme.io/go/download-amazon-plugin/
+- https://affiliatetheme.io/en/upgrade/
 
 ---
 
@@ -58,7 +36,6 @@ To prevent the theme for being overloaded, we have outsourced various API interf
 Both, the documentation and our video tutorials, are available in german and english.
 
 - https://affiliatetheme.io/en/doc/
-- https://affiliatetheme.io/en/doc/other/video-tutorials-en/
 
 ### Community
 
