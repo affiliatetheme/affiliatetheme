@@ -53,7 +53,7 @@ add_filter( 'site_transient_update_themes', function( $transient ) {
 		$transient->response[$stylesheet] = $data;
 
 	} else {
-		if ( is_array( $transient->no_update ) ) {
+		if ( is_object( $transient ) && is_array( $transient->no_update ) ) {
 			$transient->no_update[$stylesheet] = $data;
 		}
 	}
