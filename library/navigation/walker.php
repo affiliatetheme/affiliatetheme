@@ -66,7 +66,7 @@ class at_navigation_walker extends Walker_Nav_Menu
 		$output .= "\n$indent<ul class=\"dropdown-menu\">\n";
 	}
 
-	function display_element( $element, &$children_elements, $max_depth, $depth = 0, $args, &$output )
+	function display_element( $element, &$children_elements, $max_depth, $depth = 0, $args = [], &$output = '' )
 	{
 		$id_field = $this->db_fields['id'];
 		if ( is_object( $args[0] ) ) {

@@ -336,7 +336,7 @@ if ( ! function_exists( 'at_get_sidebar' ) ) {
 	 *
 	 * @return string
 	 */
-	function at_get_sidebar( $post_type = 'blog', $section, $option = 'option' )
+	function at_get_sidebar( $post_type = 'blog', $section = '', $option = 'option' )
 	{
 		$setting = get_field( $post_type . '_' . $section . '_sidebar', $option );
 		$return  = 'right';

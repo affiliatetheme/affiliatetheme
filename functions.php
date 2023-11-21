@@ -8,7 +8,7 @@
  * @category    functions
  */
 
-define( 'ATIO_VERSION', '2.0' );
+define( 'ATIO_VERSION', '2.1' );
 define( 'ENDCORE_LIBRARY', TEMPLATEPATH . '/library' );
 define( 'ENDCORE_HELPER', TEMPLATEPATH . '/library/helper' );
 define( 'ENDCORE_PLUGINS', TEMPLATEPATH . '/library/plugins' );

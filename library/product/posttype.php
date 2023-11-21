@@ -7,7 +7,7 @@
  * @category    product
  */
 
-add_action( 'init', function () {
+add_action( 'init', function() {
 	$slug             = ( get_field( 'product_slug', 'option' ) ? get_field( 'product_slug', 'option' ) : 'produkt' );
 	$product_fakeshop = get_field( 'product_fakeshop', 'option' );
 	$archive          = ( '1' != get_field( 'product_archive_remove', 'option' ) ? ( get_field( 'product_archive_slug', 'option' ) ? get_field( 'product_archive_slug', 'option' ) : true ) : false );
@@ -42,32 +42,41 @@ add_action( 'init', function () {
 	flush_rewrite_rules();
 } );
 
-if ( '1' == get_field( 'product_slug_remove', 'option' ) ) {
-	add_filter( 'post_type_link', 'affiliatetheme_product_remove_slug', 10, 3 );
-	add_action( 'pre_get_posts', 'affiliatetheme_parse_product_request' );
-}
+add_filter( 'post_type_link', 'affiliatetheme_product_remove_slug', 10, 3 );
+add_action( 'pre_get_posts', 'affiliatetheme_parse_product_request' );
 
 function affiliatetheme_product_remove_slug( $post_link, $post, $leavename )
 {
-	$slug = ( get_field( 'product_slug', 'option' ) ? get_field( 'product_slug', 'option' ) : 'produkt' );
+	$active = get_field( 'product_slug_remove', 'option' );
 
-	if ( 'product' != $post->post_type || 'publish' != $post->post_status ) {
-		return $post_link;
+	if ( $active ) {
+		$slug = ( get_field( 'product_slug', 'option' ) ? get_field( 'product_slug', 'option' ) : 'produkt' );
+
+		if ( 'product' != $post->post_type || 'publish' != $post->post_status ) {
+			return $post_link;
+		}
+
+		$post_link = str_replace( '/' . $slug . '/', '/', $post_link );
 	}
-
-	$post_link = str_replace( '/' . $slug . '/', '/', $post_link );
 
 	return $post_link;
 }
 
 function affiliatetheme_parse_product_request( $query )
 {
-	if ( ! $query->is_main_query() )
-		return;
+	$active = get_field( 'product_slug_remove', 'option' );
 
-	if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) )
-		return;
+	if ( $active ) {
+		if ( ! $query->is_main_query() ) {
+			return;
+		}
 
-	if ( ! empty( $query->query['name'] ) )
-		$query->set( 'post_type', array( 'post', 'product', 'page' ) );
+		if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) ) {
+			return;
+		}
+
+		if ( ! empty( $query->query['name'] ) ) {
+			$query->set( 'post_type', array( 'post', 'product', 'page' ) );
+		}
+	}
 }

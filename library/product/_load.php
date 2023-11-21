@@ -20,5 +20,4 @@ require_once( ENDCORE_LIBRARY . '/product/shortcodes.php' );
 require_once( ENDCORE_LIBRARY . '/product/price_trend/_load.php' );
 require_once( ENDCORE_LIBRARY . '/product/helper_productdata.php' );
 require_once( ENDCORE_LIBRARY . '/product/rich-snippets.php' );
-
-if ( '1' == get_field( 'product_cloak', 'option' ) ) require_once( ENDCORE_LIBRARY . '/product/cloak.php' );
+require_once( ENDCORE_LIBRARY . '/product/cloak.php' );

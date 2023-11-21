@@ -26,9 +26,9 @@ if ( wp_is_mobile() && ( $layout == 'grid-hover' ) ) {
 /*
  * SIDEBAR
  */
-$sidebar_size_arr = ( ! is_array( $sidebar_size ) ? explode( '_', $sidebar_size ) : array( 0 => '', 1 => '' ) );
-$s_content        = ( is_array( $sidebar_size_arr ) ? $sidebar_size_arr[0] : '8' );
-$s_sidebar        = ( is_array( $sidebar_size_arr ) ? $sidebar_size_arr[1] : '4' );
+$sidebar_size_arr = ! is_array( $sidebar_size ) ? explode( '_', $sidebar_size ) : [];
+$s_content        = $sidebar_size_arr[0] ?? '8';
+$s_sidebar        = $sidebar_size_arr[1] ?? '4';
 if ( 'left' == $sidebar ) {
 	$s_content .= ' col-sm-push-' . ( is_array( $sidebar_size_arr ) ? $sidebar_size_arr[1] : '4' );
 	$s_sidebar .= ' col-sm-pull-' . ( is_array( $sidebar_size_arr ) ? $sidebar_size_arr[0] : '8' );
@@ -46,10 +46,10 @@ $taxonomy_second_description = get_field( 'taxonomy_second_description', $taxono
 ?>
 
 <div id="main" class="<?php echo at_get_section_layout_class( 'content' ); ?>">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-<?php if ( $sidebar == 'none' ) : echo '12'; else: echo $sidebar_size_arr['content']; endif; ?>">
-				<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-<?php if ( $sidebar == 'none' ) : echo '12'; else: echo $sidebar_size_arr['content']; endif; ?>">
+                <div id="content">
 					<?php
 					$headline = ( $taxonomy_headline ? $taxonomy_headline : single_cat_title( '', false ) );
 					echo apply_filters( 'at_taxonomy_page_title', '<h1>' . $headline . '</h1>', $taxonomy, $term_id );
@@ -71,17 +71,22 @@ $taxonomy_second_description = get_field( 'taxonomy_second_description', $taxono
 					}
 
 					if ( have_posts() ) :
-						if ( '1' == $userfilter )
+						if ( '1' == $userfilter ) {
 							get_template_part( 'parts/product/code', 'filter' );
+						}
 
 						echo '<div class="product-listing">';
-						if ( 'grid' == $layout || 'grid-hover' == $layout ) echo '<div class="row">';
+						if ( 'grid' == $layout || 'grid-hover' == $layout ) {
+							echo '<div class="row">';
+						}
 
 						while ( have_posts() ) : the_post();
 							get_template_part( 'parts/product/loop', $layout );
 						endwhile;
 
-						if ( 'grid' == $layout || 'grid-hover' == $layout ) echo '</div>';
+						if ( 'grid' == $layout || 'grid-hover' == $layout ) {
+							echo '</div>';
+						}
 						echo atio_pagination( 3 );
 						echo '</div>';
 					endif;
@@ -90,18 +95,18 @@ $taxonomy_second_description = get_field( 'taxonomy_second_description', $taxono
 						echo '<hr>' . $taxonomy_second_description;
 					}
 					?>
-				</div>
-			</div>
+                </div>
+            </div>
 
 			<?php if ( 'left' == $sidebar || 'right' == $sidebar ) { ?>
-				<div class="col-sm-<?php echo $sidebar_size_arr['sidebar']; ?>">
-					<div id="sidebar">
+                <div class="col-sm-<?php echo $sidebar_size_arr['sidebar']; ?>">
+                    <div id="sidebar">
 						<?php get_sidebar(); ?>
-					</div>
-				</div>
+                    </div>
+                </div>
 			<?php } ?>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
