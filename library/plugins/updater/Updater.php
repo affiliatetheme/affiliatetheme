@@ -38,6 +38,10 @@ add_filter( 'site_transient_update_themes', function( $transient ) {
 		return $transient; // who knows, maybe JSON is not valid
 	}
 
+	if ( empty( $transient->response ) ) {
+		$transient = new \stdClass();
+	}
+
 	$data = array(
 		'theme'        => $stylesheet,
 		'url'          => $remote->details_url,
