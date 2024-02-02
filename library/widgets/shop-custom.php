@@ -24,7 +24,9 @@ class shop_custom_widget extends WP_Widget
 			return;
 		}
 
-		if ( $shop_info = get_field( 'shop_widget_content', $post->ID ) ) {
+		$shop_info = wp_kses_post( get_field( 'shop_widget_content', $post->ID ) );
+
+		if ( $shop_info ) {
 			$shop_title = get_field( 'shop_widget_title', $post->ID );
 
 			echo $before_widget;
@@ -50,9 +52,9 @@ class shop_custom_widget extends WP_Widget
 	{
 		$instance = wp_parse_args( (array)$instance, array() );
 		?>
-		<p>
+        <p>
 			<?php _e( '<strong>Hinweis:</strong> Den Inhalt dieses Widgets kannst du in einem Customfield im Shop selbst bearbeiten. Falls du für einen Shop keinen Inhalt hast, erscheint dieses Widget nicht.', 'affiliatetheme-backend' ); ?>
-		</p>
+        </p>
 		<?php
 	}
 }
