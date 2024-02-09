@@ -72,7 +72,7 @@ if ( ! function_exists( 'at_get_wrapper_id' ) ) {
 		$setting = get_field( 'design_layout', 'option' );
 
 		switch ( $setting ) {
-			case 'fulllwidth':
+			case 'fullwidth':
 				$return = 'wrapper-fluid';
 				break;
 
