@@ -29,7 +29,6 @@ if ( xcore_loading_requirements() ) {
 	require_once ENDCORE_PLUGINS . '/kirki/kirki-functions.php';
 	require_once ENDCORE_PLUGINS . '/kirki/kirki-customizer.php';
 	require_once ENDCORE_PLUGINS . '/kirki/kirki-css.php';
-	require_once ENDCORE_PLUGINS . '/demo-installer/init.php';
 	require_once ENDCORE_PLUGINS . '/acf/acf-tooltip/acf-tooltip.php';
 	require_once ENDCORE_PLUGINS . '/acf/acf-functions.php';
 	require_once ENDCORE_PLUGINS . '/acf/fields/_load.php';

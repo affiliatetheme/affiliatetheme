@@ -59,7 +59,7 @@ if( function_exists('acf_add_local_field_group') ):
                 'instructions' => __('Der Slug findet sich z.B. in der URL eines Produktes wieder. Beispiel:<br><br>http://www.deineseite.de/slug/dein-produkt-name/<br><br>Du kannst diesen anpassen, wenn du dieses Feld leer lässt, wird als Slug "product" verwendet. Es gibt auch schon von <a href="https://codex.wordpress.org/Function_Reference/register_taxonomy#Reserved_Terms" target="_blank">WordPress reservierte Slugs</a>, welche du <strong>nicht</strong> verwenden darfst. Verwende außerdem <strong>keine</strong> Leerzeichen, Sonderzeichen und Großbuchstaben.', 'affiliatetheme-backend'),
                 'conditional_logic' => 0,
                 'wrapper' => array (
-                    'width' => 70,
+                    'width' => 100,
                     'class' => '',
                     'id' => '',
                 ),
@@ -70,22 +70,6 @@ if( function_exists('acf_add_local_field_group') ):
                 'maxlength' => '',
                 'readonly' => 0,
                 'disabled' => 0,
-            ),
-            array (
-                'key' => 'field_5555be0383962',
-                'label' => __('Permalink entfernen', 'affiliatetheme-backend'),
-                'name' => 'product_slug_remove',
-                'type' => 'true_false',
-                'ui' => 1,
-                'instructions' => __('<strong>Hinweis:</strong> Das entfernen des Slugs für Produkte kann zu Problemen bzw. 404 Fehlern führen. Bitte teste nach dieser Einstellung deine Seite auf mögliche Fehler!', 'affiliatetheme-backend'),
-                'required' => 0,
-                'conditional_logic' => 0,
-                'wrapper' => array (
-                    'width' => 30,
-                    'class' => '',
-                    'id' => '',
-                ),
-                'default_value' => 0,
             ),
             array (
                 'key' => 'field_55926c0522e1d',

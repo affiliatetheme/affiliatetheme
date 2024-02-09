@@ -28,7 +28,7 @@ if( function_exists('acf_add_local_field_group') ):
                 'required' => 0,
                 'conditional_logic' => 0,
                 'wrapper' => array (
-                    'width' => 70,
+                    'width' => 100,
                     'class' => '',
                     'id' => '',
                 ),
@@ -39,22 +39,6 @@ if( function_exists('acf_add_local_field_group') ):
                 'maxlength' => '',
                 'readonly' => 0,
                 'disabled' => 0,
-            ),
-            array (
-                'key' => 'field_5582b05aef677',
-                'label' => __('Permalink entfernen', 'affiliatetheme-backend'),
-                'name' => 'shop_slug_remove',
-                'type' => 'true_false',
-                'ui' => 1,
-                'instructions' => __('<strong>Hinweis:</strong> Das entfernen des Slugs für Shops kann zu Problemen bzw. 404 Fehlern führen. Bitte teste nach dieser Einstellung deine Seite auf mögliche Fehler!', 'affiliatetheme-backend'),
-                'required' => 0,
-                'conditional_logic' => 0,
-                'wrapper' => array (
-                    'width' => 30,
-                    'class' => '',
-                    'id' => '',
-                ),
-                'default_value' => 0,
             ),
             array (
                 'key' => 'field_5592706133cd7',

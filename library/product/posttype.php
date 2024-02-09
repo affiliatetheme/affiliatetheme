@@ -43,7 +43,6 @@ add_action( 'init', function() {
 } );
 
 add_filter( 'post_type_link', 'affiliatetheme_product_remove_slug', 10, 3 );
-add_action( 'pre_get_posts', 'affiliatetheme_parse_product_request' );
 
 function affiliatetheme_product_remove_slug( $post_link, $post, $leavename )
 {
@@ -60,23 +59,4 @@ function affiliatetheme_product_remove_slug( $post_link, $post, $leavename )
 	}
 
 	return $post_link;
-}
-
-function affiliatetheme_parse_product_request( $query )
-{
-	$active = get_field( 'product_slug_remove', 'option' );
-
-	if ( $active ) {
-		if ( ! $query->is_main_query() ) {
-			return;
-		}
-
-		if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) ) {
-			return;
-		}
-
-		if ( ! empty( $query->query['name'] ) ) {
-			$query->set( 'post_type', array( 'post', 'product', 'page' ) );
-		}
-	}
 }
