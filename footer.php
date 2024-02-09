@@ -27,7 +27,7 @@
 			</footer>
 
 			<?php
-			the_field( 'custom_code_footer', 'option' );
+			echo wp_kses_post( get_field( 'custom_code_footer', 'option' ) );
 
 			wp_footer();
 			?>
