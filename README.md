@@ -4,7 +4,7 @@
 
 # affiliatetheme.io
 
-The affiliatetheme is a WordPress theme, made by [endcore](https://endcore.com/), perfect for creating new affiliate websites, landing pages or satellite pages. It's an all-in-one solution that doesn't require any other affiliate plugins or any programming skills and helps to earn a income through affiliate marketing. 
+The affiliatetheme is a WordPress theme perfect for creating new affiliate websites, landing pages or satellite pages. It's an all-in-one solution that doesn't require any other affiliate plugins or any programming skills and helps to earn a income through affiliate marketing. 
 
 ---
 
@@ -49,6 +49,10 @@ Also we've a active facebook group, with over 2.000 members you can join.
 ### Contributing
 
 Feel free to report a bug if you found one, or submit a pull request if you tweaked something yourself.
+
+---
+
+_Made by [endcore](https://endcore.com/)_
 
 - https://github.com/affiliatetheme/affiliatetheme/issues
 - https://github.com/affiliatetheme/affiliatetheme/pulls
