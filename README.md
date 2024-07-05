@@ -1,11 +1,10 @@
-
-![affiliatetheme logo](https://endcore.com/wp-content/themes/xcore/_/img/logo-affiliatetheme.png)
+![image](https://github.com/affiliatetheme/affiliatetheme/assets/6432237/5aa6e8a2-0df4-4e32-8aae-6c69327615b2)
 
 ---
 
 # affiliatetheme.io
 
-The affiliatetheme is a WordPress theme perfect for creating new affiliate websites, landing pages or satellite pages. It's an all-in-one solution that doesn't require any other affiliate plugins or any programming skills and helps to earn a income through affiliate marketing.
+The affiliatetheme is a WordPress theme, made by [endcore](https://endcore.com/), perfect for creating new affiliate websites, landing pages or satellite pages. It's an all-in-one solution that doesn't require any other affiliate plugins or any programming skills and helps to earn a income through affiliate marketing. 
 
 ---
 
@@ -25,7 +24,7 @@ Just download the latest release of our theme and upload it into your WordPress.
 
 If you have used our theme before, please see our migration guide from 1.X to 2.0.
 
-- https://affiliatetheme.io/en/upgrade/
+- https://github.com/affiliatetheme/affiliatetheme/wiki/affiliatetheme.io-2.0#upgrade-1x-auf-20
 
 ---
 
@@ -35,7 +34,7 @@ If you have used our theme before, please see our migration guide from 1.X to 2.
 
 Both, the documentation and our video tutorials, are available in german and english.
 
-- https://affiliatetheme.io/en/doc/
+- https://github.com/affiliatetheme/affiliatetheme/wiki
 
 ### Community
 
