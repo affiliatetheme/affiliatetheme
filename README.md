@@ -50,9 +50,9 @@ Also we've a active facebook group, with over 2.000 members you can join.
 
 Feel free to report a bug if you found one, or submit a pull request if you tweaked something yourself.
 
+- https://github.com/affiliatetheme/affiliatetheme/issues
+- https://github.com/affiliatetheme/affiliatetheme/pulls
+
 ---
 
 _Made by [endcore](https://endcore.com/)_
-
-- https://github.com/affiliatetheme/affiliatetheme/issues
-- https://github.com/affiliatetheme/affiliatetheme/pulls
