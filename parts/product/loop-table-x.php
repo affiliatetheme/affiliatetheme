@@ -83,7 +83,7 @@ if ( $products ) {
 			</tr>
 
 			<?php
-			if ( $fields && count( $fields ) > 1 && get_product_price( $product->ID, 0, true ) && apply_filters( 'at_table_x_hide_first_price', true ) ) { ?>
+			if ( is_countable( $fields ) && count( $fields ) > 1 && get_product_price( $product->ID, 0, true ) && apply_filters( 'at_table_x_hide_first_price', true ) ) { ?>
 				<tr class="product-row-price-1">
 					<td><?= apply_filters( 'at_table_x_product_price_row_title', __( 'Preis', 'affiliatetheme' ) ); ?></td>
 					<?php
