@@ -27,7 +27,7 @@ If you have used our theme before, please see our migration guide from 1.X to 2.
 - https://github.com/affiliatetheme/affiliatetheme/wiki/affiliatetheme.io-2.0#upgrade-1x-auf-20
 
 ### Download latest stable release of our Amazon Import Extension
-- https://github.com/affiliatetheme/amazon/archive/refs/tags/v1.7.3.9.zip
+- [https://github.com/affiliatetheme/amazon/archive/refs/tags/v1.7.3.9.zip](https://github.com/affiliatetheme/amazon/archive/refs/tags/v1.8.0.zip)
 
 ---
 
